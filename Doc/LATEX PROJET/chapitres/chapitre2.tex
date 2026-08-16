@@ -1,0 +1,1212 @@
+\chapter{CADRE MÉTHODOLOGIQUE ET PRÉSENTATION DU MILIEU D\textquotesingle ÉTUDE}\label{chapitre-ii-cadre-muxe9thodologique-et-pruxe9sentation-du-milieu-duxe9tude}
+
+\section{Introduction du chapitre}\label{introduction-du-chapitre}
+
+Ce deuxième chapitre présente le cadre méthodologique adopté pour la
+réalisation de cette étude ainsi que le milieu dans lequel
+s\textquotesingle inscrit la recherche. Après avoir exposé, dans le
+chapitre précédent, les fondements théoriques relatifs aux réseaux de
+distribution d\textquotesingle eau potable, au jumeau numérique et à
+l\textquotesingle intelligence artificielle, il est nécessaire de
+préciser la démarche scientifique retenue pour atteindre les objectifs
+fixés. En effet, la qualité des résultats d\textquotesingle une
+recherche dépend en grande partie de la pertinence des méthodes
+utilisées pour collecter, analyser et interpréter les données. La
+méthodologie constitue ainsi le cadre qui guide
+l\textquotesingle ensemble du processus de recherche, depuis
+l\textquotesingle identification du problème jusqu\textquotesingle à la
+conception de la solution proposée \cite{ref75}.
+
+Dans le cadre de ce mémoire, la démarche méthodologique combine
+plusieurs approches complémentaires. La première consiste en une étude
+documentaire permettant d\textquotesingle analyser les travaux
+scientifiques, les rapports techniques et les normes relatifs aux
+réseaux de distribution d\textquotesingle eau potable, aux jumeaux
+numériques et à l\textquotesingle intelligence artificielle. La deuxième
+repose sur une étude de terrain menée auprès des acteurs impliqués dans
+la gestion du réseau de fourniture d\textquotesingle eau potable de la
+commune de Kadutu, notamment à travers des observations, des entretiens
+et la collecte de données techniques. Enfin, une approche de conception
+informatique sera utilisée afin de développer un prototype de jumeau
+numérique intégrant des techniques d\textquotesingle intelligence
+artificielle destinées à optimiser le déploiement, la surveillance et la
+maintenance du réseau étudié \cite{ref81}.
+
+Ce chapitre présente également le milieu d\textquotesingle étude retenu,
+à savoir la commune de Kadutu, située dans la ville de Bukavu, en
+République Démocratique du Congo. Le choix de cette commune est lié aux
+difficultés observées dans la desserte en eau potable, ainsi qu\textquotesingle
+aux besoins de surveillance, de détection des anomalies et de maintenance
+du réseau étudié. Une description
+détaillée de son contexte géographique, administratif et
+socio-économique permettra de mieux comprendre les contraintes
+auxquelles est confronté le réseau de distribution d\textquotesingle eau
+potable \cite{ref82}.
+
+Par ailleurs, ce chapitre expose les méthodes et techniques de collecte
+des données, les outils matériels et logiciels utilisés, les besoins
+fonctionnels et non fonctionnels du système proposé, ainsi que
+l\textquotesingle architecture générale retenue pour le développement du
+jumeau numérique. Ces éléments méthodologiques serviront de base au
+chapitre suivant, consacré à la conception et au développement de la
+plateforme intelligente intégrant l\textquotesingle intelligence
+artificielle.
+
+\section{Présentation du milieu d\textquotesingle étude}\label{pruxe9sentation-du-milieu-duxe9tude}
+
+\subsection{Présentation de la ville de Bukavu}\label{pruxe9sentation-de-la-ville-de-bukavu}
+
+La ville de Bukavu est l\textquotesingle une des principales
+agglomérations urbaines de l\textquotesingle Est de la République
+Démocratique du Congo (RDC). Elle est le chef-lieu de la province du
+Sud-Kivu et constitue un important centre administratif, économique,
+commercial et universitaire de la région. Située à
+l\textquotesingle extrémité sud-ouest du lac Kivu, à la frontière avec
+la République du Rwanda, Bukavu occupe une position stratégique qui
+favorise les échanges commerciaux transfrontaliers ainsi que le
+développement des activités économiques. Son implantation géographique
+sur un relief montagneux, caractérisé par des collines et des vallées,
+influence fortement l\textquotesingle organisation de son urbanisation
+ainsi que la conception et l\textquotesingle exploitation de ses
+infrastructures publiques, notamment celles dédiées à la distribution de
+l\textquotesingle eau potable \cite{ref83}.
+
+Créée durant la période coloniale belge, la ville de Bukavu a connu une
+croissance démographique particulièrement rapide au cours des dernières
+décennies. Cette évolution résulte principalement de
+l\textquotesingle accroissement naturel de la population, de
+l\textquotesingle exode rural et des mouvements migratoires provoqués
+par les différentes crises sécuritaires qu\textquotesingle a connues la
+région des Grands Lacs. Cette croissance s\textquotesingle est
+accompagnée d\textquotesingle une extension progressive des quartiers
+résidentiels, souvent réalisée sans une planification urbaine
+suffisante. En conséquence, plusieurs infrastructures publiques,
+notamment les réseaux d\textquotesingle approvisionnement en eau
+potable, ne se sont pas développées au même rythme que la population, ce
+qui exerce une pression croissante sur les services de base \cite{ref82}.
+
+Sur le plan administratif, la ville de Bukavu est subdivisée en trois
+communes : Ibanda, Kadutu et Bagira. Chacune de ces communes présente
+des caractéristiques géographiques, démographiques et socio-économiques
+particulières. La commune d\textquotesingle Ibanda concentre la majorité
+des institutions administratives, financières et commerciales. La
+commune de Bagira est davantage marquée par des activités résidentielles
+et artisanales. Quant à la commune de Kadutu, elle se distingue par une
+très forte densité de population, une urbanisation rapide et des
+contraintes importantes en matière d\textquotesingle accès aux
+infrastructures de base, notamment l\textquotesingle approvisionnement
+en eau potable, ce qui explique son choix comme cadre de la présente
+étude \cite{ref84}.
+
+L\textquotesingle économie de Bukavu repose principalement sur le
+commerce, les services, l\textquotesingle agriculture périurbaine, les
+activités artisanales ainsi que le secteur informel. La présence de
+plusieurs universités, hôpitaux, organisations internationales et
+institutions publiques fait également de la ville un pôle régional
+important. Toutefois, malgré son dynamisme économique, Bukavu demeure
+confrontée à de nombreux défis liés au développement urbain. Les
+difficultés d\textquotesingle accès à l\textquotesingle eau potable,
+l\textquotesingle insuffisance des infrastructures
+d\textquotesingle assainissement, la gestion des déchets, la mobilité
+urbaine ainsi que les contraintes énergétiques figurent parmi les
+principaux problèmes auxquels les autorités locales doivent faire face.
+Ces défis affectent directement les conditions de vie de la population
+et nécessitent la mise en œuvre de solutions innovantes fondées sur les
+technologies numériques \cite{ref85}.
+
+L\textquotesingle approvisionnement en eau potable de la ville est
+principalement assuré par la REGIDESO (Régie de Distribution
+d\textquotesingle Eau), établissement public chargé de la production, du
+traitement et de la distribution de l\textquotesingle eau potable dans
+plusieurs villes de la République Démocratique du Congo. Malgré les
+efforts réalisés par cette entreprise pour améliorer la qualité du
+service, la croissance démographique, le vieillissement de certaines
+infrastructures, les pertes techniques dans le réseau et les contraintes
+financières rendent difficile la satisfaction de la demande croissante
+en eau potable. Dans certains quartiers, les interruptions de service,
+les baisses de pression et les difficultés d\textquotesingle entretien
+des conduites demeurent des préoccupations récurrentes \cite{ref86}.
+
+Au regard de ces caractéristiques, la commune de Kadutu constitue le
+terrain retenu pour cette étude. Les difficultés observées dans la
+surveillance et la maintenance du réseau de fourniture d\textquotesingle
+eau potable offrent un contexte pertinent pour l\textquotesingle
+expérimentation d\textquotesingle une approche fondée sur le jumeau
+numérique et l\textquotesingle intelligence artificielle.
+
+\subsection{Présentation de la commune de Kadutu}\label{pruxe9sentation-de-la-commune-de-kadutu}
+
+La commune de Kadutu est l\textquotesingle une des trois communes qui
+composent la ville de Bukavu, chef-lieu de la province du Sud-Kivu, en
+République Démocratique du Congo. Elle constitue l\textquotesingle un
+des principaux centres urbains de la ville et se distingue par une forte
+concentration de population ainsi qu\textquotesingle une urbanisation
+particulièrement dense. Située au cœur de Bukavu, Kadutu joue un rôle
+important dans les activités commerciales, artisanales et
+administratives de la ville. Toutefois, cette forte densité
+démographique exerce une pression considérable sur les infrastructures
+publiques, notamment celles destinées à
+l\textquotesingle approvisionnement en eau potable, à
+l\textquotesingle assainissement et aux réseaux de transport \cite{ref84}.
+
+Sur le plan géographique, la commune de Kadutu est localisée entre les
+communes d\textquotesingle Ibanda et de Bagira. Elle est caractérisée
+par un relief accidenté composé de nombreuses collines, de vallées et de
+fortes pentes, caractéristiques du paysage de la ville de Bukavu. Cette
+configuration topographique influence directement la conception, le
+déploiement et l\textquotesingle exploitation des réseaux de
+distribution d\textquotesingle eau potable. En effet, les différences
+d\textquotesingle altitude entraînent des variations importantes de
+pression dans les conduites, ce qui complique la distribution uniforme
+de l\textquotesingle eau et augmente les risques de fuites, de ruptures
+de conduites et de dysfonctionnements hydrauliques. Ces contraintes
+naturelles rendent indispensable une gestion technique rigoureuse du
+réseau afin de garantir une alimentation satisfaisante de
+l\textquotesingle ensemble des quartiers de la commune \cite{ref82}.
+
+La commune de Kadutu connaît depuis plusieurs années une croissance
+démographique soutenue, alimentée par l\textquotesingle accroissement
+naturel de la population et par les mouvements migratoires en provenance
+des zones rurales environnantes. Cette augmentation rapide du nombre
+d\textquotesingle habitants s\textquotesingle accompagne
+d\textquotesingle une extension continue des quartiers résidentiels,
+souvent réalisée sans une planification urbaine suffisante. Il en
+résulte une forte demande en infrastructures de base, notamment en
+matière d\textquotesingle approvisionnement en eau potable. Dans
+plusieurs quartiers, les réseaux existants ne couvrent pas entièrement
+les besoins de la population, ce qui oblige certains ménages à recourir
+à des sources alternatives telles que les sources naturelles, les puits
+ou les vendeurs d\textquotesingle eau, avec des conséquences parfois
+importantes sur la santé publique \cite{ref85}.
+
+L\textquotesingle économie locale repose principalement sur le commerce
+de proximité, les activités artisanales, les petits services, les
+marchés populaires et le secteur informel. La commune abrite plusieurs
+établissements scolaires, centres de santé, lieux de culte et marchés
+qui attirent quotidiennement une population importante. Cette
+concentration des activités humaines entraîne une consommation élevée
+d\textquotesingle eau potable et nécessite un fonctionnement fiable des
+infrastructures hydrauliques. Cependant, les difficultés
+d\textquotesingle approvisionnement observées dans certains secteurs de
+la commune affectent non seulement les conditions de vie des habitants,
+mais également le fonctionnement des activités économiques et des
+services publics \cite{ref87}.
+
+L\textquotesingle alimentation en eau potable de la commune est
+principalement assurée par la REGIDESO, qui exploite un réseau constitué
+de stations de pompage, de réservoirs, de conduites principales, de
+conduites secondaires et de branchements destinés aux consommateurs.
+Malgré les efforts entrepris pour améliorer la desserte, plusieurs
+difficultés persistent. Parmi celles-ci figurent les pertes
+d\textquotesingle eau liées aux fuites, les baisses de pression dans
+certaines zones, les interruptions fréquentes du service, le
+vieillissement de certaines conduites, ainsi que les difficultés de
+localisation rapide des anomalies. L\textquotesingle absence
+d\textquotesingle un système intégré de surveillance en temps réel
+limite la capacité des équipes techniques à intervenir rapidement et à
+planifier efficacement les opérations de maintenance \cite{ref86}.
+
+Les défis rencontrés dans la gestion du réseau d\textquotesingle eau
+potable de Kadutu sont accentués par plusieurs facteurs.
+D\textquotesingle une part, le relief accidenté rend complexe le
+maintien d\textquotesingle une pression hydraulique constante sur
+l\textquotesingle ensemble du réseau. D\textquotesingle autre part,
+l\textquotesingle urbanisation rapide entraîne
+l\textquotesingle apparition de nouvelles zones
+d\textquotesingle habitation qui ne sont pas toujours intégrées
+immédiatement au réseau existant. En outre, les contraintes financières,
+le coût élevé du renouvellement des infrastructures et la disponibilité
+limitée des outils modernes de surveillance compliquent davantage la
+gestion quotidienne du système. Ces difficultés justifient le recours à
+des technologies innovantes capables d\textquotesingle améliorer la
+connaissance de l\textquotesingle état du réseau et
+d\textquotesingle optimiser les décisions des gestionnaires \cite{ref88}.
+
+Dans ce contexte, la commune de Kadutu constitue un terrain
+particulièrement pertinent pour l\textquotesingle expérimentation
+d\textquotesingle un jumeau numérique intégrant
+l\textquotesingle intelligence artificielle. Les caractéristiques du
+réseau, la diversité des contraintes techniques et les besoins
+croissants de la population offrent un cadre propice au développement
+d\textquotesingle une solution capable de représenter virtuellement les
+infrastructures, de collecter les données issues des capteurs, de
+détecter automatiquement certaines anomalies et
+d\textquotesingle assister les gestionnaires dans les opérations de
+surveillance, de maintenance et de planification du déploiement du
+réseau. Les résultats de cette recherche visent à améliorer la gestion du
+réseau de fourniture d\textquotesingle eau potable de la commune de
+Kadutu dans le périmètre étudié. Toute extension à d\textquotesingle
+autres collectivités nécessiterait des adaptations et des évaluations
+complémentaires.
+
+Enfin, le choix de la commune de Kadutu est également lié à la volonté
+de proposer une solution adaptée aux contraintes techniques et
+organisationnelles du contexte étudié. Le prototype développé dans le
+cadre de cette recherche vise à montrer comment l\textquotesingle
+intégration du jumeau numérique, de l\textquotesingle intelligence
+artificielle et des données issues des capteurs peut contribuer à
+améliorer la surveillance, la détection des anomalies et la maintenance
+du réseau de fourniture d\textquotesingle eau potable de Kadutu.
+
+\subsection{Présentation du réseau de fourniture d\textquotesingle eau potable de la commune de Kadutu}\label{pruxe9sentation-du-ruxe9seau-de-fourniture-deau-potable-de-la-commune-de-kadutu}
+
+Le réseau de fourniture d\textquotesingle eau potable de la commune de
+Kadutu fait partie du système d\textquotesingle alimentation exploité
+par la Régie de Distribution d\textquotesingle Eau (REGIDESO),
+entreprise publique chargée de la production, du traitement et de la
+distribution de l\textquotesingle eau potable dans plusieurs villes de
+la République Démocratique du Congo. Dans la ville de Bukavu, la
+REGIDESO assure l\textquotesingle approvisionnement en eau des trois
+communes que sont Ibanda, Kadutu et Bagira, à travers un ensemble
+d\textquotesingle infrastructures hydrauliques comprenant des ouvrages
+de captage, des stations de traitement, des réservoirs de stockage, des
+stations de pompage, des conduites principales, des conduites
+secondaires ainsi que des branchements destinés aux abonnés \cite{ref86}.
+
+Le fonctionnement général du réseau repose sur une succession
+d\textquotesingle opérations techniques permettant de garantir la
+disponibilité d\textquotesingle une eau conforme aux normes de qualité
+avant sa distribution aux consommateurs. L\textquotesingle eau brute est
+d\textquotesingle abord captée à partir des ressources hydriques
+disponibles, puis acheminée vers une station de traitement où elle subit
+différentes opérations destinées à éliminer les impuretés physiques,
+chimiques et microbiologiques. Après le traitement,
+l\textquotesingle eau potable est stockée dans des réservoirs avant
+d\textquotesingle être distribuée sous pression à travers un réseau de
+conduites jusqu\textquotesingle aux différents quartiers desservis. Ce
+processus nécessite une surveillance permanente afin de maintenir une
+pression suffisante, d\textquotesingle assurer la continuité du service
+et de préserver la qualité de l\textquotesingle eau distribuée \cite{ref4}.
+
+Le réseau de distribution comprend plusieurs composantes essentielles
+qui assurent son bon fonctionnement. Les conduites principales
+transportent l\textquotesingle eau sur de longues distances depuis les
+réservoirs vers les différentes zones de consommation, tandis que les
+conduites secondaires assurent la desserte des quartiers et des ménages.
+Des vannes de sectionnement sont installées à différents endroits afin
+de permettre l\textquotesingle isolement de certaines portions du réseau
+lors des opérations de maintenance ou en cas d\textquotesingle incident.
+Les stations de pompage permettent d\textquotesingle assurer le
+transport de l\textquotesingle eau vers les zones situées en altitude,
+tandis que différents équipements de contrôle contribuent à la
+régulation de la pression et du débit dans les conduites \cite{ref90}.
+
+Dans la commune de Kadutu, le fonctionnement du réseau est fortement
+influencé par les caractéristiques topographiques de la ville. Le relief
+accidenté entraîne des variations importantes de pression hydraulique
+selon les quartiers desservis. Les secteurs situés en altitude
+connaissent fréquemment des difficultés
+d\textquotesingle approvisionnement en raison d\textquotesingle une
+pression insuffisante, alors que les zones basses peuvent être soumises
+à des pressions plus élevées susceptibles d\textquotesingle accroître
+les risques de rupture des conduites. Cette situation complique la
+gestion quotidienne du réseau et nécessite une surveillance continue des
+paramètres hydrauliques afin d\textquotesingle assurer une distribution
+équilibrée de l\textquotesingle eau potable \cite{ref34}.
+
+Malgré les efforts entrepris par la REGIDESO, plusieurs contraintes
+techniques limitent encore les performances du réseau. Le vieillissement
+progressif de certaines conduites favorise l\textquotesingle apparition
+de fuites parfois difficiles à localiser. Les interruptions
+d\textquotesingle alimentation électrique peuvent également perturber le
+fonctionnement des stations de pompage et provoquer des interruptions de
+la distribution. À cela s\textquotesingle ajoutent les difficultés
+d\textquotesingle accès à certaines infrastructures, le manque
+d\textquotesingle outils modernes de surveillance ainsi que la faible
+disponibilité de données en temps réel sur l\textquotesingle état du
+réseau. Ces contraintes rendent souvent les interventions techniques
+réactives plutôt que préventives, ce qui augmente les coûts
+d\textquotesingle exploitation et les pertes d\textquotesingle eau
+\cite{ref92}.
+
+L\textquotesingle un des principaux indicateurs utilisés pour évaluer la
+performance d\textquotesingle un réseau de distribution est le taux
+d\textquotesingle eau non facturée (Non-Revenue Water -- NRW). Cet
+indicateur représente la différence entre le volume
+d\textquotesingle eau produit et le volume effectivement facturé aux
+consommateurs. Les pertes peuvent être d\textquotesingle origine
+physique, notamment en raison des fuites ou des ruptures de conduites,
+ou d\textquotesingle origine commerciale, résultant par exemple des
+erreurs de comptage ou des branchements irréguliers. Selon
+l\textquotesingle Association Internationale de l\textquotesingle Eau
+(\emph{International Water Association -- IWA}), la réduction du taux
+d\textquotesingle eau non facturée constitue aujourd\textquotesingle hui
+une priorité majeure pour les exploitants des réseaux
+d\textquotesingle eau potable, car elle permet
+d\textquotesingle améliorer simultanément la performance technique,
+économique et environnementale des services
+d\textquotesingle approvisionnement \cite{ref11}.
+
+Dans le contexte de la commune de Kadutu, la surveillance du réseau
+repose encore largement sur des inspections de terrain, les signalements
+des usagers et les interventions des équipes techniques après la
+survenue d\textquotesingle un incident. Cette approche présente
+plusieurs limites, notamment des délais importants dans la détection des
+anomalies, une localisation parfois imprécise des fuites et une faible
+capacité à anticiper les défaillances futures. En conséquence, certaines
+anomalies peuvent persister pendant une longue période avant
+d\textquotesingle être détectées, entraînant des pertes importantes
+d\textquotesingle eau potable ainsi qu\textquotesingle une dégradation
+progressive des infrastructures \cite{ref20}.
+
+Face à ces difficultés, l\textquotesingle intégration des technologies
+numériques apparaît comme une solution particulièrement prometteuse.
+L\textquotesingle installation de capteurs intelligents mesurant en
+continu la pression, le débit, le niveau des réservoirs ou encore la
+qualité de l\textquotesingle eau permettrait de disposer
+d\textquotesingle informations en temps réel sur le fonctionnement du
+réseau. Associées à un jumeau numérique et à des algorithmes
+d\textquotesingle intelligence artificielle, ces données pourraient être
+exploitées pour détecter automatiquement les anomalies, simuler
+différents scénarios de fonctionnement, prévoir les risques de panne et
+assister les gestionnaires dans leurs décisions. Cette approche
+constitue précisément la solution proposée dans le cadre du présent
+mémoire afin d\textquotesingle améliorer le déploiement, la surveillance
+et la maintenance du réseau de fourniture d\textquotesingle eau potable
+de la commune de Kadutu.
+
+\section{Analyse du système existant}
+
+\subsection{Présentation du système actuel de gestion du réseau}
+d\textquotesingle eau potable
+
+Le réseau de fourniture d\textquotesingle eau potable de la commune de
+Kadutu est actuellement exploité selon un mode de gestion relativement
+classique, reposant essentiellement sur les infrastructures physiques
+mises en place par la REGIDESO. Le fonctionnement du système
+s\textquotesingle articule autour des différentes étapes de captage, de
+traitement, de stockage et de distribution de l\textquotesingle eau
+potable vers les abonnés. Les activités de surveillance,
+d\textquotesingle exploitation et de maintenance sont principalement
+assurées par les équipes techniques de la REGIDESO, qui veillent au bon
+fonctionnement des installations, à la continuité du service et à la
+résolution des incidents pouvant affecter le réseau \cite{ref95}.
+
+Dans son état actuel, le réseau fonctionne principalement selon une
+approche de gestion réactive. Les anomalies, telles que les fuites, les
+ruptures de conduites, les baisses de pression ou les dysfonctionnements
+des équipements, sont généralement détectées après leur apparition, soit
+à la suite des observations effectuées par les agents de terrain, soit
+après les signalements formulés par les consommateurs. Cette méthode,
+bien qu\textquotesingle elle permette de résoudre les incidents,
+entraîne souvent des délais importants entre
+l\textquotesingle apparition du problème et son traitement effectif, ce
+qui favorise l\textquotesingle augmentation des pertes
+d\textquotesingle eau et la dégradation progressive des infrastructures
+\cite{ref90}.
+
+Les données relatives au fonctionnement du réseau sont majoritairement
+collectées de manière manuelle. Les informations proviennent des relevés
+effectués sur les équipements, des rapports
+d\textquotesingle intervention des équipes techniques, des observations
+réalisées lors des opérations de maintenance ainsi que des réclamations
+formulées par les abonnés. Cette méthode de collecte présente plusieurs
+limites, notamment l\textquotesingle absence de mise à jour en temps
+réel, le risque d\textquotesingle erreurs humaines et la difficulté
+d\textquotesingle obtenir une vision globale et instantanée de
+l\textquotesingle état du réseau \cite{ref4}.
+
+Par ailleurs, les décisions concernant les opérations de maintenance
+reposent essentiellement sur l\textquotesingle expérience des
+techniciens et sur les constats réalisés sur le terrain. Les
+interventions sont généralement déclenchées après la survenue
+d\textquotesingle un incident plutôt qu\textquotesingle à partir
+d\textquotesingle une analyse prédictive des risques de défaillance.
+Cette approche corrective entraîne des coûts élevés
+d\textquotesingle exploitation, des interruptions de service parfois
+prolongées ainsi qu\textquotesingle une diminution de la durée de vie
+des infrastructures hydrauliques \cite{ref98}.
+
+Dans ce contexte, l\textquotesingle absence d\textquotesingle un système
+intelligent capable de centraliser les données, de surveiller en continu
+les paramètres hydrauliques et d\textquotesingle anticiper les anomalies
+constitue l\textquotesingle une des principales limites du système
+actuel. Les progrès réalisés dans les domaines de
+l\textquotesingle Internet des objets, des jumeaux numériques et de
+l\textquotesingle intelligence artificielle offrent
+aujourd\textquotesingle hui des solutions susceptibles de répondre
+efficacement à ces insuffisances en permettant une gestion proactive du
+réseau \cite{ref60}.
+
+\subsection{Limites du système existant}
+
+L\textquotesingle analyse du fonctionnement actuel du réseau met en
+évidence plusieurs insuffisances techniques, organisationnelles et
+technologiques qui réduisent les performances globales du système de
+distribution d\textquotesingle eau potable.
+
+La première limite concerne l\textquotesingle absence
+d\textquotesingle une surveillance en temps réel. Les paramètres
+essentiels du réseau, notamment la pression, le débit, le niveau des
+réservoirs et la qualité de l\textquotesingle eau, ne sont pas suivis de
+manière continue. Cette situation retarde considérablement la détection
+des anomalies et augmente le temps nécessaire à leur prise en charge
+\cite{ref20}.
+
+La deuxième limite réside dans la difficulté de détecter rapidement les
+fuites. Dans de nombreux cas, les fuites souterraines restent invisibles
+pendant plusieurs jours, voire plusieurs semaines, avant
+d\textquotesingle être identifiées. Cette situation entraîne
+d\textquotesingle importantes pertes d\textquotesingle eau, une
+augmentation des coûts d\textquotesingle exploitation ainsi
+qu\textquotesingle une diminution du rendement global du réseau
+\cite{ref11}.
+
+Une autre faiblesse importante concerne l\textquotesingle absence de
+maintenance prédictive. Les interventions sont généralement réalisées
+après la survenue des pannes. Or, une stratégie de maintenance
+préventive ou prédictive permettrait d\textquotesingle intervenir avant
+que les équipements ne deviennent défaillants, réduisant ainsi les
+interruptions de service et les dépenses liées aux réparations
+d\textquotesingle urgence \cite{ref100}.
+
+Le système actuel présente également une faible capacitée
+d\textquotesingle aide à la décision. Les responsables du réseau
+disposent principalement d\textquotesingle informations issues des
+rapports techniques et des observations de terrain, sans outils avancés
+d\textquotesingle analyse ou de simulation. Il leur est donc difficile
+d\textquotesingle évaluer rapidement les conséquences
+d\textquotesingle une panne, de prévoir l\textquotesingle évolution
+d\textquotesingle une anomalie ou de tester différents scénarios avant
+d\textquotesingle effectuer une intervention \cite{ref37}.
+
+Enfin, l\textquotesingle absence d\textquotesingle une représentation
+numérique dynamique du réseau constitue une limitation majeure. Les
+infrastructures physiques ne disposent pas d\textquotesingle un modèle
+virtuel capable de reproduire en temps réel leur état de fonctionnement.
+Cette situation limite fortement les possibilités de simulation,
+d\textquotesingle analyse prédictive et d\textquotesingle optimisation
+des opérations de maintenance \cite{ref61}.
+
+L\textquotesingle ensemble de ces insuffisances montre que le système
+actuel présente des limites importantes en matière de surveillance, de
+détection des anomalies et de maintenance. Elles justifient le recours
+à une solution intégrant un jumeau numérique et des techniques
+d\textquotesingle intelligence artificielle afin d\textquotesingle
+améliorer le suivi de l\textquotesingle état du réseau, la détection des
+anomalies et la planification des interventions de maintenance dans la
+commune de Kadutu.
+
+\section{Méthodologie de recherche}\label{muxe9thodologie-de-recherche}
+
+La méthodologie de recherche constitue l\textquotesingle ensemble des
+démarches scientifiques, des méthodes et des techniques mises en œuvre
+afin de répondre de manière rigoureuse à la problématique de recherche
+et d\textquotesingle atteindre les objectifs fixés. Elle permet
+d\textquotesingle organiser le processus de collecte,
+d\textquotesingle analyse et d\textquotesingle interprétation des
+données tout en garantissant la validité scientifique des résultats
+obtenus. Selon Creswell, une méthodologie bien définie constitue un
+élément fondamental de toute recherche scientifique, car elle assure la
+cohérence entre la problématique, les hypothèses, les objectifs et les
+résultats attendus \cite{ref75}.
+
+Dans le cadre de cette étude portant sur la conception et le
+développement d\textquotesingle un jumeau numérique intégrant
+l\textquotesingle intelligence artificielle pour améliorer la
+surveillance, la détection des anomalies et la maintenance du réseau de
+fourniture d\textquotesingle eau potable de la commune de Kadutu, une
+approche méthodologique mixte a été retenue. Cette approche combine des méthodes
+qualitatives, quantitatives et une démarche de conception informatique
+afin d\textquotesingle obtenir une compréhension complète du problème
+étudié et de développer une solution adaptée au contexte local.
+L\textquotesingle utilisation d\textquotesingle une approche mixte est
+particulièrement pertinente lorsqu\textquotesingle une recherche vise à
+la fois l\textquotesingle analyse d\textquotesingle un phénomène réel et
+la conception d\textquotesingle un système informatique innovant
+\cite{ref100}.
+
+La première étape de cette méthodologie consiste en une recherche
+documentaire. Cette phase a permis de consulter des ouvrages
+scientifiques, des articles publiés dans des revues internationales, des
+rapports techniques, des normes ainsi que des documents institutionnels
+portant sur les réseaux de distribution d\textquotesingle eau potable,
+les technologies de l\textquotesingle Internet des objets (IoT), les
+jumeaux numériques, l\textquotesingle intelligence artificielle et la
+maintenance prédictive. Cette revue documentaire a servi à construire le
+cadre théorique de l\textquotesingle étude, à identifier les travaux
+déjà réalisés dans ce domaine et à mettre en évidence les limites des
+solutions existantes \cite{ref104}.
+
+La deuxième étape repose sur une étude de terrain réalisée dans la
+commune de Kadutu. Cette phase vise à comprendre le fonctionnement réel
+du réseau de distribution d\textquotesingle eau potable ainsi que les
+difficultés rencontrées par les acteurs impliqués dans sa gestion. Les
+informations seront obtenues grâce à des observations directes des
+infrastructures, à l\textquotesingle analyse des documents techniques
+disponibles, à des entretiens avec les responsables et techniciens de la
+REGIDESO ainsi qu\textquotesingle à la collecte de données relatives au
+fonctionnement du réseau. Cette démarche permettra
+d\textquotesingle identifier les besoins fonctionnels et techniques
+auxquels devra répondre le système proposé \cite{ref75}.
+
+La troisième étape correspond à la phase de conception informatique. Sur
+la base des besoins identifiés, une architecture générale du système
+sera élaborée en utilisant les principes du génie logiciel. Cette étape
+comprendra notamment la modélisation des processus, la conception de la
+base de données, la définition de l\textquotesingle architecture
+logicielle, l\textquotesingle identification des différents modules
+fonctionnels ainsi que la conception des interfaces utilisateur. Les
+diagrammes UML seront utilisés afin de représenter clairement les
+interactions entre les différents composants du système et de faciliter
+son développement \cite{ref105}.
+
+La quatrième étape concerne le développement du prototype du jumeau
+numérique. Le système sera développé sous forme d\textquotesingle une
+application web moderne utilisant React.js avec Vite (JSX) pour
+l\textquotesingle interface utilisateur, Python (FastAPI) pour les
+services backend, SQLite ou PostgreSQL pour la gestion des données et
+Axios pour les échanges entre le client et le serveur. Le prototype
+intégrera un modèle numérique représentant le réseau de distribution
+d\textquotesingle eau potable, un système de gestion des données issues
+des capteurs ainsi qu\textquotesingle un module
+d\textquotesingle intelligence artificielle destiné à analyser les
+informations collectées, détecter les anomalies et produire des
+prédictions relatives au fonctionnement du réseau \cite{ref106}.
+
+Enfin, une phase de tests et d\textquotesingle évaluation sera réalisée
+afin de vérifier le bon fonctionnement du système développé. Cette étape
+comprendra les tests unitaires, les tests d\textquotesingle intégration,
+les tests fonctionnels ainsi que des simulations de différents scénarios
+de fonctionnement du réseau. Les performances du système seront évaluées
+à partir de plusieurs indicateurs, notamment le temps de détection des
+anomalies, la rapidité de mise à jour des données, la précision des
+prédictions générées par l\textquotesingle intelligence artificielle
+ainsi que la capacité du jumeau numérique à représenter fidèlement le
+comportement du réseau physique. Les résultats obtenus permettront de
+vérifier si la solution proposée répond effectivement aux objectifs
+fixés par cette recherche \cite{ref107}.
+
+Ainsi, la méthodologie retenue combine les exigences de la recherche
+scientifique et celles du développement informatique. Elle garantit une
+démarche structurée allant de l\textquotesingle analyse du problème
+jusqu\textquotesingle à la validation du prototype développé. Cette
+approche permettra de proposer une solution innovante, adaptée au
+contexte de la commune de Kadutu et susceptible de contribuer à la
+modernisation de la gestion des réseaux de distribution
+d\textquotesingle eau potable.
+
+\section{Méthodes et techniques de collecte des données}\label{muxe9thodes-et-techniques-de-collecte-des-donnuxe9es}
+
+La collecte des données constitue une étape essentielle dans toute
+recherche scientifique, car elle permet de réunir les informations
+nécessaires à la compréhension du problème étudié et à la validation des
+hypothèses formulées. Dans le cadre de cette étude portant sur la conception et le
+développement d\textquotesingle un jumeau numérique intégrant
+l\textquotesingle intelligence artificielle pour améliorer la
+surveillance, la détection des anomalies et la maintenance du réseau de
+fourniture d\textquotesingle eau potable de la commune de Kadutu, plusieurs
+méthodes et techniques complémentaires ont été retenues afin de garantir
+la fiabilité et la pertinence des données exploitées.
+L\textquotesingle association de plusieurs approches permet également de
+réduire les biais liés à l\textquotesingle utilisation
+d\textquotesingle une seule source d\textquotesingle information et
+d\textquotesingle obtenir une vision plus complète de la réalité étudiée
+\cite{ref75}.
+
+\subsection{Méthodes de recherche}\label{muxe9thodes-de-recherche}
+
+\subsubsection{La méthode
+	analytique}\label{a-la-muxe9thode-analytique}
+
+La méthode analytique consiste à décomposer un phénomène complexe en
+différents éléments afin d\textquotesingle en comprendre le
+fonctionnement, les interactions et les causes des problèmes observés.
+Dans le cadre de cette recherche, cette méthode a permis
+d\textquotesingle étudier le fonctionnement du réseau de distribution
+d\textquotesingle eau potable de la commune de Kadutu en identifiant les
+différents composants qui le constituent, notamment les ouvrages de
+captage, les stations de traitement, les réservoirs, les conduites, les
+équipements de pompage ainsi que les dispositifs de distribution.
+L\textquotesingle analyse de ces éléments a facilité
+l\textquotesingle identification des insuffisances du système actuel et
+la définition des besoins auxquels devra répondre le jumeau numérique
+proposé \cite{ref108}.
+
+\subsubsection{La méthode
+	systémique}\label{b-la-muxe9thode-systuxe9mique}
+
+La méthode systémique considère le réseau de distribution
+d\textquotesingle eau potable comme un système composé de plusieurs
+sous-systèmes interconnectés qui interagissent en permanence. Toute
+modification apportée à un élément du réseau peut avoir des conséquences
+sur l\textquotesingle ensemble du système. Cette approche est
+particulièrement adaptée à la présente étude, car le jumeau numérique
+devra représenter fidèlement les interactions entre les différentes
+composantes du réseau afin de permettre des simulations réalistes et une
+meilleure prise de décision. L\textquotesingle approche systémique
+facilite également l\textquotesingle intégration des technologies
+numériques, des capteurs intelligents et des algorithmes
+d\textquotesingle intelligence artificielle dans un environnement unique
+de gestion \cite{ref109}.
+
+\subsubsection{La méthode de
+	conception}\label{c-la-muxe9thode-de-conception}
+
+Étant donné que cette recherche aboutit au développement
+d\textquotesingle une solution informatique, la méthode de conception
+occupe une place centrale dans la démarche méthodologique. Cette méthode
+consiste à analyser les besoins des utilisateurs, concevoir
+l\textquotesingle architecture du système, modéliser les différents
+processus et développer un prototype répondant aux exigences
+fonctionnelles identifiées. Elle permettra de transformer les résultats
+de l\textquotesingle analyse du système existant en une plateforme
+numérique capable de représenter virtuellement le réseau
+d\textquotesingle eau potable et d\textquotesingle intégrer les
+mécanismes d\textquotesingle intelligence artificielle nécessaires à son
+fonctionnement \cite{ref106}.
+
+\subsection{Techniques de collecte des données}\label{techniques-de-collecte-des-donnuxe9es}
+
+\subsubsection{L\textquotesingle observation
+	directe}\label{a-lobservation-directe}
+
+L\textquotesingle observation directe consiste à examiner sur le terrain
+le fonctionnement réel du réseau de distribution d\textquotesingle eau
+potable. Cette technique permettra d\textquotesingle observer les
+différentes infrastructures exploitées par la REGIDESO, notamment les
+conduites, les réservoirs, les stations de pompage ainsi que les
+équipements utilisés pour la surveillance et la maintenance. Elle
+permettra également d\textquotesingle identifier les contraintes
+techniques rencontrées par les équipes chargées de
+l\textquotesingle exploitation du réseau et de mieux comprendre les
+difficultés liées aux interventions sur le terrain \cite{ref110}.
+
+\subsubsection{L\textquotesingle entretien}\label{b-lentretien}
+
+Des entretiens semi-directifs seront réalisés avec les responsables et
+les techniciens de la REGIDESO afin de recueillir des informations
+détaillées sur le fonctionnement du réseau, les procédures de
+maintenance, les principales causes de pannes, les difficultés
+rencontrées lors des interventions ainsi que les besoins exprimés en
+matière de modernisation des outils de gestion. Ces entretiens
+permettront également d\textquotesingle obtenir des informations qui ne
+figurent pas nécessairement dans les documents techniques disponibles
+\cite{ref104}.
+
+\subsubsection{L\textquotesingle analyse
+	documentaire}\label{c-lanalyse-documentaire}
+
+L\textquotesingle analyse documentaire portera sur les rapports
+techniques de la REGIDESO, les documents administratifs, les plans du
+réseau, les rapports d\textquotesingle intervention, les publications
+scientifiques, les normes internationales ainsi que les différents
+travaux de recherche portant sur les réseaux de distribution
+d\textquotesingle eau potable, les jumeaux numériques et
+l\textquotesingle intelligence artificielle. Cette technique permettra
+de compléter les informations obtenues sur le terrain et
+d\textquotesingle assurer une meilleure compréhension du contexte de
+l\textquotesingle étude \cite{ref81}.
+
+\subsubsection{La collecte des données
+	techniques}\label{d-la-collecte-des-donnuxe9es-techniques}
+
+La présente étude exploitera également des données techniques relatives
+au fonctionnement du réseau de distribution d\textquotesingle eau
+potable. Ces données pourront concerner la pression de
+l\textquotesingle eau, le débit, le niveau des réservoirs, la qualité de
+l\textquotesingle eau, les historiques de pannes, les interventions de
+maintenance ainsi que les informations provenant des capteurs intégrés
+au prototype développé. Ces données constitueront la base de
+fonctionnement du jumeau numérique et permettront
+d\textquotesingle alimenter les modèles d\textquotesingle intelligence
+artificielle chargés de détecter les anomalies et de produire des
+prédictions \cite{ref20}.
+
+\subsection{Population d\textquotesingle étude}\label{population-duxe9tude}
+
+La population concernée par cette recherche est constituée des acteurs
+impliqués dans la gestion et l\textquotesingle utilisation du réseau de
+fourniture d\textquotesingle eau potable de la commune de Kadutu. Elle
+comprend principalement les responsables administratifs et techniques de
+la REGIDESO, les agents chargés de l\textquotesingle exploitation et de
+la maintenance du réseau ainsi que certains abonnés bénéficiant du
+service de distribution d\textquotesingle eau potable. Ces différents
+acteurs constituent des sources importantes
+d\textquotesingle informations pour l\textquotesingle identification des
+besoins fonctionnels du système proposé \cite{ref112}.
+
+\subsection{Échantillonnage}\label{uxe9chantillonnage}
+
+Compte tenu du caractère appliqué de cette recherche, un échantillonnage
+raisonné (ou par choix raisonné) sera privilégié. Cette méthode consiste
+à sélectionner les personnes les plus susceptibles de fournir des
+informations pertinentes sur le fonctionnement du réseau étudié. Les
+responsables techniques de la REGIDESO, les agents de maintenance ainsi
+que les gestionnaires du réseau seront retenus en priorité en raison de
+leur expérience et de leur connaissance approfondie des infrastructures
+hydrauliques de la commune de Kadutu \cite{ref113}.
+
+\subsection{Instruments de collecte des données}\label{instruments-de-collecte-des-donnuxe9es}
+
+Afin d\textquotesingle assurer une collecte rigoureuse des informations,
+plusieurs instruments seront utilisés :
+
+\begin{itemize}
+	\item
+	une grille d\textquotesingle observation destinée à relever les
+	caractéristiques des infrastructures et les anomalies observées sur le
+	terrain ;
+	\item
+	un guide d\textquotesingle entretien semi-directif pour orienter les
+	échanges avec les responsables et les techniciens de la REGIDESO ;
+	\item
+	une fiche de collecte des données techniques permettant
+	d\textquotesingle enregistrer les paramètres hydrauliques nécessaires
+	au fonctionnement du jumeau numérique ;
+	\item
+	des documents techniques (rapports d\textquotesingle exploitation,
+	schémas du réseau, historiques des interventions et données
+	statistiques) mis à disposition par la REGIDESO ;
+	\item
+	les données générées par le prototype développé dans le cadre de cette
+	étude, notamment les mesures simulées de pression, de débit, de niveau
+	d\textquotesingle eau et les alertes produites par les algorithmes
+	d\textquotesingle intelligence artificielle \cite{ref107}.
+\end{itemize}
+
+L\textquotesingle utilisation combinée de ces différents instruments
+permettra de garantir la qualité des informations recueillies et
+d\textquotesingle assurer une base de données fiable pour la conception,
+le développement et l\textquotesingle évaluation du jumeau numérique
+proposé.
+
+\section{Outils matériels et logiciels utilisés}\label{outils-matuxe9riels-et-logiciels-utilisuxe9s}
+
+La réalisation d\textquotesingle un système informatique intégrant un
+jumeau numérique, des technologies de l\textquotesingle Internet des
+objets (IoT) et des techniques d\textquotesingle intelligence
+artificielle nécessite la mise en œuvre d\textquotesingle un ensemble
+cohérent de ressources matérielles et logicielles. Ces ressources
+permettent d\textquotesingle assurer les différentes étapes du projet,
+depuis l\textquotesingle analyse des besoins jusqu\textquotesingle au
+développement, aux tests et à l\textquotesingle évaluation du prototype.
+Le choix des outils retenus dans cette étude repose sur plusieurs
+critères, notamment leurs performances, leur fiabilité, leur facilité
+d\textquotesingle intégration, leur caractère open source ainsi que leur
+large adoption par la communauté scientifique et les développeurs.
+L\textquotesingle utilisation de technologies modernes garantit
+également la possibilité de faire évoluer le système vers une solution
+opérationnelle pouvant être déployée à plus grande échelle \cite{ref106}.
+
+\subsection{Outils matériels}\label{outils-matuxe9riels}
+
+Le développement et les tests du système proposé nécessitent un
+environnement matériel capable de supporter les opérations de
+programmation, d\textquotesingle exécution des modèles
+d\textquotesingle intelligence artificielle et de simulation du réseau
+de distribution d\textquotesingle eau potable. À cet effet, un
+ordinateur personnel constitue la principale plateforme de
+développement.
+
+Les caractéristiques matérielles minimales retenues sont les suivantes :
+
+\begin{longtable}[]{@{}
+		>{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.2440}}
+		>{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.7560}}@{}}
+	\toprule
+	oalign{}
+	\begin{minipage}[b]{\linewidth}\raggedright
+		Élément
+	\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+		Caractéristiques recommandées
+	\end{minipage} \\
+	\midrule
+	oalign{}
+	\endhead
+	\bottomrule
+	oalign{}
+	\endlastfoot
+	Processeur & Intel Core i5 (8ᵉ génération ou supérieur) ou AMD Ryzen
+	5 \\
+	Mémoire vive (RAM) & 8 Go minimum (16 Go recommandés) \\
+	Stockage & SSD 256 Go ou supérieur \\
+	Système d\textquotesingle exploitation & Windows 11 ou Ubuntu Linux
+	22.04 LTS \\
+	Connexion Internet & Requise pour l\textquotesingle installation des
+	bibliothèques, la documentation et les mises à jour \\
+\end{longtable}
+
+Tableau 2 Outils matériels
+
+Ces caractéristiques permettent d\textquotesingle exécuter simultanément
+les différents composants du système, notamment le serveur backend,
+l\textquotesingle interface web, la base de données et les bibliothèques
+d\textquotesingle intelligence artificielle, tout en assurant de bonnes
+performances lors des simulations \cite{ref114}.
+
+\subsection{Outils logiciels}\label{outils-logiciels}
+
+\subsubsection{React.js avec Vite
+	(JSX)}\label{a-react.js-avec-vite-jsx}
+
+L\textquotesingle interface utilisateur du jumeau numérique est
+développée avec React.js, une bibliothèque JavaScript open source créée
+par Meta pour la conception d\textquotesingle interfaces utilisateur
+interactives et réactives. React repose sur une architecture basée sur
+des composants réutilisables, facilitant le développement
+d\textquotesingle applications web modernes. Afin
+d\textquotesingle améliorer les performances de développement, le projet
+utilise Vite comme outil de construction (\emph{build tool}), offrant un
+démarrage rapide du serveur de développement, un rechargement instantané
+des modifications (\emph{Hot Module Replacement}) et une optimisation
+efficace des fichiers lors de la compilation. Contrairement à la version
+TypeScript, l\textquotesingle ensemble du projet est développé en
+JavaScript (JSX), conformément aux choix techniques retenus dans cette
+étude \cite{ref115}.
+
+\subsubsection{FastAPI}\label{b-fastapi}
+
+Le serveur applicatif est développé avec FastAPI, un framework moderne
+de Python destiné à la création d\textquotesingle API REST performantes.
+FastAPI facilite la communication entre l\textquotesingle interface
+React.js, la base de données et les modules
+d\textquotesingle intelligence artificielle. Il offre également une
+documentation automatique des API grâce à OpenAPI (Swagger), ce qui
+simplifie les tests et l\textquotesingle intégration des différents
+composants du système \cite{ref116}.
+
+\subsubsection{Python}\label{c-python}
+
+Le langage Python est utilisé pour le développement du backend ainsi que
+pour l\textquotesingle implémentation des algorithmes
+d\textquotesingle intelligence artificielle. Son vaste écosystème de
+bibliothèques spécialisées dans l\textquotesingle analyse de données,
+l\textquotesingle apprentissage automatique et le calcul scientifique en
+fait l\textquotesingle un des langages les plus utilisés dans les
+projets d\textquotesingle intelligence artificielle. Python assure
+également le traitement des données provenant des capteurs, la
+simulation de certaines variables hydrauliques et la génération des
+prédictions relatives au fonctionnement du réseau \cite{ref117}.
+
+\subsubsection{Base de données
+	SQLite}\label{d-base-de-donnuxe9es-sqlite}
+
+Les données relatives aux capteurs, aux équipements du réseau, aux
+alertes générées par le système ainsi qu\textquotesingle aux historiques
+de fonctionnement sont stockées dans une base de données SQLite. Ce
+système de gestion de base de données relationnelle présente
+l\textquotesingle avantage d\textquotesingle être léger, rapide et
+facile à intégrer dans un prototype de recherche. Il ne nécessite pas
+l\textquotesingle installation d\textquotesingle un serveur dédié et
+permet une gestion efficace des données locales. Son utilisation est
+particulièrement adaptée au développement d\textquotesingle un prototype
+académique avant une éventuelle migration vers PostgreSQL ou MySQL dans
+un environnement de production \cite{ref118}.
+
+\subsubsection{Leaflet.js}\label{e-leaflet.js}
+
+La représentation cartographique du réseau de distribution
+d\textquotesingle eau potable est réalisée à l\textquotesingle aide de
+Leaflet.js, une bibliothèque JavaScript open source spécialisée dans les
+cartes interactives. Leaflet permet de visualiser les conduites, les
+réservoirs, les stations de pompage, les capteurs ainsi que les
+différentes zones desservies par le réseau. Les informations provenant
+du backend sont affichées en temps réel sur la carte, offrant aux
+gestionnaires une représentation dynamique du fonctionnement du réseau
+\cite{ref119}.
+
+\subsubsection{Bibliothèques d\textquotesingle intelligence
+	artificielle}\label{f-bibliothuxe8ques-dintelligence-artificielle}
+
+L\textquotesingle intelligence artificielle est développée à
+l\textquotesingle aide de plusieurs bibliothèques Python spécialisées
+dans l\textquotesingle analyse des données et
+l\textquotesingle apprentissage automatique :
+
+\begin{itemize}
+	\item
+	NumPy : calcul scientifique et manipulation des tableaux numériques.
+	\item
+	Pandas : traitement et organisation des données.
+	\item
+	Scikit-learn : développement des modèles de Machine Learning,
+	notamment pour la détection des anomalies et la prédiction des pannes.
+	\item
+	Joblib : sauvegarde et chargement des modèles entraînés.
+\end{itemize}
+
+Ces bibliothèques permettent d\textquotesingle exploiter efficacement
+les données collectées afin d\textquotesingle améliorer les capacités
+prédictives du jumeau numérique \cite{ref120}.
+
+\subsubsection{Visual Studio Code}\label{g-visual-studio-code}
+
+Le développement du système est réalisé avec Visual Studio Code, un
+environnement de développement intégré (IDE) reconnu pour sa légèreté,
+ses nombreuses extensions et son excellente compatibilité avec
+JavaScript, Python et React.js. Il facilite la programmation, le
+débogage et la gestion des différentes composantes du projet \cite{ref121}.
+
+\subsubsection{Git et GitHub}\label{h-git-et-github}
+
+Afin d\textquotesingle assurer le suivi des modifications du code source
+et la gestion des différentes versions du projet, les outils Git et
+GitHub sont utilisés. Ils permettent de sauvegarder
+l\textquotesingle évolution du développement, de collaborer efficacement
+avec d\textquotesingle autres développeurs et de garantir la traçabilité
+des modifications apportées au système \cite{ref122}.
+
+\subsection{Justification du choix des outils}\label{justification-du-choix-des-outils}
+
+Les technologies retenues dans cette étude répondent aux exigences
+fonctionnelles et techniques du projet. React.js offre une interface
+utilisateur moderne et interactive, FastAPI assure une communication
+rapide entre les différents modules, Python facilite
+l\textquotesingle intégration des algorithmes
+d\textquotesingle intelligence artificielle tandis que SQLite permet une
+gestion simple et efficace des données du prototype.
+L\textquotesingle utilisation de Leaflet garantit une représentation
+cartographique dynamique du réseau d\textquotesingle eau potable,
+indispensable à la mise en œuvre du jumeau numérique. Enfin, les
+bibliothèques d\textquotesingle apprentissage automatique offrent les
+capacités nécessaires à la détection des anomalies, à la prédiction des
+pannes et à l\textquotesingle assistance des gestionnaires dans leurs
+prises de décision. L\textquotesingle ensemble de ces outils constitue
+une architecture logicielle cohérente, évolutive et adaptée aux
+objectifs de la présente recherche.
+
+\section{Analyse des besoins du système}\label{analyse-des-besoins-du-systuxe8me}
+
+L\textquotesingle analyse des besoins constitue une étape essentielle
+dans le processus de conception d\textquotesingle un système
+informatique. Elle permet d\textquotesingle identifier les
+fonctionnalités attendues par les utilisateurs ainsi que les contraintes
+techniques auxquelles le système devra répondre. Dans le cadre de cette
+étude, cette analyse est réalisée sur la base des insuffisances
+observées dans le système actuel de gestion du réseau de fourniture
+d\textquotesingle eau potable de la commune de Kadutu ainsi que des
+objectifs définis par la recherche. Les besoins identifiés serviront de
+référence pour la conception et le développement du jumeau numérique
+intégrant l\textquotesingle intelligence artificielle \cite{ref106}.
+
+\subsection{Besoins fonctionnels}\label{besoins-fonctionnels}
+
+Les besoins fonctionnels représentent les services que le système devra
+offrir à ses utilisateurs. Ils décrivent les différentes fonctions que
+l\textquotesingle application devra exécuter afin de répondre aux
+attentes des gestionnaires du réseau d\textquotesingle eau potable
+\cite{ref114}.
+
+\begin{itemize}
+	\item
+	Représenter numériquement le réseau...
+	\item
+	Afficher les données des capteurs...
+	\item
+	Détecter les anomalies...
+	\item
+	...
+\end{itemize}
+
+\subsection{Besoins non fonctionnels}\label{besoins-non-fonctionnels}
+
+Les besoins non fonctionnels définissent les critères de qualité du
+système, notamment les performances, la sécurité, la disponibilité, la
+fiabilité et la facilité de maintenance. Ces exigences garantissent un
+fonctionnement efficace et durable de l\textquotesingle application
+\cite{ref123}.
+
+\subsection{Identification des acteurs}\label{identification-des-acteurs}
+
+L\textquotesingle identification des acteurs permet de définir les
+différentes entités qui interagiront avec le système. Cette étape est
+indispensable pour la modélisation UML, notamment lors de
+l\textquotesingle élaboration du diagramme de cas
+d\textquotesingle utilisation.
+
+\subsubsection{\texorpdfstring{
+		Administrateur}{ Administrateur}}\label{administrateur}
+
+Il assure la gestion générale de la plateforme. Il peut créer des
+comptes utilisateurs, gérer les paramètres du système, administrer les
+équipements et superviser le fonctionnement global du jumeau numérique.
+
+\subsubsection{Gestionnaire du réseau}\label{gestionnaire-du-ruxe9seau}
+
+Il consulte les informations relatives au réseau, visualise les alertes,
+suit les indicateurs de performance et prend les décisions nécessaires
+concernant l\textquotesingle exploitation et la maintenance.
+
+\subsubsection{Technicien de
+	maintenance}\label{technicien-de-maintenance}
+
+Il reçoit les alertes générées par le système, consulte la localisation
+des anomalies, enregistre les interventions réalisées et met à jour
+l\textquotesingle état des équipements.
+
+\subsubsection{Capteurs IoT}\label{capteurs-iot}
+
+Les capteurs constituent des acteurs externes du système. Ils
+transmettent automatiquement les données de pression, de débit, de
+niveau, de qualité de l\textquotesingle eau ainsi que les informations
+relatives au fonctionnement des équipements.
+
+\subsection{Contraintes du système}\label{contraintes-du-systuxe8me}
+
+La conception du système devra tenir compte de plusieurs contraintes,
+notamment :
+
+\begin{itemize}
+	\item
+	la disponibilité limitée des données réelles du réseau ;
+	\item
+	les contraintes liées à la connectivité Internet ;
+	\item
+	les ressources matérielles disponibles ;
+	\item
+	la nécessité d\textquotesingle utiliser des technologies open source
+	afin de limiter les coûts ;
+	\item
+	l\textquotesingle adaptabilité du système aux réalités de la REGIDESO
+	et de la commune de Kadutu.
+\end{itemize}
+
+\section{Modélisation du système}\label{moduxe9lisation-du-systuxe8me}
+
+La modélisation constitue une étape essentielle du développement
+d\textquotesingle un système informatique. Elle permet de représenter,
+sous une forme graphique et normalisée, les différents composants du
+système, leurs interactions ainsi que les traitements réalisés. Dans
+cette étude, la modélisation est réalisée à l\textquotesingle aide du
+langage UML (Unified Modeling Language), largement utilisé dans le
+domaine du génie logiciel pour la conception et la documentation des
+systèmes orientés objet. L\textquotesingle utilisation
+d\textquotesingle UML facilite la compréhension des besoins
+fonctionnels, améliore la communication entre les parties prenantes et
+sert de guide lors du développement du jumeau numérique intégrant
+l\textquotesingle intelligence artificielle \cite{ref123}.
+
+\subsection{Diagramme de cas d\textquotesingle utilisation}\label{diagramme-de-cas-dutilisation}
+
+Le diagramme de cas d\textquotesingle utilisation (Use Case Diagram)
+permet d\textquotesingle identifier les différents acteurs du système
+ainsi que les principales fonctionnalités auxquelles ils ont accès. Dans
+le cadre de cette étude, les principaux acteurs sont
+l\textquotesingle administrateur, le gestionnaire du réseau, le
+technicien de maintenance et les capteurs IoT. Ce diagramme met en
+évidence les interactions entre ces acteurs et le système, notamment la
+consultation des données du réseau, la réception des alertes, la
+surveillance des équipements, la gestion des utilisateurs et
+l\textquotesingle analyse des anomalies. La conception détaillée de ce
+diagramme sera présentée au chapitre consacré au développement du
+système \cite{ref124}.
+
+\subsection{Diagramme de classes}\label{diagramme-de-classes}
+
+Le diagramme de classes représente la structure statique du système en
+décrivant les différentes classes, leurs attributs, leurs méthodes ainsi
+que les relations qui les unissent. Pour le jumeau numérique proposé, ce
+diagramme permettra de modéliser les principales entités telles que les
+utilisateurs, les capteurs, les conduites, les stations de pompage, les
+réservoirs, les alertes, les données des capteurs et les modèles
+d\textquotesingle intelligence artificielle. Cette représentation
+facilitera la conception de la base de données ainsi que
+l\textquotesingle implémentation de l\textquotesingle application
+\cite{ref123}.
+
+\subsection{Diagramme de séquence}\label{diagramme-de-suxe9quence}
+
+Le diagramme de séquence décrit l\textquotesingle ordre chronologique
+des échanges entre les différents composants du système lors de
+l\textquotesingle exécution d\textquotesingle un scénario donné. Dans
+cette étude, il permettra notamment d\textquotesingle illustrer le
+processus de collecte des données des capteurs, leur transmission vers
+le serveur, leur analyse par le module d\textquotesingle intelligence
+artificielle et l\textquotesingle envoi des alertes aux utilisateurs en
+cas d\textquotesingle anomalie détectée \cite{ref125}.
+
+\subsection{Diagramme d\textquotesingle activités}\label{diagramme-dactivituxe9s}
+
+Le diagramme d\textquotesingle activités représente les différentes
+étapes d\textquotesingle un processus métier ou d\textquotesingle un
+traitement informatique. Il permettra de décrire le fonctionnement
+global du jumeau numérique, depuis la réception des données des capteurs
+jusqu\textquotesingle à leur traitement, leur visualisation et la prise
+de décision par les gestionnaires du réseau. Ce diagramme contribuera à
+mieux comprendre le flux des opérations réalisées par le système
+\cite{ref124}.
+
+\subsection{Importance de la modélisation UML dans cette étude}\label{importance-de-la-moduxe9lisation-uml-dans-cette-uxe9tude}
+
+L\textquotesingle utilisation des diagrammes UML permet de structurer le
+développement du jumeau numérique en offrant une représentation claire
+des fonctionnalités, des données et des interactions entre les
+différents composants. Cette modélisation constitue un support
+indispensable pour la conception de l\textquotesingle architecture
+logicielle, le développement de l\textquotesingle application et les
+phases de validation du système. Les diagrammes élaborés serviront
+également de référence pour les développements présentés dans le
+chapitre suivant \cite{ref123}, \cite{ref125}.
+
+\section{Architecture générale du système proposé}
+
+L\textquotesingle architecture générale du système décrit
+l\textquotesingle organisation des différents composants qui
+interviennent dans le fonctionnement du jumeau numérique intégrant
+l\textquotesingle intelligence artificielle. Elle met en évidence les
+échanges entre les capteurs, les services de traitement des données, les
+algorithmes d\textquotesingle intelligence artificielle, la base de
+données et l\textquotesingle interface utilisateur. Une architecture
+bien conçue facilite la communication entre les différents modules du
+système, améliore les performances globales de
+l\textquotesingle application et favorise son évolutivité \cite{ref126}.
+
+\subsection{Architecture générale}
+
+Le système proposé adopte une architecture multicouche composée de cinq
+principaux modules :
+
+\begin{itemize}
+	\item
+	La couche de collecte des données, constituée des capteurs
+	intelligents chargés de mesurer les paramètres du réseau tels que la
+	pression, le débit, le niveau d\textquotesingle eau et la qualité de
+	l\textquotesingle eau.
+	\item
+	La couche de communication, assurant la transmission des données
+	collectées vers le serveur applicatif par
+	l\textquotesingle intermédiaire d\textquotesingle API REST.
+	\item
+	La couche de traitement, développée avec FastAPI, qui reçoit les
+	données, les analyse, les stocke dans la base de données et les
+	transmet au module d\textquotesingle intelligence artificielle.
+	\item
+	La couche d\textquotesingle intelligence artificielle, chargée
+	d\textquotesingle exploiter les données afin de détecter les
+	anomalies, de prédire les pannes potentielles et de fournir des
+	recommandations pour la maintenance du réseau.
+	\item
+	La couche de présentation, développée avec React.js (Vite - JSX), qui
+	permet aux utilisateurs de visualiser le jumeau numérique, les
+	tableaux de bord, les alertes et les indicateurs de performance du
+	réseau \cite{ref106}.
+\end{itemize}
+
+\subsection{Fonctionnement général}
+
+Le fonctionnement du système débute par la collecte des données
+provenant des capteurs installés sur le réseau de distribution
+d\textquotesingle eau potable. Ces informations sont transmises au
+serveur où elles sont enregistrées et analysées. Les algorithmes
+d\textquotesingle intelligence artificielle exploitent ensuite ces
+données afin d\textquotesingle identifier les comportements anormaux et
+de produire des prédictions concernant l\textquotesingle état du réseau.
+Les résultats sont finalement affichés sur l\textquotesingle interface
+du jumeau numérique, permettant aux gestionnaires de suivre en temps
+réel le fonctionnement des infrastructures et de prendre les décisions
+appropriées \cite{ref116}.
+
+\subsection{Avantages de l\textquotesingle architecture proposée}
+
+L\textquotesingle architecture retenue présente plusieurs avantages,
+notamment la modularité, la facilité de maintenance, la possibilité
+d\textquotesingle intégrer de nouveaux capteurs ou de nouveaux modèles
+d\textquotesingle intelligence artificielle, ainsi que la séparation
+claire entre les différentes couches du système. Cette organisation
+facilite également les évolutions futures de
+l\textquotesingle application et améliore sa robustesse face aux besoins
+croissants des gestionnaires du réseau d\textquotesingle eau potable
+\cite{ref126}.
+
+\clearpage

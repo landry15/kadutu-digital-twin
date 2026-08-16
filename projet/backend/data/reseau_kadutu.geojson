@@ -1,0 +1,252 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    28.835,
+                    -2.485
+                ]
+            },
+            "properties": {
+                "node_id": "N001",
+                "nom": "Réservoir R1",
+                "type": "Réservoir"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    28.8548,
+                    -2.485
+                ]
+            },
+            "properties": {
+                "node_id": "N002",
+                "nom": "Jonction J1",
+                "type": "Jonction"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    28.858,
+                    -2.5
+                ]
+            },
+            "properties": {
+                "node_id": "N003",
+                "nom": "Vanne V1",
+                "type": "Vanne"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    28.855,
+                    -2.52
+                ]
+            },
+            "properties": {
+                "node_id": "N004",
+                "nom": "Jonction J2",
+                "type": "Jonction"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    28.845,
+                    -2.5375
+                ]
+            },
+            "properties": {
+                "node_id": "N005",
+                "nom": "Borne BF1",
+                "type": "Borne_fontaine"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        28.835,
+                        -2.485
+                    ],
+                    [
+                        28.8548,
+                        -2.485
+                    ],
+                    [
+                        28.858,
+                        -2.5
+                    ],
+                    [
+                        28.855,
+                        -2.52
+                    ]
+                ]
+            },
+            "properties": {
+                "pipe_id": "P001",
+                "nom": "Conduite principale 1",
+                "noeud_depart": "N001",
+                "noeud_arrivee": "N002",
+                "diametre_mm": 200.0,
+                "materiau": "PVC",
+                "statut": "Active"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        28.845,
+                        -2.5375
+                    ],
+                    [
+                        28.835,
+                        -2.485
+                    ],
+                    [
+                        28.8548,
+                        -2.485
+                    ]
+                ]
+            },
+            "properties": {
+                "pipe_id": "P002",
+                "nom": "Conduite principale 2",
+                "noeud_depart": "N002",
+                "noeud_arrivee": "N003",
+                "diametre_mm": 150.0,
+                "materiau": "PVC",
+                "statut": "Active"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    28.835,
+                    -2.485
+                ]
+            },
+            "properties": {
+                "reservoir_id": "R001",
+                "nom": "Réservoir R1",
+                "node_id": "N001",
+                "altitude_m": null,
+                "capacite_m3": null,
+                "statut": "Actif",
+                "description": "Well"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    28.8548,
+                    -2.485
+                ]
+            },
+            "properties": {
+                "reservoir_id": "R002",
+                "nom": "Réservoir R2",
+                "node_id": "N004",
+                "altitude_m": null,
+                "capacite_m3": null,
+                "statut": "Actif",
+                "description": "Well"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    28.835,
+                    -2.485
+                ]
+            },
+            "properties": {
+                "vanne_id": "V001",
+                "nom": "Vanne V1",
+                "node_id": "N003",
+                "type_vanne": "Isolement",
+                "statut": "Active",
+                "description": "Well"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    28.8548,
+                    -2.485
+                ]
+            },
+            "properties": {
+                "vanne_id": "V002",
+                "nom": "Vanne V2",
+                "node_id": "N005",
+                "type_vanne": "Régulation",
+                "statut": "Active",
+                "description": "Well"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    28.835,
+                    -2.485
+                ]
+            },
+            "properties": {
+                "borne_id": "BF001",
+                "nom": "Borne BF1",
+                "node_id": "N003",
+                "quartier": "Kasali",
+                "statut": "Active",
+                "description": "Well"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    28.8548,
+                    -2.485
+                ]
+            },
+            "properties": {
+                "borne_id": "BF002",
+                "nom": "Borne BF2",
+                "node_id": "N002",
+                "quartier": "Nkafu",
+                "statut": "Active",
+                "description": "Well"
+            }
+        }
+    ]
+}

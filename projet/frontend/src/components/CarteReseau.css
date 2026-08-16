@@ -1,0 +1,372 @@
+.carte-wrapper {
+    width: 100%;
+    height: 750px;
+    position: relative;
+    overflow: hidden;
+    background: #f5f7fa;
+}
+
+.carte {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* ============================================================
+   BARRE DE RECHERCHE
+============================================================ */
+
+.carte-recherche {
+    position: absolute;
+    z-index: 1000;
+
+    top: 20px;
+    left: 20px;
+
+    width: 340px;
+
+    background: white;
+
+    padding: 15px;
+
+    border-radius: 10px;
+
+    box-shadow:
+        0 4px 18px rgba(0, 0, 0, 0.18);
+}
+
+.recherche-titre {
+    font-weight: 700;
+    font-size: 16px;
+
+    margin-bottom: 10px;
+}
+
+.carte-recherche input {
+    width: 100%;
+
+    box-sizing: border-box;
+
+    padding: 10px 12px;
+
+    border: 1px solid #d1d5db;
+
+    border-radius: 7px;
+
+    outline: none;
+
+    font-size: 14px;
+}
+
+.carte-recherche input:focus {
+    border-color: #2563eb;
+}
+
+
+/* ============================================================
+   RESULTATS
+============================================================ */
+
+.resultats-recherche {
+    margin-top: 8px;
+
+    max-height: 250px;
+
+    overflow-y: auto;
+
+    border: 1px solid #e5e7eb;
+
+    border-radius: 7px;
+
+    background: white;
+}
+
+.resultats-recherche button {
+    display: flex;
+
+    flex-direction: column;
+
+    width: 100%;
+
+    border: none;
+
+    background: white;
+
+    padding: 10px;
+
+    text-align: left;
+
+    cursor: pointer;
+}
+
+.resultats-recherche button:hover {
+    background: #f3f4f6;
+}
+
+.resultats-recherche strong {
+    font-size: 14px;
+}
+
+.resultats-recherche span {
+    font-size: 12px;
+
+    color: #6b7280;
+
+    margin-top: 3px;
+}
+
+
+/* ============================================================
+   ICONES
+============================================================ */
+
+.icone-reseau {
+    background: transparent;
+
+    border: none;
+}
+
+.icone-reseau-contenu {
+    width: 34px;
+    height: 34px;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+
+    background: white;
+
+    border: 2px solid #1f2937;
+
+    box-shadow:
+        0 2px 6px rgba(0, 0, 0, 0.25);
+
+    font-size: 18px;
+}
+
+
+/* ============================================================
+   POPUP
+============================================================ */
+
+.popup-reseau {
+    min-width: 210px;
+
+    font-family: Arial, sans-serif;
+
+    line-height: 1.6;
+}
+
+.popup-reseau h3 {
+    margin: 0 0 8px;
+
+    font-size: 16px;
+}
+
+.future-value {
+    color: #6b7280;
+
+    font-style: italic;
+}
+
+
+/* ============================================================
+   LEGENDE
+============================================================ */
+
+.legende-carte {
+    position: absolute;
+
+    z-index: 1000;
+
+    bottom: 20px;
+    left: 20px;
+
+    background: white;
+
+    padding: 14px;
+
+    border-radius: 10px;
+
+    box-shadow:
+        0 4px 18px rgba(0, 0, 0, 0.18);
+
+    min-width: 190px;
+
+    font-size: 13px;
+}
+
+.legende-titre {
+    font-size: 15px;
+
+    font-weight: 700;
+
+    margin-bottom: 10px;
+}
+
+.legende-item {
+    display: flex;
+
+    align-items: center;
+
+    gap: 8px;
+
+    margin-bottom: 7px;
+}
+
+.ligne {
+    display: inline-block;
+
+    width: 30px;
+
+    height: 4px;
+
+    border-radius: 3px;
+}
+
+.ligne.active {
+    background: #16a34a;
+}
+
+.ligne.maintenance {
+    background: #f59e0b;
+}
+
+.ligne.inactive {
+    background: #dc2626;
+}
+
+
+/* ============================================================
+   INDICATEURS
+============================================================ */
+
+.indicateurs-futurs {
+    position: absolute;
+
+    z-index: 1000;
+
+    top: 20px;
+    right: 60px;
+
+    display: flex;
+
+    gap: 10px;
+}
+
+.indicateurs-futurs div {
+    min-width: 100px;
+
+    padding: 10px 12px;
+
+    background: white;
+
+    border-radius: 8px;
+
+    box-shadow:
+        0 3px 12px rgba(0, 0, 0, 0.15);
+
+    display: flex;
+
+    flex-direction: column;
+}
+
+.indicateurs-futurs span {
+    font-size: 11px;
+
+    color: #6b7280;
+}
+
+.indicateurs-futurs strong {
+    font-size: 15px;
+
+    margin-top: 3px;
+}
+
+
+/* ============================================================
+   MESSAGE
+============================================================ */
+
+.carte-message {
+    width: 100%;
+
+    min-height: 400px;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    font-size: 18px;
+}
+
+.carte-message.erreur {
+    color: #b91c1c;
+}
+
+
+/* ============================================================
+   RESPONSIVE
+============================================================ */
+
+@media (max-width: 768px) {
+
+    .carte-wrapper {
+        height: 650px;
+    }
+
+    .carte-recherche {
+        left: 10px;
+        top: 10px;
+
+        width: calc(100% - 80px);
+    }
+
+    .indicateurs-futurs {
+        display: none;
+    }
+
+    .legende-carte {
+        bottom: 10px;
+        left: 10px;
+    }
+
+}
+
+
+/* ============================================================
+   MESSAGE AUCUN RESULTAT
+============================================================ */
+
+.aucun-resultat {
+    margin-top: 8px;
+
+    padding: 10px;
+
+    border-radius: 7px;
+
+    background: #f9fafb;
+
+    color: #6b7280;
+
+    font-size: 13px;
+}
+
+
+/* ============================================================
+   EFFET DE SELECTION
+============================================================ */
+
+.resultats-recherche button {
+    transition:
+        background 0.2s ease,
+        transform 0.2s ease;
+}
+
+.resultats-recherche button:active {
+    transform: scale(0.98);
+}

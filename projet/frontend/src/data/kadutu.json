@@ -1,0 +1,29 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "nom": "Commune de Kadutu",
+        "ville": "Bukavu",
+        "province": "Sud-Kivu",
+        "pays": "RDC"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [28.8350, -2.4850],
+            [28.8548, -2.4822],
+            [28.8580, -2.5000],
+            [28.8550, -2.5200],
+            [28.8450, -2.5375],
+            [28.8205, -2.5300],
+            [28.8210, -2.5050],
+            [28.8350, -2.4850]
+          ]
+        ]
+      }
+    }
+  ]
+}

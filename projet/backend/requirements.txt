@@ -1,0 +1,60 @@
+Et notre progression sera :
+
+Étape 1 — maintenant
+
+Installation des bibliothèques ✅
+
+Étape 2
+
+Créer la base SQLite et les tables.✅
+
+Étape 3
+
+Importer ton fichier Excel dans SQLite.
+
+Étape 4
+
+Créer les API FastAPI pour NOEUDS, CONDUITES, POINTS_CONDUITES, etc.
+
+Étape 5
+
+Créer l'API qui renvoie le réseau au format GeoJSON.
+
+Étape 6
+
+Connecter React avec Axios.
+
+Étape 7
+
+Afficher le réseau réel sur OpenStreetMap + Leaflet.
+
+Étape 8
+
+Ajouter les données des capteurs : pression, débit, état.
+
+Étape 9
+
+Ajouter la simulation du réseau.
+
+Étape 10
+
+Ajouter l'IA pour les anomalies/fuites.
+
+Étape 11
+
+Construire le tableau de bord du jumeau digital.
+
+
+
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+#     LES COMMANDES UTILES POUR LE PROJET
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+# python -m app.services.excel_service
+#       ce commande permet de créer la base de données SQLite et d'importer les données du fichier Excel dans les tables correspondantes. Assurez-vous que le fichier Excel est correctement formaté et placé dans le répertoire approprié avant d'exécuter cette commande.
+
+# python -m app.services.geo_service 
+        ça permet de generer le fichier GeoJSON à partir des données de la base SQLite. Assurez-vous que la base de données est correctement configurée et que les tables contiennent les données nécessaires avant d'exécuter cette commande.

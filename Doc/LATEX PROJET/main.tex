@@ -1,0 +1,82 @@
+\documentclass[12pt,a4paper,oneside]{report}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\DeclareUnicodeCharacter{1D49}{\textsuperscript{e}}
+\usepackage[french]{babel}
+\usepackage{times}
+\usepackage{microtype}
+\usepackage{geometry}
+\geometry{left=2.5cm,right=2.5cm,top=2.5cm,bottom=2.5cm}
+\usepackage{setspace}
+\onehalfspacing
+
+% Packages graphiques et couleurs
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{tikz}
+\usepackage{float}
+
+% Couleurs institutionnelles (nécessaires pour titlepage.tex)
+\definecolor{ucbBlue}{RGB}{12, 53, 106}
+\definecolor{ucbGold}{RGB}{212, 160, 23}
+\definecolor{darkGray}{RGB}{60, 60, 60}
+
+\usepackage{booktabs,longtable,array}
+\usepackage{calc}
+\usepackage{amsmath,amssymb}
+\usepackage{enumitem}
+
+\usepackage{csquotes}
+\usepackage[backend=biber,style=ieee,sorting=none]{biblatex}
+\addbibresource{references.bib}
+
+\usepackage{titlesec}
+\usepackage{fancyhdr}
+
+% Hyperref et sous-packages associés
+\usepackage{hyperref}
+\hypersetup{hidelinks}
+\usepackage{url}
+\usepackage{caption}
+
+% Configuration des titres et en-têtes
+\titleformat{\chapter}[display]{\normalfont\bfseries\centering}{CHAPITRE \Roman{chapter}}{0.5em}{\Large}
+\titlespacing*{\chapter}{0pt}{0pt}{1.5em}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[R]{\thepage}
+\setlength{\headheight}{14.5pt}
+\setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{3}
+
+\begin{document}
+	
+	% 1. Page de garde
+%	\input{titlepage}
+	
+	% 2. Table des matières avec numérotation romaine préalable
+	\cleardoublepage
+	\pagenumbering{roman}
+	\pdfbookmark[1]{Table des matières}{toc}
+	\tableofcontents
+	\newpage
+	
+	% 3. Corps du document (Numérotation arabe)
+	\cleardoublepage
+	%\input{epigraphe}
+	%\input{dedicace}
+	%\input{resume}
+	
+	% DEBUT DU CHIFRE ARABE
+	\pagenumbering{arabic}
+	
+	\input{introduction}
+	\input{chapitres/chapitre1}
+	\input{chapitres/chapitre2}
+	\input{chapitres/chapitre3}
+	
+	% 4. Bibliographie
+	\cleardoublepage
+	\printbibliography[heading=bibintoc, title={Références bibliographiques}]
+	
+\end{document}

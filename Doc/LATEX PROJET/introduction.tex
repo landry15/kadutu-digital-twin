@@ -1,0 +1,325 @@
+\chapter*{INTRODUCTION}\addcontentsline{toc}{chapter}{INTRODUCTION}\label{introduction}
+
+\section{CONTEXTE GÉNÉRAL DE L'ÉTUDE}
+\label{contexte-general-de-letude}
+
+L'accès à une eau potable sûre et disponible de manière régulière demeure
+un enjeu important dans de nombreux pays en développement. Selon le
+Programme commun de suivi de l'Organisation mondiale de la Santé (OMS)
+et du Fonds des Nations Unies pour l'enfance (UNICEF), près de
+2,2 milliards de personnes ne disposaient pas, en 2022, d'un service
+d'eau potable géré en toute sécurité \cite{ref1}. Cette situation montre
+que l'amélioration de l'accès à l'eau potable ne dépend pas uniquement
+de la disponibilité de la ressource, mais également de la capacité à
+assurer une gestion efficace et durable des infrastructures de
+distribution.
+
+En République Démocratique du Congo, cette problématique demeure
+particulièrement importante dans les centres urbains où l'augmentation
+de la population et l'extension des zones d'habitation exercent une
+pression croissante sur les infrastructures existantes. Dans ce
+contexte, la continuité de la desserte dépend notamment de l'état des
+conduites, du fonctionnement des équipements hydrauliques, de la
+disponibilité de l'eau et de la capacité des services techniques à
+identifier et à traiter rapidement les anomalies. Les difficultés de
+surveillance et de maintenance peuvent ainsi se traduire par des
+interruptions de service, des pertes d'eau et des interventions
+principalement effectuées après l'apparition d'une défaillance.
+
+La ville de Bukavu présente ces enjeux dans un contexte urbain
+particulier, caractérisé par une forte densité de population et une
+extension progressive des zones d'habitation. La commune de Kadutu,
+qui constitue l'une des communes de la ville, est directement concernée
+par ces difficultés. Les observations réalisées au cours de la phase
+exploratoire de cette étude, associées aux informations disponibles
+dans les sources documentaires, montrent notamment l'existence de
+perturbations de la desserte en eau potable dans certains secteurs de
+Kadutu. En juillet 2022, l'Agence Congolaise de Presse rapportait par
+exemple que certaines avenues de la commune rencontraient des
+difficultés d'approvisionnement en eau distribuée par la REGIDESO,
+avec une situation particulièrement préoccupante durant la saison
+sèche \cite{ref127}.
+
+Dans ce contexte, la gestion efficace du réseau de fourniture d'eau
+potable de Kadutu nécessite non seulement des infrastructures physiques
+adaptées, mais également des moyens permettant de mieux connaître
+l'état du réseau et de suivre son fonctionnement. Or, les informations
+relatives aux différents éléments du réseau, à leur état, à leur
+localisation et à leur fonctionnement ne sont pas toujours regroupées
+dans un environnement numérique permettant une exploitation et une
+analyse centralisées. Cette situation rend plus difficile la
+visualisation globale du réseau et l'identification rapide des secteurs
+susceptibles de nécessiter une intervention.
+
+Les progrès récents de l'intelligence artificielle et des technologies
+de représentation numérique offrent cependant de nouvelles possibilités
+pour répondre à ce type de difficulté. Le jumeau numérique permet de
+représenter virtuellement un système physique et de faire évoluer cette
+représentation à partir des données disponibles. Associé à des
+techniques d'intelligence artificielle, il peut être utilisé pour
+analyser les données du réseau, identifier certaines anomalies et
+simuler des situations de fonctionnement. De telles possibilités sont
+particulièrement intéressantes dans le contexte de Kadutu, où
+l'amélioration de la connaissance du réseau et de sa surveillance peut
+constituer un appui à la maintenance et à la prise de décision
+\cite{ref9}.
+
+C'est donc dans le contexte spécifique du réseau de fourniture d'eau
+potable de la commune de Kadutu que s'inscrit la présente étude. Elle
+vise à étudier la possibilité de mettre en place un jumeau numérique
+intégrant des techniques d'intelligence artificielle afin de disposer
+d'une représentation numérique du réseau, de faciliter sa surveillance,
+d'identifier certaines anomalies et de fournir un support à la
+planification des interventions de maintenance.
+
+
+\section{PROBLÉMATIQUE}
+\label{problematique}
+
+Dans la commune de Kadutu, la gestion du réseau de fourniture d'eau
+potable est confrontée à plusieurs difficultés qui limitent la capacité
+à assurer un suivi efficace de son fonctionnement. Les perturbations
+observées dans la desserte constituent l'un des principaux problèmes.
+Certaines zones peuvent connaître des interruptions ou une distribution
+irrégulière de l'eau, notamment dans certaines périodes de l'année.
+Ces situations nécessitent de pouvoir déterminer rapidement les parties
+du réseau concernées et d'identifier les facteurs susceptibles
+d'expliquer la perturbation.
+
+Un second problème concerne la connaissance et la surveillance du
+réseau. Un réseau de fourniture d'eau est constitué de plusieurs
+éléments interdépendants, notamment des conduites, des nœuds, des
+réservoirs, des vannes et des points de desserte. Lorsque les
+informations relatives à ces éléments ne sont pas représentées dans un
+environnement numérique centralisé et facilement exploitable, il
+devient plus difficile d'obtenir une vision globale de la structure du
+réseau et de suivre son évolution. Cette insuffisance peut compliquer
+l'analyse d'une anomalie et la localisation de la zone nécessitant une
+intervention.
+
+À cette difficulté s'ajoute la détection des anomalies pouvant affecter
+le fonctionnement du réseau. Une baisse anormale de pression, une
+variation inhabituelle du débit, une rupture de conduite ou une fuite
+peuvent perturber la desserte et entraîner des pertes d'eau. Lorsque
+ces phénomènes ne sont pas détectés suffisamment tôt, leur localisation
+et leur prise en charge peuvent devenir plus difficiles. La disponibilité
+de données structurées et leur analyse automatique pourraient donc
+permettre d'améliorer la détection des situations anormales.
+
+La maintenance constitue également un enjeu important. En l'absence
+d'un outil permettant de centraliser les informations sur le réseau et
+d'analyser son état, les interventions peuvent être davantage orientées
+vers la réaction à une panne déjà apparue que vers son anticipation.
+Cette situation limite la possibilité de hiérarchiser les zones
+nécessitant une attention particulière et de préparer les interventions
+sur la base d'informations relatives au fonctionnement du réseau.
+
+Ainsi, le problème central identifié dans le cadre de cette étude n'est
+pas uniquement l'existence de perturbations dans la fourniture d'eau,
+mais également la difficulté à disposer d'un outil numérique permettant
+de représenter le réseau de Kadutu, de suivre son fonctionnement,
+d'identifier les anomalies et d'appuyer les décisions de maintenance.
+L'insuffisance d'une telle représentation dynamique constitue une limite
+pour une gestion fondée sur les données.
+
+Le projet de jumeau numérique proposé dans cette étude cherche donc à
+répondre à ces insuffisances en développant une représentation
+numérique du réseau de fourniture d'eau potable de Kadutu. L'intégration
+de techniques d'intelligence artificielle doit permettre d'exploiter les
+données disponibles afin de contribuer à la détection des anomalies et
+à l'analyse du fonctionnement du réseau. Le système envisagé doit
+également permettre de visualiser les différents composants du réseau,
+de simuler certaines situations et de fournir des informations utiles
+à l'identification des secteurs nécessitant une intervention.
+
+Dès lors, la question fondamentale qui guide cette étude est la
+suivante :
+
+\textbf{Comment la conception et le développement d'un jumeau numérique
+	intégrant des techniques d'intelligence artificielle peuvent-ils
+	contribuer à améliorer la surveillance, la détection des anomalies et
+	la maintenance du réseau de fourniture d'eau potable de la commune de
+	Kadutu ?}
+
+\section{HYPOTHÈSES DE RECHERCHE}
+\label{hypotheses-de-recherche}
+
+\subsection{Hypothèse générale}
+\label{hypothese-generale}
+
+La mise en œuvre d'un \textbf{jumeau numérique intégrant des techniques
+	d'intelligence artificielle} devrait améliorer la surveillance du
+réseau de fourniture d'eau potable de la commune de \textbf{Kadutu},
+faciliter la détection des anomalies et contribuer à une maintenance
+plus efficace grâce à l'exploitation des données du réseau.
+
+\subsection{Hypothèses spécifiques}
+\label{hypotheses-specifiques}
+
+Afin de répondre à la problématique de recherche, les hypothèses
+spécifiques suivantes sont formulées :
+
+\subsection{Première hypothèse spécifique}
+\label{premiere-hypothese-specifique}
+
+La modélisation numérique du réseau de fourniture d'eau potable de
+\textbf{Kadutu} permettrait d'améliorer sa représentation, sa
+visualisation et le suivi de ses différents composants.
+
+\subsection{Deuxième hypothèse spécifique}
+\label{deuxieme-hypothese-specifique}
+
+L'intégration des données relatives au fonctionnement du réseau
+permettrait d'améliorer la surveillance de celui-ci et de faciliter
+l'identification des variations anormales de ses paramètres.
+
+\subsection{Troisième hypothèse spécifique}
+\label{troisieme-hypothese-specifique}
+
+L'utilisation de techniques d'\textbf{intelligence artificielle}
+permettrait de détecter automatiquement certaines anomalies du réseau
+et de contribuer à l'anticipation des défaillances.
+
+\subsection{Quatrième hypothèse spécifique}
+\label{quatrieme-hypothese-specifique}
+
+L'intégration du jumeau numérique et de l'intelligence artificielle
+pourrait fournir aux gestionnaires des informations utiles à la
+planification et à la priorisation des interventions de maintenance.
+
+\section{OBJECTIFS DE L'ÉTUDE}
+\label{objectifs-de-letude}
+
+\subsection{Objectif général}
+\label{objectif-general}
+
+L'objectif général de cette étude est de \textbf{concevoir et développer
+	un jumeau numérique intégrant des techniques d'intelligence artificielle}
+pour améliorer la surveillance, la détection des anomalies et la
+maintenance du réseau de fourniture d'eau potable de la commune de
+Kadutu.
+
+\subsection{Objectifs spécifiques}
+\label{objectifs-specifiques}
+
+\noindent{Pour atteindre cet objectif général, la présente étude vise à :}
+
+\noindent\textbf{Analyser le réseau de fourniture d'eau potable de la
+	commune de Kadutu} afin d'identifier ses principales composantes, son
+fonctionnement et les difficultés liées à sa surveillance et à sa
+maintenance ;
+
+\noindent\textbf{Modéliser numériquement le réseau de fourniture d'eau
+	potable de la commune de Kadutu} en représentant ses principaux
+composants et leurs relations ;
+
+\noindent\textbf{Mettre en place un mécanisme de collecte et
+	d'intégration des données du réseau} afin de faciliter le suivi de son
+état et de ses paramètres de fonctionnement ;
+
+\noindent\textbf{Intégrer des techniques d'intelligence artificielle}
+pour analyser les données du réseau et détecter certaines anomalies
+susceptibles d'affecter son fonctionnement ;
+
+\noindent\textbf{Développer une plateforme de jumeau numérique}
+permettant de visualiser le réseau de la commune de Kadutu, de suivre
+son état, de simuler certaines situations et de fournir des
+informations utiles à la planification des interventions de
+maintenance.
+
+\section{INTÉRÊT DE
+L\textquotesingle ÉTUDE}\label{intuxe9ruxeat-de-luxe9tude}
+
+\subsection{Intérêt
+scientifique}\label{intuxe9ruxeat-scientifique}
+
+Sur le plan scientifique, cette étude contribue à enrichir les travaux
+portant sur l\textquotesingle application des technologies du
+\textbf{jumeau numérique}, de l\textquotesingle Internet des objets et
+de l\textquotesingle intelligence artificielle dans le domaine de la
+gestion des réseaux de distribution d\textquotesingle eau potable. Elle
+participe également à l\textquotesingle adaptation de ces technologies
+au contexte des pays en développement, et plus particulièrement à celui
+de la République Démocratique du Congo, où peu de recherches ont
+jusqu\textquotesingle à présent porté sur leur mise en œuvre dans les
+infrastructures hydrauliques urbaines.
+
+\subsection{Intérêt pratique}\label{intuxe9ruxeat-pratique}
+
+Sur le plan pratique, cette étude vise à proposer une solution
+susceptible d\textquotesingle améliorer la surveillance, la maintenance
+et la planification du réseau de fourniture d\textquotesingle eau
+potable de la commune de Kadutu. Les résultats attendus pourront servir
+d\textquotesingle outil d\textquotesingle aide à la décision pour la
+REGIDESO et les autorités compétentes, en facilitant la détection des
+anomalies, la réduction des pertes d\textquotesingle eau,
+l\textquotesingle optimisation des interventions techniques et
+l\textquotesingle amélioration de la qualité du service rendu aux
+usagers.
+
+\section{DÉLIMITATION DE L'ÉTUDE}
+\label{delimitation-de-letude}
+
+\subsection{Délimitation spatiale}
+\label{delimitation-spatiale}
+
+La présente étude est réalisée dans la \textbf{commune de Kadutu},
+située dans la ville de Bukavu, province du Sud-Kivu, en République
+Démocratique du Congo. Elle porte spécifiquement sur le réseau de
+fourniture d'eau potable de cette commune et vise à y expérimenter une
+approche basée sur le jumeau numérique.
+
+\subsection{Délimitation temporelle}
+\label{delimitation-temporelle}
+
+Cette recherche couvre la période allant de \textbf{2025 à 2026},
+correspondant aux différentes étapes de l'étude, notamment la collecte
+et l'analyse des données relatives à la structure, à la localisation et
+aux caractéristiques techniques du réseau de fourniture d'eau potable
+de la commune de Kadutu, ainsi qu'à la conception, au développement et à
+l'évaluation du jumeau numérique proposé.
+
+\subsection{Délimitation thématique}
+\label{delimitation-thematique}
+
+La présente étude s'inscrit dans le domaine de l'informatique appliquée,
+plus précisément dans les thématiques du \textbf{jumeau numérique} et
+de l'\textbf{intelligence artificielle} appliqués à la surveillance,
+à la détection des anomalies et à la maintenance du réseau de
+fourniture d'eau potable de la commune de Kadutu.
+
+\subsection{Délimitation méthodologique}
+\label{delimitation-methodologique}
+
+Sur le plan méthodologique, l'étude porte sur l'analyse du réseau
+existant, la collecte et la structuration des données disponibles, la
+modélisation numérique de ses principaux composants, puis la conception
+et le développement d'un prototype de jumeau numérique intégrant des
+techniques d'intelligence artificielle. L'évaluation porte sur les
+fonctionnalités de représentation du réseau, de surveillance, de
+simulation et de détection des anomalies. Les résultats obtenus sont
+évalués dans le cadre du prototype développé et ne prétendent pas
+constituer une généralisation à l'ensemble des réseaux de fourniture
+d'eau potable de la ville de Bukavu.
+```
+
+\section{SUBDIVISION DU MÉMOIRE}\label{subdivision-du-muxe9moire}
+
+Le présent mémoire est subdivisé en \textbf{quatre chapitres} :
+
+\begin{itemize}
+\item
+  \textbf{Chapitre I :} Revue de la littérature et fondements
+  théoriques.
+\item 
+  \textbf{Chapitre II :} Matériels et méthodes.
+\item
+  \textbf{Chapitre III :} Conception et développement du jumeau
+  numérique intégrant l\textquotesingle intelligence artificielle.
+\item
+  \textbf{Chapitre IV :} Présentation, analyse et discussion des
+  résultats.
+\end{itemize}
+
+\clearpage
+% ------- Fin de l'introduction
