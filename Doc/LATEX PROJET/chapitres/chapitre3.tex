@@ -427,4 +427,392 @@ l\textquotesingle application \cite{ref114}.
 
 Figure 5 Architecture de déploiement
 
-\clearpage
+\clearpage\section{Conception de la base de données}
+
+La base de données constitue un élément central du jumeau numérique,
+car elle assure le stockage structuré des informations relatives au
+réseau de fourniture d'eau potable, à ses équipements ainsi qu'aux
+données nécessaires à la surveillance du système. Sa conception doit
+permettre de conserver à la fois les données statiques décrivant la
+structure du réseau et les données dynamiques provenant des mesures et
+des événements de surveillance. Une organisation cohérente de ces
+informations facilite leur consultation, leur mise à jour et leur
+exploitation par les différents modules de l'application
+\cite{ref106}.
+
+Dans le cadre de cette étude, la solution utilise \textbf{SQLite} comme
+système de gestion de base de données. Ce choix est adapté au prototype
+développé en raison de son fonctionnement sans serveur, de son stockage
+sous forme de fichier et de sa faible complexité de déploiement. SQLite
+est également compatible avec une application locale ou un prototype
+fonctionnant sur une infrastructure de ressources limitées
+\cite{ref130}. La base est manipulée par le backend développé avec
+FastAPI, tandis que l'application React.js accède aux informations à
+travers les services API exposés par le serveur.
+
+\subsection{Structure des données}
+
+La structure de la base de données prend en compte les principales
+composantes du réseau étudié. Elle permet notamment de représenter les
+nœuds, les conduites, les points géographiques associés aux conduites,
+les réservoirs, les vannes et les bornes-fontaines. À ces données
+structurelles s'ajoutent les informations relatives aux mesures, aux
+alertes et à l'historique de fonctionnement.
+
+Les principales catégories de données sont donc :
+
+\begin{itemize}
+	\item les informations relatives aux nœuds du réseau ;
+	\item les informations relatives aux conduites ;
+	\item les points permettant de reconstruire la géométrie des conduites ;
+	\item les réservoirs ;
+	\item les vannes ;
+	\item les bornes-fontaines ;
+	\item les mesures et données de surveillance ;
+	\item les alertes et événements détectés.
+\end{itemize}
+
+Cette organisation permet de distinguer les informations décrivant la
+topologie du réseau des données dynamiques utilisées pour la
+surveillance et l'analyse.
+
+\subsection{Importation des données du réseau}
+
+Les données initiales du réseau sont préparées à partir du fichier
+Excel utilisé dans le cadre de l'étude. Ce fichier comprend notamment
+les feuilles \textbf{NOEUDS}, \textbf{CONDUITES},
+\textbf{POINTS\_CONDUITES}, \textbf{RÉSERVOIRS}, \textbf{VANNES} et
+\textbf{BORNES\_FONTAINES}. Un service d'importation développé en Python
+permet de lire ces différentes feuilles, de vérifier leur structure et
+de transférer les informations vers la base de données.
+
+Cette étape permet de transformer les données initialement disponibles
+sous forme tabulaire en informations directement exploitables par le
+backend et par le jumeau numérique. Elle facilite également la
+reconstitution de la représentation géographique du réseau à partir
+des coordonnées des nœuds et des points constituant les conduites.
+
+\subsection{Relations entre les données}
+
+Les différentes entités sont reliées afin de représenter la structure
+du réseau physique. Les conduites sont associées aux nœuds et aux
+points géographiques qui permettent de reconstruire leur représentation
+cartographique. Les réservoirs, les vannes et les bornes-fontaines sont
+également associés aux informations nécessaires à leur localisation et
+à leur identification.
+
+Cette organisation permet au système de reconstruire une représentation
+numérique cohérente du réseau et de transmettre les informations
+nécessaires à l'interface cartographique. Elle constitue également une
+base pour l'intégration ultérieure des mesures de pression, de débit et
+des événements détectés par le module d'intelligence artificielle
+\cite{ref132}.
+
+\subsection{Modèle conceptuele des données (MCD)}
+
+Le MCD structure la gestion intelligente d'un réseau d'eau. Il combine les équipements physiques comme RESERVOIR, VANNE, BORNE FONTAINE, NOEUD et CONDUITE avec un système de suivi IoT et d'IA. Le capteur enregistre des mesures sur le réservoir, détecte des anomalies et déclenche des alertes. L'analyse IA exploite les mesures et anomalies pour produire des prédictions. L'intervention permet de traiter les alertes et est assignée à un utilisateur.
+
+\includegraphics[width=6.3in,height=3.43571in]{figures/MCD.png}
+
+Figure 6 Modèle Conceptuele des données
+
+\subsection{Modèle logique des données (MLD)}
+
+Le MLD transforme le MCD en tables relationnelles. Les clés primaires des entités cibles deviennent des clés étrangères dans les tables dépendantes. Ainsi, idCapteur migre dans ALERTE, ANNOMALIE et MESURE. idReservoir migre dans MESURE. idMesure et idAnnomalie migrent dans PREDICATION IA. idUtilisateur migre dans INTERVENTION. L'association CONCERNER devient une table intermédiaire reliant idAlerte et idIntervention avec l'attribut resultat.
+
+\includegraphics[width=6.3in,height=3.43571in]{figures/MLD.png}
+
+Figure 7 Modèle logique des données
+
+\section{Développement du système}
+
+Après la conception de l'architecture et de la base de données, l'étape
+suivante consiste à implémenter les différents composants du système.
+Le développement est organisé en séparant le frontend, le backend, la
+gestion des données et les mécanismes d'analyse. Cette séparation
+facilite la maintenance du logiciel et permet de faire évoluer les
+différents modules indépendamment les uns des autres
+\cite{ref106,ref126}.
+
+\subsection{Développement du backend}
+
+Le backend est développé avec \textbf{Python et FastAPI}. Il constitue
+la partie centrale chargée de gérer les données, d'exécuter la logique
+métier et de fournir les services nécessaires au frontend. FastAPI est
+un framework Web Python destiné à la création d'API et fournit
+notamment une documentation interactive des services exposés
+\cite{ref129}.
+
+Les principales responsabilités du backend sont :
+
+\begin{itemize}
+	\item l'accès à la base de données ;
+	\item la récupération des informations du réseau ;
+	\item la fourniture des données cartographiques ;
+	\item la réception et le traitement des données de surveillance ;
+	\item la gestion des alertes ;
+	\item la communication avec le module d'intelligence artificielle ;
+	\item l'exposition des services API REST.
+\end{itemize}
+
+Le backend joue ainsi le rôle d'intermédiaire entre les données
+stockées, les traitements intelligents et l'interface de supervision.
+
+\subsection{Développement du frontend}
+
+Le frontend est développé avec \textbf{React.js}, en utilisant
+\textbf{Vite} comme outil de développement et \textbf{JSX} pour la
+description des interfaces. React permet de construire l'interface à
+partir de composants réutilisables, ce qui facilite l'organisation et
+la maintenance d'une application comportant plusieurs vues et modules
+\cite{ref128}.
+
+Dans le système développé, l'interface est organisée autour de
+composants permettant notamment d'afficher la carte du réseau, les
+équipements hydrauliques, les indicateurs de surveillance, les alertes
+et les résultats produits par le module d'intelligence artificielle.
+Cette organisation permet de construire une interface dynamique et
+adaptée à la supervision du réseau.
+
+\subsection{Communication entre React.js et FastAPI}
+
+La communication entre le frontend et le backend est assurée par des
+\textbf{API REST}. L'application React.js utilise \textbf{Axios} pour
+envoyer des requêtes HTTP au serveur FastAPI. Axios est un client HTTP
+basé sur les promesses qui peut être utilisé dans le navigateur et
+dans les environnements JavaScript côté serveur
+\cite{ref131}.
+
+Le principe général de communication est le suivant :
+
+\begin{center}
+	\textbf{React.js $\rightarrow$ Axios $\rightarrow$ API FastAPI
+		$\rightarrow$ Base de données / IA $\rightarrow$ réponse JSON
+		$\rightarrow$ React.js}
+\end{center}
+
+Cette organisation évite que l'application frontend accède directement
+à la base SQLite. Les opérations sur les données sont ainsi centralisées
+au niveau du backend, ce qui améliore la séparation des responsabilités
+et facilite l'évolution de l'application.
+
+\section{Intégration de l'intelligence artificielle}
+
+L'intégration de l'intelligence artificielle constitue l'un des éléments
+fondamentaux du système proposé. Elle vise à dépasser la simple
+visualisation des données en permettant au système d'analyser
+automatiquement les informations relatives au fonctionnement du réseau
+et d'identifier des comportements susceptibles de correspondre à des
+anomalies. Les travaux consacrés à l'intelligence artificielle dans les
+jumeaux numériques montrent que l'association des deux technologies
+peut renforcer les capacités d'analyse, de prédiction et d'aide à la
+décision des systèmes numériques \cite{ref132}.
+
+Dans le domaine de l'eau, les techniques d'apprentissage automatique
+et d'apprentissage profond sont notamment étudiées pour la prévision de
+la demande, la détection des fuites, la détection des anomalies et le
+suivi de l'état des infrastructures \cite{ref133}. Par ailleurs, les
+travaux sur les réseaux d'eau intelligents montrent que le jumeau
+numérique peut être associé aux données de surveillance afin d'améliorer
+le suivi des équipements, l'analyse des scénarios et la gestion des
+pertes \cite{ref134}.
+
+\subsection{Préparation des données}
+
+Avant leur utilisation par le modèle d'intelligence artificielle, les
+données doivent être préparées. Cette étape comprend notamment la
+vérification des valeurs, le traitement des éventuelles données
+manquantes, la sélection des variables pertinentes et la transformation
+des données dans un format compatible avec l'algorithme retenu.
+
+Les variables exploitées dans le cadre du prototype peuvent notamment
+comprendre :
+
+\begin{itemize}
+	\item la pression ;
+	\item le débit ;
+	\item le niveau d'eau ;
+	\item les variations temporelles ;
+	\item l'état des équipements ;
+	\item les événements précédemment observés.
+\end{itemize}
+
+La qualité des données constitue une condition importante pour obtenir
+des modèles d'apprentissage automatique exploitables. Cette
+préoccupation est particulièrement importante dans les réseaux d'eau,
+où la disponibilité et la fiabilité des données peuvent limiter la
+généralisation des modèles \cite{ref133}.
+
+\subsection{Détection des anomalies}
+
+Le système d'intelligence artificielle analyse les données afin
+d'identifier des comportements qui s'écartent du fonctionnement
+habituel du réseau. Une variation inhabituelle de pression ou une
+relation anormale entre le débit et la pression peut ainsi constituer
+un indicateur nécessitant une vérification technique.
+
+Le prototype utilise un modèle d'apprentissage automatique permettant
+de transformer les mesures disponibles en une prédiction ou en une
+classe d'état. Le modèle peut être entraîné à partir de données
+historiques ou de données simulées lorsque les données réelles sont
+insuffisantes. La bibliothèque \textbf{scikit-learn} fournit notamment
+des outils pour l'apprentissage supervisé, la classification et
+l'évaluation des modèles de machine learning \cite{ref120}.
+
+\subsection{Intégration du modèle dans FastAPI}
+
+Après son entraînement, le modèle d'intelligence artificielle est
+conservé sous une forme pouvant être chargée par le backend Python.
+Lorsqu'une nouvelle mesure est reçue, celle-ci est préparée selon le
+même processus que les données utilisées lors de l'entraînement, puis
+transmise au modèle afin d'obtenir une prédiction.
+
+Le fonctionnement général peut être résumé comme suit :
+
+\begin{center}
+	\textbf{Données $\rightarrow$ Prétraitement $\rightarrow$ Modèle IA
+		$\rightarrow$ Prédiction $\rightarrow$ Interprétation $\rightarrow$
+		Alerte $\rightarrow$ Interface}
+\end{center}
+
+Cette intégration permet de rapprocher l'analyse intelligente de la
+représentation numérique du réseau et constitue un mécanisme essentiel
+du jumeau numérique proposé. Dans les systèmes de jumeaux numériques
+appliqués à l'eau, l'exploitation de données en temps réel et de modèles
+analytiques permet notamment d'améliorer la surveillance et l'analyse
+des scénarios de fonctionnement \cite{ref134}.
+
+\section{Interface du système}
+
+L'interface utilisateur constitue le principal moyen d'interaction
+entre le gestionnaire et le jumeau numérique. Elle a été conçue avec
+\textbf{React.js} afin de présenter les informations relatives au réseau
+sous une forme graphique et directement exploitable. L'utilisation de
+composants React permet de structurer l'interface en éléments
+réutilisables et de faciliter la construction de différentes vues
+\cite{ref128}.
+
+\subsection{Tableau de bord}
+
+Le tableau de bord constitue la page principale de supervision. Il
+présente les principaux indicateurs relatifs à l'état du réseau,
+notamment le nombre d'équipements, les anomalies détectées, les alertes
+actives et certains paramètres hydrauliques.
+
+Cette organisation permet au gestionnaire d'obtenir rapidement une
+vision globale du réseau et de repérer les situations nécessitant une
+attention particulière.
+
+\subsection{Carte interactive du réseau}
+
+La carte interactive constitue l'un des éléments centraux du jumeau
+numérique. Elle permet de représenter géographiquement les différentes
+composantes du réseau, notamment les conduites, les nœuds, les
+réservoirs, les vannes et les bornes-fontaines.
+
+Les éléments cartographiques sont différenciés selon leur nature et
+peuvent être associés à un état de fonctionnement. Cette représentation
+facilite la localisation des infrastructures et des anomalies et
+permet au gestionnaire de mieux comprendre leur position dans le
+réseau.
+
+\subsection{Visualisation des anomalies et des alertes}
+
+Lorsqu'une anomalie est détectée, le système affiche une information
+d'alerte permettant d'indiquer sa nature et, lorsque les données
+disponibles le permettent, sa localisation. Les alertes constituent
+ainsi un mécanisme de communication entre le module d'analyse et
+l'utilisateur.
+
+Cette fonctionnalité est particulièrement importante pour la
+maintenance, puisque la détection précoce des comportements anormaux
+peut contribuer à réduire le délai entre l'apparition d'un problème et
+son identification par les équipes techniques \cite{ref133}.
+
+\subsection{Statistiques et indicateurs}
+
+L'interface permet également de présenter les données sous forme
+d'indicateurs et de représentations graphiques. Ces visualisations
+facilitent l'analyse des variations des paramètres du réseau et peuvent
+servir à comparer l'état de différents équipements ou différentes
+périodes.
+
+La combinaison de la carte, des indicateurs, des alertes et des
+données historiques permet ainsi de rapprocher la représentation
+géographique du réseau des informations opérationnelles utilisées pour
+sa surveillance.
+
+\section{Tests et validation}
+
+La phase de tests permet de vérifier que le système développé répond
+aux exigences définies lors des phases d'analyse et de conception. Elle
+consiste à contrôler les différentes fonctionnalités, puis à vérifier
+leur comportement lorsque les composants sont intégrés dans
+l'application complète. Les activités de test constituent une étape
+importante du développement logiciel, notamment pour vérifier la
+conformité fonctionnelle et la qualité du système \cite{ref106,ref107}.
+
+\subsection{Tests fonctionnels}
+
+Les tests fonctionnels portent sur les principales fonctionnalités de
+la plateforme. Le tableau suivant présente une synthèse des tests
+réalisés sur le prototype.
+
+\begin{table}[h]
+	\centering
+	\caption{Synthèse des tests fonctionnels du prototype}
+	\label{tab:tests-fonctionnels}
+	\begin{tabular}{|p{3.2cm}|p{6.2cm}|p{2.5cm}|}
+		\hline
+		\textbf{Fonctionnalité} & \textbf{Résultat attendu} & \textbf{Résultat} \\
+		\hline
+		Chargement du réseau & Affichage du réseau sur la carte & Conforme \\
+		\hline
+		Chargement des équipements & Affichage des équipements hydrauliques & Conforme \\
+		\hline
+		Consultation des données & Retour des données par l'API & Conforme \\
+		\hline
+		Communication frontend/backend & Échange correct des données & Conforme \\
+		\hline
+		Détection d'anomalies & Identification d'un comportement anormal & Conforme \\
+		\hline
+		Affichage des alertes & Information de l'utilisateur & Conforme \\
+		\hline
+	\end{tabular}
+\end{table}
+
+Ces tests permettent de vérifier que les principales fonctionnalités
+prévues dans la conception sont effectivement accessibles et
+opérationnelles dans le prototype.
+
+\subsection{Tests d'intégration}
+
+Les tests d'intégration ont permis de vérifier la communication entre
+les différents composants du système. Une attention particulière a été
+accordée aux échanges entre React.js et FastAPI, à l'accès à la base
+SQLite ainsi qu'à l'intégration du modèle d'intelligence artificielle.
+
+Les essais ont notamment consisté à vérifier que les données récupérées
+par l'API étaient correctement transmises à l'interface et que les
+résultats produits par le module d'intelligence artificielle pouvaient
+être exploités par le système de supervision.
+
+\subsection{Validation du prototype}
+
+La validation consiste à déterminer si le prototype répond aux
+objectifs fixés dans le cadre de l'étude. Les résultats obtenus
+permettent de vérifier que le système peut représenter numériquement le
+réseau, afficher ses principales composantes, exploiter les données de
+surveillance et intégrer un mécanisme d'analyse basé sur
+l'intelligence artificielle.
+
+Il convient toutefois de préciser que le prototype constitue une
+\textbf{preuve de concept}. Sa généralisation à l'ensemble du réseau
+réel de la commune de Kadutu nécessiterait notamment l'installation
+effective des capteurs, la disponibilité d'un volume suffisant de
+données historiques, la validation du modèle d'intelligence artificielle
+sur des données réelles et des essais en conditions opérationnelles.
+Cette limite est cohérente avec les constats de la littérature récente,
+qui souligne que de nombreuses applications de l'intelligence
+artificielle dans les réseaux d'eau restent encore au stade de
+prototype ou de pilote \cite{ref133,ref135}.

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.8.9)  16 AUG 2026 10:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.5) (preloaded format=pdflatex 2026.8.9)  17 AUG 2026 17:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1313,38 +1313,37 @@ File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 
 
 {C:/Users/musha/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Program Fi
-les/MiKTeX/fonts/enc/dvips/base/8r.enc}] [2])
+les/MiKTeX/fonts/enc/dvips/base/8r.enc}] [2] [3])
 \tf@toc=\write6
 \openout6 = `main.toc'.
 
- [3] [4] (introduction.tex
+ [4] (introduction.tex
 [1
 
 
-] [2] [3] [4] [5] [6]) (chapitres/chapitre1.tex [7
-
-]
+] [2] [3] [4] [5] [6]) (chapitres/chapitre1.tex
 Chapitre 1.
-[8
+[7
 
-] [9] [10] [11] [12] [13]) (chapitres/chapitre2.tex [14]
+
+] [8] [9] [10] [11] [12]) (chapitres/chapitre2.tex [13]
 Chapitre 2.
-[15
+[14
 
-] [16] [17] [18] [19] [20] [21] [22] [23] [24] [25] [26] [27]
+] [15] [16] [17] [18] [19] [20] [21] [22] [23] [24] [25] [26]
 Overfull \hbox (8.59619pt too wide) in paragraph at lines 871--881
 []\T1/ptm/m/n/12 (-20) Le lan-gage Py-thon est uti-lisé pour le dé-ve-lop-pe-me
 nt du ba-ckend ainsi que pour l\TS1/ptm/m/n/12 (-20) '\T1/ptm/m/n/12 (-20) impl
 émentation
  []
 
-[28] [29] [30] [31] [32] [33] [34]) (chapitres/chapitre3.tex
+[27] [28] [29] [30] [31] [32] [33]) (chapitres/chapitre3.tex
 Chapitre 3.
-[35
+[34
 
 
-] [36] [37] [38]
-<figures/image3.png, id=955, 456.2865pt x 247.689pt>
+] [35] [36] [37]
+<figures/image3.png, id=1066, 456.2865pt x 247.689pt>
 File: figures/image3.png Graphic file (type png)
 <use figures/image3.png>
 Package pdftex.def Info: figures/image3.png  used on input line 262.
@@ -1354,7 +1353,7 @@ Overfull \hbox (17.68437pt too wide) in paragraph at lines 262--263
 [][] 
  []
 
-<figures/image4.png, id=958, 456.2865pt x 247.689pt>
+<figures/image4.png, id=1069, 456.2865pt x 247.689pt>
 File: figures/image4.png Graphic file (type png)
 <use figures/image4.png>
 Package pdftex.def Info: figures/image4.png  used on input line 292.
@@ -1364,8 +1363,8 @@ Overfull \hbox (17.68437pt too wide) in paragraph at lines 292--293
 [][] 
  []
 
-[39 <./figures/image3.png>] [40 <./figures/image4.png>] [41]
-<figures/image5.png, id=985, 456.2865pt x 247.689pt>
+[38 <./figures/image3.png>] [39 <./figures/image4.png>] [40]
+<figures/image5.png, id=1096, 456.2865pt x 247.689pt>
 File: figures/image5.png Graphic file (type png)
 <use figures/image5.png>
 Package pdftex.def Info: figures/image5.png  used on input line 426.
@@ -1375,7 +1374,69 @@ Overfull \hbox (17.68437pt too wide) in paragraph at lines 426--427
 [][] 
  []
 
-[42 <./figures/image5.png>])
+[41 <./figures/image5.png>]
+Overfull \hbox (37.433pt too wide) in paragraph at lines 481--488
+\T1/ptm/m/n/12 (-20) l'étude. Ce fi-chier com-prend no-tam-ment les feuilles \T
+1/ptm/b/n/12 (-20) NOEUDS\T1/ptm/m/n/12 (-20) , \T1/ptm/b/n/12 (-20) CONDUITES\
+T1/ptm/m/n/12 (-20) , \T1/ptm/b/n/12 (-20) POINTS_CONDUITES\T1/ptm/m/n/12 (-20)
+ ,
+ []
+
+[42
+
+]
+<figures/MCD.png, id=1110, 4221.7725pt x 2393.94376pt>
+File: figures/MCD.png Graphic file (type png)
+<use figures/MCD.png>
+Package pdftex.def Info: figures/MCD.png  used on input line 515.
+(pdftex.def)             Requested size: 455.24892pt x 248.28485pt.
+
+Overfull \hbox (17.62962pt too wide) in paragraph at lines 515--516
+[][] 
+ []
+
+[43]
+<figures/MLD.png, id=1116, 4758.52782pt x 2567.09062pt>
+File: figures/MLD.png Graphic file (type png)
+<use figures/MLD.png>
+Package pdftex.def Info: figures/MLD.png  used on input line 523.
+(pdftex.def)             Requested size: 455.25964pt x 248.26324pt.
+
+Overfull \hbox (17.64035pt too wide) in paragraph at lines 523--524
+[][] 
+ []
+
+[44 <./figures/MCD.png> <./figures/MLD.png>] [45] [46] [47] [48]
+Underfull \hbox (badness 10000) in paragraph at lines 771--771
+[]|\T1/ptm/m/n/12 (+20) Chargement des
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 773--773
+[]|\T1/ptm/m/n/12 (+20) Consultation des
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 775--775
+[]|\T1/ptm/m/n/12 (+20) Communication
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 777--777
+[]|\T1/ptm/m/n/12 (+20) Détection d'ano-
+ []
+
+
+Underfull \hbox (badness 3679) in paragraph at lines 777--777
+[]|\T1/ptm/m/n/12 (+20) Identification d'un com-por-te-ment
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 779--779
+[]|\T1/ptm/m/n/12 (+20) Affichage des
+ []
+
+[49]) [50]
 LaTeX Font Info:    Trying to load font information for T1+pcr on input line 80
 .
 
@@ -1387,36 +1448,35 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-[43
+[51
 
 
-
-] [44] [45] [46] [47] [48] (main.aux)
+] [52] [53] [54] [55] [56] (main.aux)
  ***********
 LaTeX2e <2026-06-01>
 L3 programming layer <2026-06-18>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 64624F0D110AE0E24B4688E4AC77724D;23658.
+(rerunfilecheck)             Checksum: 483BD6A5EDF03F2E3BEC1A119C0BFAEB;28464.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 36755 strings out of 467510
- 692676 string characters out of 5408795
- 1552846 words of memory out of 5000000
- 64666 multiletter control sequences out of 15000+600000
- 685866 words of font info for 447 fonts, out of 8000000 for 9000
+ 36881 strings out of 467510
+ 695284 string characters out of 5408795
+ 1553312 words of memory out of 5000000
+ 64740 multiletter control sequences out of 15000+600000
+ 686472 words of font info for 455 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,12n,94p,1003b,2305s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Program Files/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files
-/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/u
-rw/times/utmr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-
-Output written on main.pdf (52 pages, 3049746 bytes).
+<C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Progra
+m Files/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files/MiKTeX/font
+s/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utm
+r8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (60 pages, 3667311 bytes).
 PDF statistics:
- 1111 PDF objects out of 1200 (max. 8388607)
- 250 named destinations out of 1000 (max. 500000)
- 43908 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 1321 PDF objects out of 1440 (max. 8388607)
+ 290 named destinations out of 1000 (max. 500000)
+ 44102 words of extra memory for PDF output out of 51595 (max. 10000000)
 

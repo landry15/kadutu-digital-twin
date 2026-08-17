@@ -1963,6 +1963,7 @@
       \strng{authornamehash}{350a86b0327152e3a50596538f38a5db}
       \strng{authorfullhash}{350a86b0327152e3a50596538f38a5db}
       \strng{authorfullhashraw}{350a86b0327152e3a50596538f38a5db}
+      \field{extraname}{1}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
@@ -1994,6 +1995,7 @@
       \strng{authornamehash}{f275f2a55ee4abdf8875dce6987e2f5f}
       \strng{authorfullhash}{f275f2a55ee4abdf8875dce6987e2f5f}
       \strng{authorfullhashraw}{f275f2a55ee4abdf8875dce6987e2f5f}
+      \field{extraname}{1}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
@@ -2056,6 +2058,7 @@
       \strng{authornamehash}{dff733f23ac0303d52e5e06590877a49}
       \strng{authorfullhash}{dff733f23ac0303d52e5e06590877a49}
       \strng{authorfullhashraw}{dff733f23ac0303d52e5e06590877a49}
+      \field{extraname}{1}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
@@ -2346,6 +2349,377 @@
       \field{edition}{4}
       \field{title}{Software Architecture in Practice}
       \field{year}{2021}
+    \endentry
+    \entry{ref130}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=dff733f23ac0303d52e5e06590877a49}{%
+           family={{SQLite Consortium}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{dff733f23ac0303d52e5e06590877a49}
+      \strng{fullhash}{dff733f23ac0303d52e5e06590877a49}
+      \strng{fullhashraw}{dff733f23ac0303d52e5e06590877a49}
+      \strng{bibnamehash}{dff733f23ac0303d52e5e06590877a49}
+      \strng{authorbibnamehash}{dff733f23ac0303d52e5e06590877a49}
+      \strng{authornamehash}{dff733f23ac0303d52e5e06590877a49}
+      \strng{authorfullhash}{dff733f23ac0303d52e5e06590877a49}
+      \strng{authorfullhashraw}{dff733f23ac0303d52e5e06590877a49}
+      \field{extraname}{2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Documentation officielle de SQLite.}
+      \field{title}{SQLite Documentation}
+      \field{urlday}{17}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://sqlite.org/docs.html
+      \endverb
+      \verb{url}
+      \verb https://sqlite.org/docs.html
+      \endverb
+    \endentry
+    \entry{ref132}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=cdceba6a22571dc2b00ccd0d626e6451}{%
+           family={Kreuzer},
+           familyi={K\bibinitperiod},
+           given={Tim},
+           giveni={T\bibinitperiod}}}%
+        {{hash=122f9bf2cbd90adac978090b643d4d7e}{%
+           family={Papapetrou},
+           familyi={P\bibinitperiod},
+           given={Panagiotis},
+           giveni={P\bibinitperiod}}}%
+        {{hash=e9c007ee58205a307055850744b3c11d}{%
+           family={Zdravkovic},
+           familyi={Z\bibinitperiod},
+           given={Jelena},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{7729a827b32f3a95e4b9d52a80d98608}
+      \strng{fullhash}{2e01c99938e93b9fc5c393dcf762c31e}
+      \strng{fullhashraw}{2e01c99938e93b9fc5c393dcf762c31e}
+      \strng{bibnamehash}{2e01c99938e93b9fc5c393dcf762c31e}
+      \strng{authorbibnamehash}{2e01c99938e93b9fc5c393dcf762c31e}
+      \strng{authornamehash}{7729a827b32f3a95e4b9d52a80d98608}
+      \strng{authorfullhash}{2e01c99938e93b9fc5c393dcf762c31e}
+      \strng{authorfullhashraw}{2e01c99938e93b9fc5c393dcf762c31e}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Data and Knowledge Engineering}
+      \field{title}{Artificial intelligence in digital twins---A systematic literature review}
+      \field{volume}{151}
+      \field{year}{2024}
+      \field{pages}{102304}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.datak.2024.102304
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1016/j.datak.2024.102304
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1016/j.datak.2024.102304
+      \endverb
+    \endentry
+    \entry{ref129}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=f275f2a55ee4abdf8875dce6987e2f5f}{%
+           family={{FastAPI}},
+           familyi={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{f275f2a55ee4abdf8875dce6987e2f5f}
+      \strng{fullhash}{f275f2a55ee4abdf8875dce6987e2f5f}
+      \strng{fullhashraw}{f275f2a55ee4abdf8875dce6987e2f5f}
+      \strng{bibnamehash}{f275f2a55ee4abdf8875dce6987e2f5f}
+      \strng{authorbibnamehash}{f275f2a55ee4abdf8875dce6987e2f5f}
+      \strng{authornamehash}{f275f2a55ee4abdf8875dce6987e2f5f}
+      \strng{authorfullhash}{f275f2a55ee4abdf8875dce6987e2f5f}
+      \strng{authorfullhashraw}{f275f2a55ee4abdf8875dce6987e2f5f}
+      \field{extraname}{2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Documentation officielle de FastAPI.}
+      \field{title}{FastAPI Documentation}
+      \field{urlday}{17}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://fastapi.tiangolo.com/
+      \endverb
+      \verb{url}
+      \verb https://fastapi.tiangolo.com/
+      \endverb
+    \endentry
+    \entry{ref128}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=350a86b0327152e3a50596538f38a5db}{%
+           family={{Meta Platforms, Inc.}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{350a86b0327152e3a50596538f38a5db}
+      \strng{fullhash}{350a86b0327152e3a50596538f38a5db}
+      \strng{fullhashraw}{350a86b0327152e3a50596538f38a5db}
+      \strng{bibnamehash}{350a86b0327152e3a50596538f38a5db}
+      \strng{authorbibnamehash}{350a86b0327152e3a50596538f38a5db}
+      \strng{authornamehash}{350a86b0327152e3a50596538f38a5db}
+      \strng{authorfullhash}{350a86b0327152e3a50596538f38a5db}
+      \strng{authorfullhashraw}{350a86b0327152e3a50596538f38a5db}
+      \field{extraname}{2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Documentation officielle de React ; consultée pour la conception des composants et des interfaces JSX.}
+      \field{title}{React Documentation}
+      \field{urlday}{17}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://react.dev/
+      \endverb
+      \verb{url}
+      \verb https://react.dev/
+      \endverb
+    \endentry
+    \entry{ref131}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=d3e28535c74ccee29182aeb3cf837e98}{%
+           family={{Axios}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{d3e28535c74ccee29182aeb3cf837e98}
+      \strng{fullhash}{d3e28535c74ccee29182aeb3cf837e98}
+      \strng{fullhashraw}{d3e28535c74ccee29182aeb3cf837e98}
+      \strng{bibnamehash}{d3e28535c74ccee29182aeb3cf837e98}
+      \strng{authorbibnamehash}{d3e28535c74ccee29182aeb3cf837e98}
+      \strng{authornamehash}{d3e28535c74ccee29182aeb3cf837e98}
+      \strng{authorfullhash}{d3e28535c74ccee29182aeb3cf837e98}
+      \strng{authorfullhashraw}{d3e28535c74ccee29182aeb3cf837e98}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Documentation officielle du client HTTP Axios.}
+      \field{title}{Axios Documentation}
+      \field{urlday}{17}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://axios-http.com/docs/intro
+      \endverb
+      \verb{url}
+      \verb https://axios-http.com/docs/intro
+      \endverb
+    \endentry
+    \entry{ref133}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=a16ba21d98657e8e5e72a2448b201227}{%
+           family={Fu},
+           familyi={F\bibinitperiod},
+           given={Guangtao},
+           giveni={G\bibinitperiod}}}%
+        {{hash=3d54c64f059cbe89bad99285148eb51c}{%
+           family={Jin},
+           familyi={J\bibinitperiod},
+           given={Yiwen},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=96648d202844e30202ccafeefd9b5c2f}{%
+           family={Sun},
+           familyi={S\bibinitperiod},
+           given={Siao},
+           giveni={S\bibinitperiod}}}%
+        {{hash=a87429c055fb90c24bc3ca65842e993a}{%
+           family={Yuan},
+           familyi={Y\bibinitperiod},
+           given={Zhiguo},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=465651ef65634a789ae1b955bb34a7af}{%
+           family={Butler},
+           familyi={B\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{85838f2f2af2faf837e02efb1fca93cb}
+      \strng{fullhash}{3dd8415940359c02d926b556b193c220}
+      \strng{fullhashraw}{3dd8415940359c02d926b556b193c220}
+      \strng{bibnamehash}{3dd8415940359c02d926b556b193c220}
+      \strng{authorbibnamehash}{3dd8415940359c02d926b556b193c220}
+      \strng{authornamehash}{85838f2f2af2faf837e02efb1fca93cb}
+      \strng{authorfullhash}{3dd8415940359c02d926b556b193c220}
+      \strng{authorfullhashraw}{3dd8415940359c02d926b556b193c220}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Water Research}
+      \field{title}{The role of deep learning in urban water management: A critical review}
+      \field{volume}{223}
+      \field{year}{2022}
+      \field{pages}{118973}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.watres.2022.118973
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1016/j.watres.2022.118973
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1016/j.watres.2022.118973
+      \endverb
+    \endentry
+    \entry{ref134}{article}{}{}
+      \name{author}{8}{}{%
+        {{hash=6b3e4297f10a0fc37c2520acd47c2ee0}{%
+           family={Ramos},
+           familyi={R\bibinitperiod},
+           given={Helena\bibnamedelima M.},
+           giveni={H\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=688115331ee65dd31e7e8c9aa0728cd5}{%
+           family={Kuriqi},
+           familyi={K\bibinitperiod},
+           given={Alban},
+           giveni={A\bibinitperiod}}}%
+        {{hash=3cf1b8a03dd2424d00b62894ddd924ca}{%
+           family={Besharat},
+           familyi={B\bibinitperiod},
+           given={Mohsen},
+           giveni={M\bibinitperiod}}}%
+        {{hash=eec1f20ab3a87f1e64e50451859af9db}{%
+           family={Creaco},
+           familyi={C\bibinitperiod},
+           given={Enrico},
+           giveni={E\bibinitperiod}}}%
+        {{hash=92bc31c0a941eceb18d90d809ae25b53}{%
+           family={Tasca},
+           familyi={T\bibinitperiod},
+           given={Elias},
+           giveni={E\bibinitperiod}}}%
+        {{hash=4ab5992f742339751f95cd03402bef8b}{%
+           family={Coronado-Hernandez},
+           familyi={C\bibinithyphendelim H\bibinitperiod},
+           given={Oscar\bibnamedelima E.},
+           giveni={O\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=49a7eeca9ffd94e94d8eba6a28719f76}{%
+           family={Pienika},
+           familyi={P\bibinitperiod},
+           given={Rodolfo},
+           giveni={R\bibinitperiod}}}%
+        {{hash=22bb710898661d27fd7e62cc4eedab8b}{%
+           family={Iglesias\bibnamedelima Rey},
+           familyi={I\bibinitperiod\bibinitdelim R\bibinitperiod},
+           given={Pedro\bibnamedelima Luis},
+           giveni={P\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+      }
+      \strng{namehash}{4cea541fd914cef3a0802cff4134dd38}
+      \strng{fullhash}{a9f11149fa1d499cd54904c610053318}
+      \strng{fullhashraw}{a9f11149fa1d499cd54904c610053318}
+      \strng{bibnamehash}{4cea541fd914cef3a0802cff4134dd38}
+      \strng{authorbibnamehash}{4cea541fd914cef3a0802cff4134dd38}
+      \strng{authornamehash}{4cea541fd914cef3a0802cff4134dd38}
+      \strng{authorfullhash}{a9f11149fa1d499cd54904c610053318}
+      \strng{authorfullhashraw}{a9f11149fa1d499cd54904c610053318}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Water}
+      \field{number}{6}
+      \field{title}{Smart Water Grids and Digital Twin for the Management of System Efficiency in Water Distribution Networks}
+      \field{volume}{15}
+      \field{year}{2023}
+      \field{pages}{1129}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/w15061129
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.3390/w15061129
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.3390/w15061129
+      \endverb
+    \endentry
+    \entry{ref135}{article}{}{}
+      \name{author}{7}{}{%
+        {{hash=049e1890051e95eb3109464faecfd2ad}{%
+           family={Pagano},
+           familyi={P\bibinitperiod},
+           given={Antonino},
+           giveni={A\bibinitperiod}}}%
+        {{hash=4ec1cc4509b55488e6c483de8beb1448}{%
+           family={Garlisi},
+           familyi={G\bibinitperiod},
+           given={Domenico},
+           giveni={D\bibinitperiod}}}%
+        {{hash=945dda2c5bc79fcb1df03b8219d2f90f}{%
+           family={Tinnirello},
+           familyi={T\bibinitperiod},
+           given={Ilenia},
+           giveni={I\bibinitperiod}}}%
+        {{hash=c672fbb7ece2058920d4866b7e2d3583}{%
+           family={Giuliano},
+           familyi={G\bibinitperiod},
+           given={Fabrizio},
+           giveni={F\bibinitperiod}}}%
+        {{hash=5251d2bfb756e361569fe55400d8204a}{%
+           family={Garbo},
+           familyi={G\bibinitperiod},
+           given={Giovanni},
+           giveni={G\bibinitperiod}}}%
+        {{hash=bce8e96b560cde0ec19a435966453e1d}{%
+           family={Falco},
+           familyi={F\bibinitperiod},
+           given={Mariana},
+           giveni={M\bibinitperiod}}}%
+        {{hash=e8a4afedb03160723ebb047dbf996340}{%
+           family={Cuomo},
+           familyi={C\bibinitperiod},
+           given={Francesca},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{d9c6023ab36fa94da035554b36123099}
+      \strng{fullhash}{f4a59bbb0b736e72f1087633ed4ccc24}
+      \strng{fullhashraw}{f4a59bbb0b736e72f1087633ed4ccc24}
+      \strng{bibnamehash}{d9c6023ab36fa94da035554b36123099}
+      \strng{authorbibnamehash}{d9c6023ab36fa94da035554b36123099}
+      \strng{authornamehash}{d9c6023ab36fa94da035554b36123099}
+      \strng{authorfullhash}{f4a59bbb0b736e72f1087633ed4ccc24}
+      \strng{authorfullhashraw}{f4a59bbb0b736e72f1087633ed4ccc24}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Ad Hoc Networks}
+      \field{title}{A survey on massive IoT for water distribution systems: Challenges, simulation tools, and guidelines for large-scale deployment}
+      \field{volume}{168}
+      \field{year}{2025}
+      \field{pages}{103714}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.adhoc.2024.103714
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1016/j.adhoc.2024.103714
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1016/j.adhoc.2024.103714
+      \endverb
     \endentry
   \enddatalist
 \endrefsection
