@@ -79,6 +79,36 @@
         {
             "type": "Feature",
             "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    28.859,
+                    -2.53
+                ]
+            },
+            "properties": {
+                "node_id": "N006",
+                "nom": "Borne BF2",
+                "type": "Réservoir"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    28.846,
+                    -2.483
+                ]
+            },
+            "properties": {
+                "node_id": "N007",
+                "nom": "Borne BF2",
+                "type": "Jonction"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
@@ -86,16 +116,16 @@
                         -2.485
                     ],
                     [
-                        28.8548,
-                        -2.485
+                        28.858,
+                        -2.5
                     ],
                     [
                         28.858,
                         -2.5
                     ],
                     [
-                        28.855,
-                        -2.52
+                        28.8548,
+                        -2.485
                     ]
                 ]
             },
@@ -115,16 +145,16 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        28.845,
-                        -2.5375
-                    ],
-                    [
-                        28.835,
-                        -2.485
-                    ],
-                    [
                         28.8548,
                         -2.485
+                    ],
+                    [
+                        28.858,
+                        -2.5
+                    ],
+                    [
+                        28.858,
+                        -2.5
                     ]
                 ]
             },
@@ -134,6 +164,93 @@
                 "noeud_depart": "N002",
                 "noeud_arrivee": "N003",
                 "diametre_mm": 150.0,
+                "materiau": "PVC",
+                "statut": "Active"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        28.858,
+                        -2.5
+                    ],
+                    [
+                        28.858,
+                        -2.5
+                    ],
+                    [
+                        28.855,
+                        -2.52
+                    ]
+                ]
+            },
+            "properties": {
+                "pipe_id": "P003",
+                "nom": "Conduite secondaire 1",
+                "noeud_depart": "N003",
+                "noeud_arrivee": "N004",
+                "diametre_mm": 100.0,
+                "materiau": "PEHD",
+                "statut": "Active"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        28.855,
+                        -2.52
+                    ],
+                    [
+                        28.858,
+                        -2.5
+                    ],
+                    [
+                        28.845,
+                        -2.5375
+                    ]
+                ]
+            },
+            "properties": {
+                "pipe_id": "P004",
+                "nom": "Conduite secondaire 2",
+                "noeud_depart": "N004",
+                "noeud_arrivee": "N005",
+                "diametre_mm": 63.0,
+                "materiau": "PVC",
+                "statut": "Active"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        28.845,
+                        -2.5375
+                    ],
+                    [
+                        28.858,
+                        -2.5
+                    ],
+                    [
+                        28.859,
+                        -2.53
+                    ]
+                ]
+            },
+            "properties": {
+                "pipe_id": "P005",
+                "nom": "Conduite secondaire 3",
+                "noeud_depart": "N005",
+                "noeud_arrivee": "N006",
+                "diametre_mm": 250.0,
                 "materiau": "PVC",
                 "statut": "Active"
             }

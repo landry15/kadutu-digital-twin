@@ -1,121 +1,41 @@
-\chapter{CONCEPTION ET DÉVELOPPEMENT D\textquotesingle UN JUMEAU NUMÉRIQUE INTÉGRANT L\textquotesingle INTELLIGENCE ARTIFICIELLE}
+\chapter{PROPOSITION D\textquotesingle UN JUMEAU NUMÉRIQUE INTÉGRANT L\textquotesingle INTELLIGENCE ARTIFICIELLE}
 
 \section{Introduction}
 
-Après avoir présenté, dans le premier chapitre, les fondements
-théoriques relatifs aux réseaux de distribution d\textquotesingle eau
-potable, aux technologies de l\textquotesingle Internet des objets
-(IoT), aux jumeaux numériques et à l\textquotesingle intelligence
-artificielle, puis décrit, dans le deuxième chapitre, la démarche
-méthodologique adoptée pour cette recherche, le présent chapitre est
-consacré à la conception et au développement de la solution proposée. Il
-constitue le cœur technique de cette étude, dans la mesure où il décrit
-les différentes étapes ayant conduit à la réalisation
-d\textquotesingle un jumeau numérique intégrant
-l\textquotesingle intelligence artificielle destiné à améliorer la surveillance et la maintenance, la surveillance et la maintenance du réseau de fourniture
-d\textquotesingle eau potable de la commune de Kadutu. Cette phase
-traduit les résultats de l\textquotesingle analyse en une solution
-informatique concrète répondant aux besoins identifiés auprès des
-gestionnaires du réseau du réseau d\textquotesingle eau potable \cite{ref106}.
+Après avoir présenté, dans les chapitres précédents, les fondements
+théoriques liés aux réseaux de distribution d'eau potable, aux
+technologies numériques et à l'intelligence artificielle, ainsi que la
+méthodologie adoptée pour cette recherche, ce troisième chapitre est
+consacré à la conception et au développement du jumeau numérique
+intégrant l'intelligence artificielle pour le réseau de fourniture
+d'eau potable de la commune de Kadutu.
 
-La conception d\textquotesingle un système informatique de cette nature
-nécessite une approche structurée permettant d\textquotesingle assurer
-la cohérence entre les besoins des utilisateurs, les choix
-technologiques et les fonctionnalités développées. Dans cette étude, le
-système est conçu selon une architecture modulaire facilitant
-l\textquotesingle intégration de plusieurs technologies complémentaires,
-notamment React.js (Vite avec JSX) pour l\textquotesingle interface
-utilisateur, FastAPI pour les services backend, SQLite pour la gestion
-des données et des algorithmes d\textquotesingle intelligence
-artificielle développés en Python pour l\textquotesingle analyse
-prédictive et la détection des anomalies. Cette architecture garantit
-une meilleure évolutivité du système tout en facilitant son déploiement
-et sa maintenance \cite{ref114}.
-
-Le jumeau numérique développé vise à reproduire virtuellement le
-fonctionnement du réseau physique de distribution d\textquotesingle eau
-potable grâce à l\textquotesingle exploitation des données collectées
-par des capteurs intelligents. Ces données, relatives notamment à la
-pression, au débit, au niveau d\textquotesingle eau, à la qualité de
-l\textquotesingle eau et à l\textquotesingle état des équipements, sont
-analysées en temps réel afin d\textquotesingle identifier les anomalies,
-de prévoir certaines défaillances et de fournir aux gestionnaires du réseau des
-informations facilitant la prise de décision.
-L\textquotesingle intégration de l\textquotesingle intelligence
-artificielle permet d\textquotesingle améliorer les capacités
-d\textquotesingle analyse du système en exploitant les données
-historiques et les données instantanées pour générer des prédictions
-fiables concernant le comportement du réseau \cite{ref17}.
-
-Dans ce chapitre, seront successivement présentés
-l\textquotesingle analyse détaillée du système proposé, la conception de
-l\textquotesingle architecture générale, la modélisation UML, la
+Il présente les principales étapes de conception et de réalisation du
+système proposé, notamment l'analyse du système, la modélisation, la
 conception de la base de données, le développement des différents
-modules logiciels, l\textquotesingle intégration de
-l\textquotesingle intelligence artificielle, la réalisation des
-interfaces utilisateur ainsi que les tests effectués pour valider le
-fonctionnement du prototype. L\textquotesingle objectif est de démontrer
-que la solution développée répond aux exigences fonctionnelles et
-techniques identifiées tout au long de cette recherche et
-qu\textquotesingle elle constitue une contribution pertinente à la
-modernisation de la gestion des réseaux de distribution
-d\textquotesingle eau potable \cite{ref106}, \cite{ref17}.
+modules, l'intégration de l'intelligence artificielle et la réalisation
+de l'interface utilisateur. Enfin, les tests effectués sur le prototype
+sont présentés afin d'évaluer son fonctionnement et sa conformité aux
+objectifs fixés \cite{ref106}.
 
-\section{Analyse détaillée du système proposé}\label{analyse-duxe9tailluxe9e-du-systuxe8me-proposuxe9}
-
-L\textquotesingle analyse détaillée du système proposé consiste à
-définir de manière précise les caractéristiques fonctionnelles et
-techniques du jumeau numérique développé dans le cadre de cette étude.
-Cette étape permet de traduire les besoins identifiés lors de
-l\textquotesingle analyse du système existant en une solution
-informatique cohérente répondant aux exigences des gestionnaires du réseau du
-réseau de fourniture d\textquotesingle eau potable de la commune de
-Kadutu. Elle constitue un pont entre les résultats de
-l\textquotesingle analyse des besoins présentés au chapitre précédent et
-les activités de conception et de développement du système. Une analyse
-détaillée facilite la conception d\textquotesingle une architecture
-logicielle adaptée et réduit les risques d\textquotesingle incohérence
-lors de l\textquotesingle implémentation de la solution \cite{ref106}.
+\section{Analyse détaillée du système proposé}
+\label{analyse-duxe9tailluxe9e-du-systuxe8me-proposuxe9}
 
 Le système proposé est conçu comme une plateforme intelligente reposant
-sur le concept du \textbf{jumeau numérique}. Il s\textquotesingle agit
-d\textquotesingle une représentation virtuelle dynamique du réseau de
-fourniture d\textquotesingle eau potable, alimentée en continu par les
-données issues des capteurs installés sur les différentes
-infrastructures hydrauliques. Cette représentation numérique reproduit
-le comportement du réseau physique en temps réel et permet aux
-gestionnaires du réseau de suivre l\textquotesingle état des équipements,
-d\textquotesingle observer les paramètres hydrauliques, de détecter les
-anomalies et de simuler différents scénarios de fonctionnement.
-L\textquotesingle intégration de l\textquotesingle intelligence
-artificielle permet en outre d\textquotesingle exploiter les données
-collectées afin de produire des analyses prédictives et
-d\textquotesingle améliorer la prise de décision \cite{ref17}.
+sur le concept du \textbf{jumeau numérique}. Il consiste à représenter
+numériquement le réseau de fourniture d'eau potable de la commune de
+Kadutu afin de faciliter sa surveillance, l'analyse de son fonctionnement
+et la détection des anomalies. Le système intègre également des
+mécanismes d'intelligence artificielle destinés à exploiter les données
+disponibles et à assister les gestionnaires dans la prise de décision
+\cite{ref17}.
 
-Le développement du système répond principalement aux insuffisances
-constatées dans les méthodes traditionnelles de gestion du réseau de
-distribution d\textquotesingle eau potable, caractérisées par une
-surveillance essentiellement manuelle, une maintenance souvent
-corrective et une faible capacité d\textquotesingle anticipation des
-défaillances. En proposant une plateforme centralisée intégrant la
-visualisation en temps réel, l\textquotesingle analyse intelligente des
-données et la gestion des alertes, le système contribue à améliorer la
-disponibilité des informations, la rapidité des interventions techniques
-et l\textquotesingle efficacité globale de
-l\textquotesingle exploitation du réseau \cite{ref20}.
-
-\subsection{Objectif du système proposé}\label{objectif-du-systuxe8me-proposuxe9}
-
-Le système développé a pour objectif de fournir aux gestionnaires du réseau de la
-REGIDESO un outil numérique capable d\textquotesingle assurer la
-surveillance en temps réel du réseau de fourniture d\textquotesingle eau
-potable de la commune de Kadutu, de détecter automatiquement les
-anomalies, de prédire certaines défaillances grâce à
-l\textquotesingle intelligence artificielle et
-d\textquotesingle assister les équipes techniques dans les opérations de
-maintenance et de planification du réseau. Il vise également à améliorer
-la qualité du service offert aux abonnés en réduisant les pertes
-d\textquotesingle eau et les interruptions de distribution \cite{ref17}.
+La solution proposée répond ainsi aux principales insuffisances relevées
+dans le système existant, notamment les difficultés de surveillance
+continue, de détection rapide des anomalies et d'anticipation des
+défaillances. Son architecture, sa base de données, ses différents
+modules ainsi que l'intégration de l'intelligence artificielle seront
+présentés dans les sections suivantes \cite{ref20}.
 
 \subsection{Description générale du système}\label{description-guxe9nuxe9rale-du-systuxe8me}
 
@@ -206,226 +126,108 @@ de distribution d\textquotesingle eau potable de la commune de Kadutu
 \cite{ref17}\textbf{,} \cite{ref114}.
 
 \section{Conception du système}
+\label{conception-du-systuxe8me}
 
-La conception du système constitue une étape fondamentale dans le
-développement d\textquotesingle une application informatique, car elle
-permet de définir l\textquotesingle organisation des différents
-composants logiciels et matériels avant leur implémentation. Elle assure
-une meilleure compréhension du fonctionnement global de la solution
-proposée et facilite son développement, sa maintenance ainsi que son
-évolution future. Dans cette étude, la conception est réalisée selon une
-architecture modulaire intégrant les technologies du jumeau numérique,
-de l\textquotesingle Internet des objets (IoT) et de
-l\textquotesingle intelligence artificielle afin de répondre
-efficacement aux besoins de surveillance, de maintenance et
-d\textquotesingle optimisation du réseau de fourniture
-d\textquotesingle eau potable de la commune de Kadutu \cite{ref106}.
+La conception du système consiste à définir l'organisation fonctionnelle
+et physique de la solution proposée avant sa mise en œuvre. Dans le cadre
+de cette étude, elle porte spécifiquement sur le réseau de fourniture
+d'eau potable retenu dans la commune de Kadutu. Elle vise à déterminer,
+d'une part, les différentes fonctions nécessaires au fonctionnement du
+jumeau numérique et, d'autre part, l'organisation des équipements et des
+points de collecte des données dans le périmètre étudié.
 
-L\textquotesingle architecture proposée est organisée autour de
-plusieurs couches indépendantes mais interconnectées, permettant une
-circulation fluide des données depuis les capteurs installés sur le
-réseau physique jusqu\textquotesingle à l\textquotesingle interface de
-visualisation utilisée par les gestionnaires du réseau. Cette organisation
-favorise la séparation des responsabilités entre les différents modules,
-améliore les performances du système et facilite
-l\textquotesingle intégration de nouvelles fonctionnalités sans modifier
-l\textquotesingle ensemble de l\textquotesingle application \cite{ref114}.
+La conception est ainsi présentée selon deux niveaux complémentaires :
+l'\textbf{architecture logique}, qui décrit les fonctions, les flux de
+données et les interactions entre les différents modules du système, et
+l'\textbf{architecture physique}, qui décrit l'implantation proposée des
+points de mesure et des équipements de communication autour des
+infrastructures hydrauliques étudiées. Cette distinction permet de
+séparer le fonctionnement logique du système de son organisation
+matérielle sur le terrain \cite{ref106}.
 
-\subsection{Architecture générale du système}
+\subsection{Architecture logique du système}
+\label{architecture-logique-du-systeme}
 
-L\textquotesingle architecture générale du système repose sur cinq
-grandes composantes fonctionnelles qui collaborent afin
-d\textquotesingle assurer le fonctionnement du jumeau numérique.
+L'architecture logique représente les différentes fonctions du système
+et les relations établies entre elles. Elle est organisée autour de
+plusieurs niveaux permettant d'assurer la collecte, le traitement,
+l'analyse, la représentation et l'exploitation des données du réseau.
 
-Les principales composantes sont :
+Le premier niveau correspond au \textbf{système hydraulique étudié}.
+Il regroupe les principaux éléments du réseau, notamment les nœuds, les
+conduites, les réservoirs, les vannes et les points de distribution.
+Ces éléments constituent le système physique que le jumeau numérique
+doit représenter.
 
-\begin{itemize}
-	\item
-	le réseau physique de distribution d\textquotesingle eau potable ;
-	\item
-	les sources de données et capteurs (réels ou simulés) ;
-	\item
-	le serveur applicatif ;
-	\item
-	le moteur d\textquotesingle intelligence artificielle ;
-	\item
-	l\textquotesingle application Web représentant le jumeau numérique.
-\end{itemize}
+Le deuxième niveau correspond à la \textbf{collecte des données}. Les
+mesures utilisées par le prototype concernent notamment la pression, le
+débit, le niveau des réservoirs et, lorsque les données sont
+disponibles, certains paramètres relatifs à la qualité de l'eau. Dans
+le prototype, ces données peuvent provenir de capteurs réels ou de
+valeurs simulées afin de reproduire le fonctionnement attendu du réseau.
 
-Les informations circulent de manière continue entre ces différents
-composants afin de permettre une représentation fidèle de
-l\textquotesingle état du réseau en temps réel. Les données collectées
-par les capteurs sont analysées puis affichées sous forme de tableaux de
-bord, de cartes interactives et d\textquotesingle indicateurs de
-performance destinés aux gestionnaires du réseau \cite{ref17}.
+Le troisième niveau correspond au \textbf{traitement des données}. Les
+données reçues sont transmises au serveur applicatif développé avec
+FastAPI, qui assure leur validation, leur traitement et leur
+enregistrement dans la base de données.
 
-\includegraphics[width=6.3in,height=3.43571in]{figures/image3.png}
+Le quatrième niveau correspond à \textbf{l'analyse intelligente}.
+Les données disponibles sont exploitées par le module d'intelligence
+artificielle afin d'identifier les comportements anormaux du réseau et
+de produire des résultats permettant d'appuyer la surveillance et la
+maintenance.
 
-Figure 3 Architecture générale du système proposé
+Le dernier niveau correspond à la \textbf{visualisation et à l'aide à la
+	décision}. Les informations produites par le système sont présentées
+dans l'application Web développée avec React.js. Les gestionnaires
+peuvent ainsi consulter la représentation numérique du réseau, les
+mesures disponibles, les anomalies détectées et les différents
+indicateurs nécessaires à la surveillance du système \cite{ref17}.
 
-\subsection{Architecture physique}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.95\textwidth]{figures/architecture_logique_kadutu.png}
+	\caption{Architecture logique du jumeau numérique proposé}
+	\label{fig:architecture-logique-kadutu}
+\end{figure}
 
-L\textquotesingle architecture physique représente les équipements
-matériels intervenant dans le fonctionnement du système.
+\subsection{Architecture physique du système}
+\label{architecture-physique-du-systeme}
 
-Elle comprend principalement :
+L'architecture physique décrit l'organisation proposée des équipements
+dans le périmètre étudié de la commune de Kadutu. Elle met en relation
+les infrastructures hydrauliques existantes, les points d'acquisition
+des données, les moyens de communication et le poste de supervision.
 
-\begin{itemize}
-	\item
-	les infrastructures hydrauliques (réservoirs, conduites, stations de
-	pompage) ;
-	\item
-	les capteurs intelligents installés sur le réseau ;
-	\item
-	le serveur hébergeant l\textquotesingle API et la base de données ;
-	\item
-	les ordinateurs utilisés par les gestionnaires du réseau ;
-	\item
-	la connexion réseau permettant la communication entre les différents
-	composants.
-\end{itemize}
+Dans le cadre de cette étude, les points de collecte sont proposés sur
+des emplacements présentant un intérêt pour la surveillance du réseau,
+notamment à proximité des réservoirs, sur certaines conduites
+principales, à des points caractéristiques du réseau et dans les zones
+où les variations de pression ou de débit doivent être observées. Le
+choix définitif des emplacements dépendrait d'une étude de terrain et
+des données techniques disponibles auprès de l'exploitant.
 
-Cette architecture permet d'intégrer les données disponibles au
-prototype et de les transmettre vers la plateforme numérique pour leur
-exploitation \cite{ref20}.
+Les mesures provenant des points instrumentés sont ensuite transmises
+vers le système de traitement. Lorsque les capteurs réels ne sont pas
+disponibles, le prototype utilise des données simulées permettant de
+reproduire le comportement attendu du réseau. Cette distinction est
+importante afin de ne pas confondre, dans le cadre de cette étude, une
+implantation proposée avec une infrastructure effectivement déployée
+sur le terrain.
 
-\includegraphics[width=6.3in,height=3.43571in]{figures/image4.png}
+La plateforme de supervision est accessible depuis un poste
+informatique connecté au serveur applicatif. Le serveur héberge les
+services FastAPI, la base de données et le modèle d'intelligence
+artificielle. L'application React.js permet ensuite aux utilisateurs
+d'accéder à la représentation numérique du réseau et aux résultats de
+l'analyse.
 
-Figure 4 Architecture physique
-
-\subsection{Architecture logicielle}\label{architecture-logicielle}
-
-L\textquotesingle application est développée selon une architecture en
-couches (\emph{Layered Architecture}), permettant de séparer clairement
-les différentes responsabilités.
-
-Elle est composée de :
-
-\subsubsection{Couche de présentation}\label{couche-de-pruxe9sentation}
-
-Développée avec \textbf{React.js (Vite - JSX)}, cette couche permet aux
-utilisateurs de visualiser les informations du réseau, les cartes
-interactives, les statistiques et les alertes.
-
-\subsubsection{Couche métier}\label{couche-muxe9tier}
-
-Cette couche est développée avec \textbf{FastAPI}. Elle contient toute
-la logique métier, notamment :
-
-\begin{itemize}
-	\item
-	gestion des utilisateurs ;
-	\item
-	gestion des équipements ;
-	\item
-	traitement des données ;
-	\item
-	communication avec l\textquotesingle IA ;
-	\item
-	génération des alertes.
-\end{itemize}
-
-\subsubsection{Couche intelligence
-	artificielle}\label{couche-intelligence-artificielle}
-
-Elle réalise :
-
-\begin{itemize}
-	\item
-	la détection des anomalies ;
-	\item
-	la prédiction des pannes ;
-	\item
-	l\textquotesingle analyse des tendances ;
-	\item
-	les recommandations de maintenance.
-\end{itemize}
-
-\subsubsection{Couche données}\label{couche-donnuxe9es}
-
-Cette couche correspond à \textbf{SQLite}, qui stocke :
-
-\begin{itemize}
-	\item
-	utilisateurs ;
-	\item
-	capteurs ;
-	\item
-	équipements ;
-	\item
-	mesures ;
-	\item
-	alertes ;
-	\item
-	historiques.
-\end{itemize}
-
-L\textquotesingle utilisation d\textquotesingle une architecture
-multicouche améliore la modularité, facilite la maintenance et permet de
-faire évoluer indépendamment chaque composant du système \cite{ref106}.
-
-\subsection{Architecture fonctionnelle}\label{architecture-fonctionnelle}
-
-L\textquotesingle architecture fonctionnelle décrit les principaux
-traitements réalisés par le système.
-
-Le fonctionnement général est le suivant :
-
-\begin{enumerate}
-	\def\labelenumi{\arabic{enumi}.}
-	\item
-	Les sources de données fournissent les mesures ou valeurs simulées des
-	paramètres du réseau.
-	\item
-	Les données sont transmises au serveur FastAPI à travers les API REST.
-	\item
-	Les informations sont enregistrées dans la base de données.
-	\item
-	Le moteur d\textquotesingle intelligence artificielle analyse les
-	mesures.
-	\item
-	Les anomalies sont détectées.
-	\item
-	Les alertes sont générées.
-	\item
-	Les résultats sont affichés sur le jumeau numérique.
-	\item
-	Les gestionnaires du réseau prennent les décisions nécessaires.
-\end{enumerate}
-
-Cette organisation facilite la surveillance du réseau et l'analyse des
-anomalies \cite{ref17}.
-
-\subsection{Architecture de déploiement}\label{architecture-de-duxe9ploiement}
-
-Le système est conçu selon une architecture client-serveur.
-
-Le serveur héberge :
-
-\begin{itemize}
-	\item
-	FastAPI ;
-	\item
-	SQLite ;
-	\item
-	le modèle d\textquotesingle intelligence artificielle ;
-	\item
-	les API REST.
-\end{itemize}
-
-Les clients utilisent simplement un navigateur Web.
-
-L\textquotesingle interface React.js communique avec FastAPI via
-\textbf{Axios}, qui envoie des requêtes HTTP pour récupérer ou
-transmettre les données.
-
-Cette architecture permet un déploiement aussi bien sur un serveur local
-que sur un serveur cloud sans modification majeure de
-l\textquotesingle application \cite{ref114}.
-
-\includegraphics[width=6.3in,height=3.43571in]{figures/image5.png}
-
-Figure 5 Architecture de déploiement
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.95\textwidth]{figures/architecture_physique_kadutu.png}
+	\caption{Architecture physique proposée dans le périmètre étudié de Kadutu}
+	\label{fig:architecture-physique-kadutu}
+\end{figure}
 
 \clearpage\section{Conception de la base de données}
 
@@ -508,19 +310,124 @@ base pour l'intégration ultérieure des mesures de pression, de débit et
 des événements détectés par le module d'intelligence artificielle
 \cite{ref132}.
 
-\subsection{Modèle conceptuele des données (MCD)}
+\subsection{Modèle conceptuel de données (MCD)}
+\label{modele-conceptuel-de-donnees}
 
-Le MCD structure la gestion intelligente d'un réseau d'eau. Il combine les équipements physiques comme RESERVOIR, VANNE, BORNE FONTAINE, NOEUD et CONDUITE avec un système de suivi IoT et d'IA. Le capteur enregistre des mesures sur le réservoir, détecte des anomalies et déclenche des alertes. L'analyse IA exploite les mesures et anomalies pour produire des prédictions. L'intervention permet de traiter les alertes et est assignée à un utilisateur.
+Le modèle conceptuel de données (MCD) permet de représenter de manière
+structurée les principales entités intervenant dans la gestion du réseau
+de fourniture d'eau potable ainsi que les associations et les cardinalités
+qui existent entre elles. Dans le cadre de cette étude, le modèle prend
+en compte les infrastructures hydrauliques, les données issues des
+capteurs, les anomalies détectées, les alertes, les interventions et les
+résultats produits par le module d'intelligence artificielle. Cette
+modélisation constitue une représentation conceptuelle des informations
+qui seront ensuite exploitées par le système informatique \cite{ref105}.
 
-\includegraphics[width=6.3in,height=3.43571in]{figures/MCD.png}
+Le modèle comprend notamment les entités \textbf{NOEUD},
+\textbf{CONDUITE}, \textbf{VANNE}, \textbf{RESERVOIR},
+\textbf{BORNE\_FONTAINE}, \textbf{CAPTEUR}, \textbf{MESURE},
+\textbf{ANOMALIE}, \textbf{ALERTE}, \textbf{INTERVENTION},
+\textbf{UTILISATEUR} et \textbf{PREDICTION\_IA}. Ces entités permettent
+de représenter respectivement les éléments physiques du réseau, les
+données de surveillance, les anomalies observées, les actions de
+maintenance et les résultats issus de l'analyse par l'intelligence
+artificielle.
 
-Figure 6 Modèle Conceptuele des données
+\subsubsection{Relations entre les entités}
+
+La relation \textbf{DÉCLENCHER} relie l'entité \textbf{CAPTEUR} à
+l'entité \textbf{ALERTE}. Un capteur peut être à l'origine d'aucune ou de
+plusieurs alertes, selon les événements observés sur le réseau. En
+revanche, chaque alerte est associée à un capteur à l'origine de son
+déclenchement. Les cardinalités représentées sont donc de
+\textbf{(0,n)} du côté de CAPTEUR et de \textbf{(1,1)} du côté de ALERTE.
+
+La relation \textbf{DÉTECTER} relie \textbf{CAPTEUR} et
+\textbf{ANOMALIE}. Un même capteur peut contribuer à la détection de
+plusieurs anomalies au cours du temps, tandis qu'une anomalie enregistrée
+dans le modèle est associée à un capteur ayant fourni l'information à
+l'origine de sa détection. Le modèle représente ainsi une cardinalité
+\textbf{(0,n)} du côté de CAPTEUR et \textbf{(1,1)} du côté de ANOMALIE.
+
+La relation \textbf{ANALYSER} met en relation les anomalies et les
+mesures exploitées par le système d'analyse. Elle traduit le fait que les
+données de mesure constituent la base de l'analyse des comportements du
+réseau. Une analyse peut exploiter plusieurs mesures afin d'identifier
+un comportement anormal et de produire une information exploitable par
+le système.
+
+La relation \textbf{PRODUIRE} traduit la production des mesures utilisées
+par le système de surveillance. Les mesures constituent les données
+élémentaires à partir desquelles l'état du réseau est observé et analysé.
+Elles sont ainsi conservées avec leur date et leur valeur afin de
+constituer un historique exploitable par le module d'intelligence
+artificielle.
+
+La relation \textbf{ASSOCIER} relie les mesures aux équipements
+hydrauliques représentés dans le modèle, notamment les réservoirs. Elle
+permet de rattacher une donnée de mesure à l'élément du réseau auquel
+elle se rapporte. Selon le schéma proposé, une mesure est associée à un
+réservoir, tandis qu'un réservoir peut être associé à plusieurs mesures.
+Cette association permet de conserver la dimension spatiale et
+fonctionnelle des données collectées.
+
+La relation \textbf{CONCERNER} relie les alertes aux interventions de
+maintenance. Une alerte peut ne nécessiter aucune intervention ou
+conduire à une ou plusieurs actions de traitement selon sa nature et sa
+gravité. L'intervention constitue ainsi la réponse opérationnelle à un
+problème détecté sur le réseau.
+
+La relation \textbf{TRAITER} relie les interventions aux utilisateurs
+chargés de leur réalisation ou de leur suivi. Elle permet d'identifier
+l'agent ou le gestionnaire responsable du traitement d'une intervention
+et d'assurer une meilleure traçabilité des opérations de maintenance.
+
+La relation \textbf{PRODUIRE/ANALYSER} aboutissant à
+\textbf{PREDICTION\_IA} traduit l'exploitation des données du réseau par
+le module d'intelligence artificielle. Les mesures et les anomalies
+constituent les informations utilisées par le système d'analyse, lequel
+produit ensuite des prédictions comprenant notamment une classe, un
+score et éventuellement une recommandation. Ces prédictions permettent
+d'assister le gestionnaire dans l'identification des situations
+présentant un risque potentiel.
+
+Enfin, les entités \textbf{NOEUD}, \textbf{CONDUITE}, \textbf{VANNE},
+\textbf{RESERVOIR} et \textbf{BORNE\_FONTAINE} représentent les principaux
+éléments physiques du réseau de fourniture d'eau potable. Elles
+permettent de conserver leurs caractéristiques techniques et leurs
+coordonnées géographiques, indispensables à leur représentation dans le
+jumeau numérique.
+
+\subsubsection{Logique générale du modèle}
+
+Le fonctionnement global du modèle peut être résumé comme suit : les
+\textbf{capteurs} produisent des données de mesure sur les différents
+éléments du réseau ; ces données sont analysées afin d'identifier des
+\textbf{anomalies}. Lorsqu'une situation anormale est identifiée, une
+\textbf{alerte} peut être déclenchée. L'alerte peut ensuite conduire à
+une \textbf{intervention} réalisée ou suivie par un \textbf{utilisateur}.
+Parallèlement, les données historiques et les anomalies peuvent être
+exploitées par le module d'\textbf{intelligence artificielle} afin de
+produire des \textbf{prédictions} et des recommandations destinées à
+améliorer la surveillance et la maintenance du réseau.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\textwidth]{figures/MCD.png}
+	\caption{Modèle conceptuel de données du système proposé}
+	\label{fig:mcd-systeme}
+\end{figure}
 
 \subsection{Modèle logique des données (MLD)}
 
 Le MLD transforme le MCD en tables relationnelles. Les clés primaires des entités cibles deviennent des clés étrangères dans les tables dépendantes. Ainsi, idCapteur migre dans ALERTE, ANNOMALIE et MESURE. idReservoir migre dans MESURE. idMesure et idAnnomalie migrent dans PREDICATION IA. idUtilisateur migre dans INTERVENTION. L'association CONCERNER devient une table intermédiaire reliant idAlerte et idIntervention avec l'attribut resultat.
 
-\includegraphics[width=6.3in,height=3.43571in]{figures/MLD.png}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\textwidth]{figures/MLD.png}
+	\caption{Modèle logique des données du système proposé}
+	\label{fig:mld-systeme}
+\end{figure}
 
 Figure 7 Modèle logique des données
 
@@ -533,46 +440,6 @@ gestion des données et les mécanismes d'analyse. Cette séparation
 facilite la maintenance du logiciel et permet de faire évoluer les
 différents modules indépendamment les uns des autres
 \cite{ref106,ref126}.
-
-\subsection{Développement du backend}
-
-Le backend est développé avec \textbf{Python et FastAPI}. Il constitue
-la partie centrale chargée de gérer les données, d'exécuter la logique
-métier et de fournir les services nécessaires au frontend. FastAPI est
-un framework Web Python destiné à la création d'API et fournit
-notamment une documentation interactive des services exposés
-\cite{ref129}.
-
-Les principales responsabilités du backend sont :
-
-\begin{itemize}
-	\item l'accès à la base de données ;
-	\item la récupération des informations du réseau ;
-	\item la fourniture des données cartographiques ;
-	\item la réception et le traitement des données de surveillance ;
-	\item la gestion des alertes ;
-	\item la communication avec le module d'intelligence artificielle ;
-	\item l'exposition des services API REST.
-\end{itemize}
-
-Le backend joue ainsi le rôle d'intermédiaire entre les données
-stockées, les traitements intelligents et l'interface de supervision.
-
-\subsection{Développement du frontend}
-
-Le frontend est développé avec \textbf{React.js}, en utilisant
-\textbf{Vite} comme outil de développement et \textbf{JSX} pour la
-description des interfaces. React permet de construire l'interface à
-partir de composants réutilisables, ce qui facilite l'organisation et
-la maintenance d'une application comportant plusieurs vues et modules
-\cite{ref128}.
-
-Dans le système développé, l'interface est organisée autour de
-composants permettant notamment d'afficher la carte du réseau, les
-équipements hydrauliques, les indicateurs de surveillance, les alertes
-et les résultats produits par le module d'intelligence artificielle.
-Cette organisation permet de construire une interface dynamique et
-adaptée à la supervision du réseau.
 
 \subsection{Communication entre React.js et FastAPI}
 
@@ -703,6 +570,13 @@ Cette organisation permet au gestionnaire d'obtenir rapidement une
 vision globale du réseau et de repérer les situations nécessitant une
 attention particulière.
 
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.95\textwidth]{figures/dashboard.png}
+	\caption{Tableau de bord}
+	\label{fig:tableau_de_bord}
+\end{figure}
+
 \subsection{Carte interactive du réseau}
 
 La carte interactive constitue l'un des éléments centraux du jumeau
@@ -715,6 +589,13 @@ peuvent être associés à un état de fonctionnement. Cette représentation
 facilite la localisation des infrastructures et des anomalies et
 permet au gestionnaire de mieux comprendre leur position dans le
 réseau.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.95\textwidth]{figures/carte.png}
+	\caption{Carte interactive du réseau}
+	\label{fig:carte_interactive}
+\end{figure}
 
 \subsection{Visualisation des anomalies et des alertes}
 
@@ -729,18 +610,19 @@ maintenance, puisque la détection précoce des comportements anormaux
 peut contribuer à réduire le délai entre l'apparition d'un problème et
 son identification par les équipes techniques \cite{ref133}.
 
-\subsection{Statistiques et indicateurs}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.95\textwidth]{figures/anomalies.png}
+	\caption{Visualisation des anomalies}
+	\label{fig:anomalies}
+\end{figure}
 
-L'interface permet également de présenter les données sous forme
-d'indicateurs et de représentations graphiques. Ces visualisations
-facilitent l'analyse des variations des paramètres du réseau et peuvent
-servir à comparer l'état de différents équipements ou différentes
-périodes.
-
-La combinaison de la carte, des indicateurs, des alertes et des
-données historiques permet ainsi de rapprocher la représentation
-géographique du réseau des informations opérationnelles utilisées pour
-sa surveillance.
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.95\textwidth]{figures/alertes.png}
+	\caption{Visualisation des alertes}
+	\label{fig:alertes}
+\end{figure}
 
 \section{Tests et validation}
 
@@ -758,28 +640,12 @@ Les tests fonctionnels portent sur les principales fonctionnalités de
 la plateforme. Le tableau suivant présente une synthèse des tests
 réalisés sur le prototype.
 
-\begin{table}[h]
+\begin{figure}[H]
 	\centering
-	\caption{Synthèse des tests fonctionnels du prototype}
-	\label{tab:tests-fonctionnels}
-	\begin{tabular}{|p{3.2cm}|p{6.2cm}|p{2.5cm}|}
-		\hline
-		\textbf{Fonctionnalité} & \textbf{Résultat attendu} & \textbf{Résultat} \\
-		\hline
-		Chargement du réseau & Affichage du réseau sur la carte & Conforme \\
-		\hline
-		Chargement des équipements & Affichage des équipements hydrauliques & Conforme \\
-		\hline
-		Consultation des données & Retour des données par l'API & Conforme \\
-		\hline
-		Communication frontend/backend & Échange correct des données & Conforme \\
-		\hline
-		Détection d'anomalies & Identification d'un comportement anormal & Conforme \\
-		\hline
-		Affichage des alertes & Information de l'utilisateur & Conforme \\
-		\hline
-	\end{tabular}
-\end{table}
+	\includegraphics[width=0.95\textwidth]{figures/tableau_texte_fonctionnels.png}
+	\caption{Tests fonctionnels}
+	\label{fig:tests_fonctionnels}
+\end{figure}
 
 Ces tests permettent de vérifier que les principales fonctionnalités
 prévues dans la conception sont effectivement accessibles et
@@ -796,6 +662,13 @@ Les essais ont notamment consisté à vérifier que les données récupérées
 par l'API étaient correctement transmises à l'interface et que les
 résultats produits par le module d'intelligence artificielle pouvaient
 être exploités par le système de supervision.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.95\textwidth]{figures/tests_integrations.png}
+	\caption{Tests d'integrations}
+	\label{fig:tests_integrations}
+\end{figure}
 
 \subsection{Validation du prototype}
 
@@ -816,3 +689,10 @@ Cette limite est cohérente avec les constats de la littérature récente,
 qui souligne que de nombreuses applications de l'intelligence
 artificielle dans les réseaux d'eau restent encore au stade de
 prototype ou de pilote \cite{ref133,ref135}.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.95\textwidth]{figures/prototype.png}
+	\caption{Validation du prototype}
+	\label{fig:validation_prototype}
+\end{figure}

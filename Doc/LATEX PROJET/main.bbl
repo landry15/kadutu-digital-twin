@@ -114,1094 +114,6 @@
       \field{title}{Digital Twin and Big Data Towards Smart Manufacturing and Industry 4.0: 360 Degree Comparison}
       \field{year}{2018}
     \endentry
-    \entry{ref4}{book}{}{}
-      \name{author}{1}{}{%
-        {{hash=531217507bec092b6ec36c0f78f46736}{%
-           family={{World Health Organization}},
-           familyi={W\bibinitperiod}}}%
-      }
-      \list{location}{1}{%
-        {Geneva, Switzerland}%
-      }
-      \list{publisher}{1}{%
-        {World Health Organization}%
-      }
-      \strng{namehash}{531217507bec092b6ec36c0f78f46736}
-      \strng{fullhash}{531217507bec092b6ec36c0f78f46736}
-      \strng{fullhashraw}{531217507bec092b6ec36c0f78f46736}
-      \strng{bibnamehash}{531217507bec092b6ec36c0f78f46736}
-      \strng{authorbibnamehash}{531217507bec092b6ec36c0f78f46736}
-      \strng{authornamehash}{531217507bec092b6ec36c0f78f46736}
-      \strng{authorfullhash}{531217507bec092b6ec36c0f78f46736}
-      \strng{authorfullhashraw}{531217507bec092b6ec36c0f78f46736}
-      \field{extraname}{1}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{edition}{4}
-      \field{isbn}{978-92-4-004506-4}
-      \field{title}{Guidelines for Drinking-Water Quality: Fourth Edition Incorporating the First and Second Addenda}
-      \field{urlday}{9}
-      \field{urlmonth}{8}
-      \field{urlyear}{2026}
-      \field{year}{2022}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://www.who.int/publications/i/item/9789240045064
-      \endverb
-      \verb{url}
-      \verb https://www.who.int/publications/i/item/9789240045064
-      \endverb
-    \endentry
-    \entry{ref23}{misc}{}{}
-      \name{author}{1}{}{%
-        {{hash=531217507bec092b6ec36c0f78f46736}{%
-           family={{World Health Organization}},
-           familyi={W\bibinitperiod}}}%
-      }
-      \list{institution}{1}{%
-        {World Health Organization}%
-      }
-      \strng{namehash}{531217507bec092b6ec36c0f78f46736}
-      \strng{fullhash}{531217507bec092b6ec36c0f78f46736}
-      \strng{fullhashraw}{531217507bec092b6ec36c0f78f46736}
-      \strng{bibnamehash}{531217507bec092b6ec36c0f78f46736}
-      \strng{authorbibnamehash}{531217507bec092b6ec36c0f78f46736}
-      \strng{authornamehash}{531217507bec092b6ec36c0f78f46736}
-      \strng{authorfullhash}{531217507bec092b6ec36c0f78f46736}
-      \strng{authorfullhashraw}{531217507bec092b6ec36c0f78f46736}
-      \field{extraname}{2}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{note}{Titre exact et année à vérifier.}
-      \field{title}{Drinking-Water Facts and Guidelines}
-      \field{year}{2020}
-    \endentry
-    \entry{ref3}{misc}{}{}
-      \name{author}{1}{}{%
-        {{hash=77bb987b259fc7f993d2eccadf4c047c}{%
-           family={{United Nations General Assembly}},
-           familyi={U\bibinitperiod}}}%
-      }
-      \list{institution}{1}{%
-        {United Nations}%
-      }
-      \list{location}{1}{%
-        {New York, NY, USA}%
-      }
-      \strng{namehash}{77bb987b259fc7f993d2eccadf4c047c}
-      \strng{fullhash}{77bb987b259fc7f993d2eccadf4c047c}
-      \strng{fullhashraw}{77bb987b259fc7f993d2eccadf4c047c}
-      \strng{bibnamehash}{77bb987b259fc7f993d2eccadf4c047c}
-      \strng{authorbibnamehash}{77bb987b259fc7f993d2eccadf4c047c}
-      \strng{authornamehash}{77bb987b259fc7f993d2eccadf4c047c}
-      \strng{authorfullhash}{77bb987b259fc7f993d2eccadf4c047c}
-      \strng{authorfullhashraw}{77bb987b259fc7f993d2eccadf4c047c}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{note}{Résolution adoptée le 28 juillet 2010.}
-      \field{title}{Resolution 64/292: The Human Right to Water and Sanitation}
-      \field{year}{2010}
-    \endentry
-    \entry{ref11}{misc}{}{}
-      \name{author}{1}{}{%
-        {{hash=e542bd9bb57dfb3adef166058faf5ca1}{%
-           family={{International Water Association}},
-           familyi={I\bibinitperiod}}}%
-      }
-      \list{institution}{1}{%
-        {International Water Association}%
-      }
-      \strng{namehash}{e542bd9bb57dfb3adef166058faf5ca1}
-      \strng{fullhash}{e542bd9bb57dfb3adef166058faf5ca1}
-      \strng{fullhashraw}{e542bd9bb57dfb3adef166058faf5ca1}
-      \strng{bibnamehash}{e542bd9bb57dfb3adef166058faf5ca1}
-      \strng{authorbibnamehash}{e542bd9bb57dfb3adef166058faf5ca1}
-      \strng{authornamehash}{e542bd9bb57dfb3adef166058faf5ca1}
-      \strng{authorfullhash}{e542bd9bb57dfb3adef166058faf5ca1}
-      \strng{authorfullhashraw}{e542bd9bb57dfb3adef166058faf5ca1}
-      \field{extraname}{1}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{note}{Édition exacte à vérifier.}
-      \field{title}{Performance Indicators for Water Supply Services}
-      \field{year}{2002}
-    \endentry
-    \entry{ref20}{article}{}{}
-      \true{moreauthor}
-      \true{morelabelname}
-      \name{author}{1}{}{%
-        {{hash=a6108e77cae870ecbe0698f5c962fea2}{%
-           family={Abu-Mahfouz},
-           familyi={A\bibinithyphendelim M\bibinitperiod},
-           given={M.\bibnamedelimi S.},
-           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
-      }
-      \strng{namehash}{d3bf9a31967ffa17c58b87da2d2f8ff6}
-      \strng{fullhash}{d3bf9a31967ffa17c58b87da2d2f8ff6}
-      \strng{fullhashraw}{d3bf9a31967ffa17c58b87da2d2f8ff6}
-      \strng{bibnamehash}{d3bf9a31967ffa17c58b87da2d2f8ff6}
-      \strng{authorbibnamehash}{d3bf9a31967ffa17c58b87da2d2f8ff6}
-      \strng{authornamehash}{d3bf9a31967ffa17c58b87da2d2f8ff6}
-      \strng{authorfullhash}{d3bf9a31967ffa17c58b87da2d2f8ff6}
-      \strng{authorfullhashraw}{d3bf9a31967ffa17c58b87da2d2f8ff6}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{IEEE Access}
-      \field{note}{Entrée consolidée des anciennes références [20], [29], [36] et [94]; auteurs/pages/DOI doivent être vérifiés contre la publication originale.}
-      \field{title}{Smart Water Grid: A Review of Intelligent Water Distribution Systems}
-      \field{volume}{8}
-      \field{year}{2020}
-    \endentry
-    \entry{ref33}{book}{}{}
-      \name{author}{1}{}{%
-        {{hash=8795722480ae1731d01d59a19b4fbf26}{%
-           family={{American Water Works Association}},
-           familyi={A\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {McGraw-Hill}%
-      }
-      \strng{namehash}{8795722480ae1731d01d59a19b4fbf26}
-      \strng{fullhash}{8795722480ae1731d01d59a19b4fbf26}
-      \strng{fullhashraw}{8795722480ae1731d01d59a19b4fbf26}
-      \strng{bibnamehash}{8795722480ae1731d01d59a19b4fbf26}
-      \strng{authorbibnamehash}{8795722480ae1731d01d59a19b4fbf26}
-      \strng{authornamehash}{8795722480ae1731d01d59a19b4fbf26}
-      \strng{authorfullhash}{8795722480ae1731d01d59a19b4fbf26}
-      \strng{authorfullhashraw}{8795722480ae1731d01d59a19b4fbf26}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{edition}{6}
-      \field{note}{Édition et auteurs/éditeurs à vérifier.}
-      \field{title}{Water Treatment Plant Design}
-      \field{year}{2012}
-    \endentry
-    \entry{ref34}{manual}{}{}
-      \name{author}{1}{}{%
-        {{hash=d4dce2246a2f4c9f6956975ff35532ee}{%
-           family={Rossman},
-           familyi={R\bibinitperiod},
-           given={Lewis\bibnamedelima A.},
-           giveni={L\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-      }
-      \list{location}{1}{%
-        {Cincinnati, OH, USA}%
-      }
-      \list{organization}{1}{%
-        {U.S. Environmental Protection Agency, National Risk Management Research Laboratory}%
-      }
-      \strng{namehash}{d4dce2246a2f4c9f6956975ff35532ee}
-      \strng{fullhash}{d4dce2246a2f4c9f6956975ff35532ee}
-      \strng{fullhashraw}{d4dce2246a2f4c9f6956975ff35532ee}
-      \strng{bibnamehash}{d4dce2246a2f4c9f6956975ff35532ee}
-      \strng{authorbibnamehash}{d4dce2246a2f4c9f6956975ff35532ee}
-      \strng{authornamehash}{d4dce2246a2f4c9f6956975ff35532ee}
-      \strng{authorfullhash}{d4dce2246a2f4c9f6956975ff35532ee}
-      \strng{authorfullhashraw}{d4dce2246a2f4c9f6956975ff35532ee}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{number}{EPA/600/R-00/057}
-      \field{title}{EPANET 2 Users Manual}
-      \field{urlday}{9}
-      \field{urlmonth}{8}
-      \field{urlyear}{2026}
-      \field{year}{2000}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=P1007WWU.TXT
-      \endverb
-      \verb{url}
-      \verb https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=P1007WWU.TXT
-      \endverb
-    \endentry
-    \entry{ref35}{misc}{}{}
-      \name{author}{1}{}{%
-        {{hash=e542bd9bb57dfb3adef166058faf5ca1}{%
-           family={{International Water Association}},
-           familyi={I\bibinitperiod}}}%
-      }
-      \list{institution}{1}{%
-        {International Water Association}%
-      }
-      \strng{namehash}{e542bd9bb57dfb3adef166058faf5ca1}
-      \strng{fullhash}{e542bd9bb57dfb3adef166058faf5ca1}
-      \strng{fullhashraw}{e542bd9bb57dfb3adef166058faf5ca1}
-      \strng{bibnamehash}{e542bd9bb57dfb3adef166058faf5ca1}
-      \strng{authorbibnamehash}{e542bd9bb57dfb3adef166058faf5ca1}
-      \strng{authornamehash}{e542bd9bb57dfb3adef166058faf5ca1}
-      \strng{authorfullhash}{e542bd9bb57dfb3adef166058faf5ca1}
-      \strng{authorfullhashraw}{e542bd9bb57dfb3adef166058faf5ca1}
-      \field{extraname}{2}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{note}{Titre exact à vérifier.}
-      \field{title}{Water Distribution System Performance and Management}
-      \field{year}{2020}
-    \endentry
-    \entry{ref38}{book}{}{}
-      \name{author}{1}{}{%
-        {{hash=7f93aea2a445b261656178a8dc2a1e3e}{%
-           family={Mays},
-           familyi={M\bibinitperiod},
-           given={Larry\bibnamedelima W.},
-           giveni={L\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {McGraw-Hill}%
-      }
-      \strng{namehash}{7f93aea2a445b261656178a8dc2a1e3e}
-      \strng{fullhash}{7f93aea2a445b261656178a8dc2a1e3e}
-      \strng{fullhashraw}{7f93aea2a445b261656178a8dc2a1e3e}
-      \strng{bibnamehash}{7f93aea2a445b261656178a8dc2a1e3e}
-      \strng{authorbibnamehash}{7f93aea2a445b261656178a8dc2a1e3e}
-      \strng{authornamehash}{7f93aea2a445b261656178a8dc2a1e3e}
-      \strng{authorfullhash}{7f93aea2a445b261656178a8dc2a1e3e}
-      \strng{authorfullhashraw}{7f93aea2a445b261656178a8dc2a1e3e}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{note}{Détails d'édition à vérifier.}
-      \field{title}{Water Distribution Systems Handbook}
-      \field{year}{2000}
-    \endentry
-    \entry{ref39}{article}{}{}
-      \name{author}{1}{}{%
-        {{hash=fdf9df44293f8139a1f809621163bbb4}{%
-           family={Smith},
-           familyi={S\bibinitperiod},
-           given={A.\bibnamedelimi B.},
-           giveni={A\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
-      }
-      \strng{namehash}{fdf9df44293f8139a1f809621163bbb4}
-      \strng{fullhash}{fdf9df44293f8139a1f809621163bbb4}
-      \strng{fullhashraw}{fdf9df44293f8139a1f809621163bbb4}
-      \strng{bibnamehash}{fdf9df44293f8139a1f809621163bbb4}
-      \strng{authorbibnamehash}{fdf9df44293f8139a1f809621163bbb4}
-      \strng{authornamehash}{fdf9df44293f8139a1f809621163bbb4}
-      \strng{authorfullhash}{fdf9df44293f8139a1f809621163bbb4}
-      \strng{authorfullhashraw}{fdf9df44293f8139a1f809621163bbb4}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Water}
-      \field{note}{Métadonnées tronquées dans le document source.}
-      \field{number}{8}
-      \field{title}{Design for an Urban Water Supply Planning ...}
-      \field{volume}{1}
-      \field{year}{2020}
-    \endentry
-    \entry{ref40}{article}{}{}
-      \name{author}{1}{}{%
-        {{hash=7d4718aa7c55e89247b3cf010ce35a8f}{%
-           family={Kumar},
-           familyi={K\bibinitperiod},
-           given={A.\bibnamedelimi V.\bibnamedelimi P.},
-           giveni={A\bibinitperiod\bibinitdelim V\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
-      }
-      \strng{namehash}{7d4718aa7c55e89247b3cf010ce35a8f}
-      \strng{fullhash}{7d4718aa7c55e89247b3cf010ce35a8f}
-      \strng{fullhashraw}{7d4718aa7c55e89247b3cf010ce35a8f}
-      \strng{bibnamehash}{7d4718aa7c55e89247b3cf010ce35a8f}
-      \strng{authorbibnamehash}{7d4718aa7c55e89247b3cf010ce35a8f}
-      \strng{authornamehash}{7d4718aa7c55e89247b3cf010ce35a8f}
-      \strng{authorfullhash}{7d4718aa7c55e89247b3cf010ce35a8f}
-      \strng{authorfullhashraw}{7d4718aa7c55e89247b3cf010ce35a8f}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{note}{Métadonnées complètes à vérifier.}
-      \field{title}{GIS-based ... water distribution network planning and management}
-      \field{year}{2020}
-    \endentry
-    \entry{ref45}{article}{}{}
-      \name{author}{4}{}{%
-        {{hash=808a163a938810383788da074f5de1a8}{%
-           family={Puust},
-           familyi={P\bibinitperiod},
-           given={R.},
-           giveni={R\bibinitperiod}}}%
-        {{hash=078152ae23497d98bee80cc525d2c239}{%
-           family={Kapelan},
-           familyi={K\bibinitperiod},
-           given={Z.},
-           giveni={Z\bibinitperiod}}}%
-        {{hash=b1b3f098b1612c9c9c3020754f713295}{%
-           family={Savic},
-           familyi={S\bibinitperiod},
-           given={D.\bibnamedelimi A.},
-           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-        {{hash=25621a226f5b41d085b4d45d25ec283e}{%
-           family={Koppel},
-           familyi={K\bibinitperiod},
-           given={T.},
-           giveni={T\bibinitperiod}}}%
-      }
-      \strng{namehash}{7080ee771229f05ee1bca19eb0f0ef12}
-      \strng{fullhash}{158b2a7e1cf604003bb43ba45d799ef6}
-      \strng{fullhashraw}{158b2a7e1cf604003bb43ba45d799ef6}
-      \strng{bibnamehash}{158b2a7e1cf604003bb43ba45d799ef6}
-      \strng{authorbibnamehash}{158b2a7e1cf604003bb43ba45d799ef6}
-      \strng{authornamehash}{7080ee771229f05ee1bca19eb0f0ef12}
-      \strng{authorfullhash}{158b2a7e1cf604003bb43ba45d799ef6}
-      \strng{authorfullhashraw}{158b2a7e1cf604003bb43ba45d799ef6}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Urban Water Journal}
-      \field{note}{Entrée consolidée de [45] et [48]; pages/DOI à vérifier.}
-      \field{number}{1}
-      \field{title}{A review of methods for leakage management in water distribution networks}
-      \field{volume}{7}
-      \field{year}{2010}
-    \endentry
-    \entry{ref47}{article}{}{}
-      \name{author}{1}{}{%
-        {{hash=078152ae23497d98bee80cc525d2c239}{%
-           family={Kapelan},
-           familyi={K\bibinitperiod},
-           given={Z.},
-           giveni={Z\bibinitperiod}}}%
-      }
-      \strng{namehash}{078152ae23497d98bee80cc525d2c239}
-      \strng{fullhash}{078152ae23497d98bee80cc525d2c239}
-      \strng{fullhashraw}{078152ae23497d98bee80cc525d2c239}
-      \strng{bibnamehash}{078152ae23497d98bee80cc525d2c239}
-      \strng{authorbibnamehash}{078152ae23497d98bee80cc525d2c239}
-      \strng{authornamehash}{078152ae23497d98bee80cc525d2c239}
-      \strng{authorfullhash}{078152ae23497d98bee80cc525d2c239}
-      \strng{authorfullhashraw}{078152ae23497d98bee80cc525d2c239}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{note}{Titre et publication exacte à vérifier.}
-      \field{title}{Decision Support Tools for Water Supply Systems}
-      \field{year}{2000}
-    \endentry
-    \entry{ref42}{misc}{}{}
-      \name{author}{1}{}{%
-        {{hash=e542bd9bb57dfb3adef166058faf5ca1}{%
-           family={{International Water Association}},
-           familyi={I\bibinitperiod}}}%
-      }
-      \list{institution}{1}{%
-        {International Water Association}%
-      }
-      \strng{namehash}{e542bd9bb57dfb3adef166058faf5ca1}
-      \strng{fullhash}{e542bd9bb57dfb3adef166058faf5ca1}
-      \strng{fullhashraw}{e542bd9bb57dfb3adef166058faf5ca1}
-      \strng{bibnamehash}{e542bd9bb57dfb3adef166058faf5ca1}
-      \strng{authorbibnamehash}{e542bd9bb57dfb3adef166058faf5ca1}
-      \strng{authornamehash}{e542bd9bb57dfb3adef166058faf5ca1}
-      \strng{authorfullhash}{e542bd9bb57dfb3adef166058faf5ca1}
-      \strng{authorfullhashraw}{e542bd9bb57dfb3adef166058faf5ca1}
-      \field{extraname}{3}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{note}{Titre exact et édition à vérifier.}
-      \field{title}{Digital Water: ...}
-      \field{year}{2020}
-    \endentry
-    \entry{ref49}{book}{}{}
-      \name{author}{2}{}{%
-        {{hash=d1ab2fb883b1f90ff04d18134bb5c2de}{%
-           family={Farley},
-           familyi={F\bibinitperiod},
-           given={Malcolm},
-           giveni={M\bibinitperiod}}}%
-        {{hash=cbba386880deab808fdea90a08f9d9c1}{%
-           family={Trow},
-           familyi={T\bibinitperiod},
-           given={Stuart},
-           giveni={S\bibinitperiod}}}%
-      }
-      \list{location}{1}{%
-        {London, UK}%
-      }
-      \list{publisher}{1}{%
-        {IWA Publishing}%
-      }
-      \strng{namehash}{0d3d6b18701736a089a5f73ce7e54616}
-      \strng{fullhash}{0d3d6b18701736a089a5f73ce7e54616}
-      \strng{fullhashraw}{0d3d6b18701736a089a5f73ce7e54616}
-      \strng{bibnamehash}{0d3d6b18701736a089a5f73ce7e54616}
-      \strng{authorbibnamehash}{0d3d6b18701736a089a5f73ce7e54616}
-      \strng{authornamehash}{0d3d6b18701736a089a5f73ce7e54616}
-      \strng{authorfullhash}{0d3d6b18701736a089a5f73ce7e54616}
-      \strng{authorfullhashraw}{0d3d6b18701736a089a5f73ce7e54616}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{note}{Édition exacte à vérifier.}
-      \field{title}{Losses in Water Distribution Networks}
-      \field{year}{2003}
-    \endentry
-    \entry{ref50}{misc}{}{}
-      \name{author}{1}{}{%
-        {{hash=e542bd9bb57dfb3adef166058faf5ca1}{%
-           family={{International Water Association}},
-           familyi={I\bibinitperiod}}}%
-      }
-      \list{institution}{1}{%
-        {International Water Association}%
-      }
-      \strng{namehash}{e542bd9bb57dfb3adef166058faf5ca1}
-      \strng{fullhash}{e542bd9bb57dfb3adef166058faf5ca1}
-      \strng{fullhashraw}{e542bd9bb57dfb3adef166058faf5ca1}
-      \strng{bibnamehash}{e542bd9bb57dfb3adef166058faf5ca1}
-      \strng{authorbibnamehash}{e542bd9bb57dfb3adef166058faf5ca1}
-      \strng{authornamehash}{e542bd9bb57dfb3adef166058faf5ca1}
-      \strng{authorfullhash}{e542bd9bb57dfb3adef166058faf5ca1}
-      \strng{authorfullhashraw}{e542bd9bb57dfb3adef166058faf5ca1}
-      \field{extraname}{4}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{note}{Titre exact à vérifier.}
-      \field{title}{Water Losses in Water Supply Systems: Standard Terminology and ...}
-      \field{year}{2020}
-    \endentry
-    \entry{ref52}{article}{}{}
-      \name{author}{1}{}{%
-        {{hash=e89c8c0dc94bdd20c257b1d74f262ced}{%
-           family={Goodchild},
-           familyi={G\bibinitperiod},
-           given={Michael\bibnamedelima F.},
-           giveni={M\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
-      }
-      \strng{namehash}{e89c8c0dc94bdd20c257b1d74f262ced}
-      \strng{fullhash}{e89c8c0dc94bdd20c257b1d74f262ced}
-      \strng{fullhashraw}{e89c8c0dc94bdd20c257b1d74f262ced}
-      \strng{bibnamehash}{e89c8c0dc94bdd20c257b1d74f262ced}
-      \strng{authorbibnamehash}{e89c8c0dc94bdd20c257b1d74f262ced}
-      \strng{authornamehash}{e89c8c0dc94bdd20c257b1d74f262ced}
-      \strng{authorfullhash}{e89c8c0dc94bdd20c257b1d74f262ced}
-      \strng{authorfullhashraw}{e89c8c0dc94bdd20c257b1d74f262ced}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{International Journal of Geographical Information Science}
-      \field{note}{Titre exact, volume, numéro et pages à vérifier.}
-      \field{title}{Geographical Information Science and Systems}
-      \field{year}{2019}
-    \endentry
-    \entry{ref54}{report}{}{}
-      \true{moreauthor}
-      \true{morelabelname}
-      \name{author}{1}{}{%
-        {{hash=5a766e85ecd888c792f65fd4f41c094f}{%
-           family={Stouffer},
-           familyi={S\bibinitperiod},
-           given={Keith},
-           giveni={K\bibinitperiod}}}%
-      }
-      \list{institution}{2}{%
-        {National Institute of Standards}%
-        {Technology}%
-      }
-      \strng{namehash}{cd4652041c6e5cecda302d6a5d0dc79f}
-      \strng{fullhash}{cd4652041c6e5cecda302d6a5d0dc79f}
-      \strng{fullhashraw}{cd4652041c6e5cecda302d6a5d0dc79f}
-      \strng{bibnamehash}{cd4652041c6e5cecda302d6a5d0dc79f}
-      \strng{authorbibnamehash}{cd4652041c6e5cecda302d6a5d0dc79f}
-      \strng{authornamehash}{cd4652041c6e5cecda302d6a5d0dc79f}
-      \strng{authorfullhash}{cd4652041c6e5cecda302d6a5d0dc79f}
-      \strng{authorfullhashraw}{cd4652041c6e5cecda302d6a5d0dc79f}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{note}{Publication exacte à vérifier.}
-      \field{title}{Guide to Operational Technology Security}
-      \field{type}{techreport}
-      \field{year}{2015}
-    \endentry
-    \entry{ref55}{misc}{}{}
-      \name{author}{1}{}{%
-        {{hash=1cdda9bde1ba3eb4c253c5fd6a51dd2d}{%
-           family={Solomou},
-           familyi={S\bibinitperiod},
-           given={A.},
-           giveni={A\bibinitperiod}}}%
-      }
-      \strng{namehash}{1cdda9bde1ba3eb4c253c5fd6a51dd2d}
-      \strng{fullhash}{1cdda9bde1ba3eb4c253c5fd6a51dd2d}
-      \strng{fullhashraw}{1cdda9bde1ba3eb4c253c5fd6a51dd2d}
-      \strng{bibnamehash}{1cdda9bde1ba3eb4c253c5fd6a51dd2d}
-      \strng{authorbibnamehash}{1cdda9bde1ba3eb4c253c5fd6a51dd2d}
-      \strng{authornamehash}{1cdda9bde1ba3eb4c253c5fd6a51dd2d}
-      \strng{authorfullhash}{1cdda9bde1ba3eb4c253c5fd6a51dd2d}
-      \strng{authorfullhashraw}{1cdda9bde1ba3eb4c253c5fd6a51dd2d}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{note}{Métadonnées complètes à vérifier.}
-      \field{title}{IoT and Artificial Intelligence in Water Resource Management}
-      \field{year}{2020}
-    \endentry
-    \entry{ref56}{article}{}{}
-      \true{moreauthor}
-      \true{morelabelname}
-      \name{author}{1}{}{%
-        {{hash=f4149340bc388abb627321731645513a}{%
-           family={Tao},
-           familyi={T\bibinitperiod},
-           given={Fei},
-           giveni={F\bibinitperiod}}}%
-      }
-      \strng{namehash}{aee6731a830f7f2d502f4262bfb7e431}
-      \strng{fullhash}{aee6731a830f7f2d502f4262bfb7e431}
-      \strng{fullhashraw}{aee6731a830f7f2d502f4262bfb7e431}
-      \strng{bibnamehash}{aee6731a830f7f2d502f4262bfb7e431}
-      \strng{authorbibnamehash}{aee6731a830f7f2d502f4262bfb7e431}
-      \strng{authornamehash}{aee6731a830f7f2d502f4262bfb7e431}
-      \strng{authorfullhash}{aee6731a830f7f2d502f4262bfb7e431}
-      \strng{authorfullhashraw}{aee6731a830f7f2d502f4262bfb7e431}
-      \field{extraname}{1}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{International Journal of Advanced Manufacturing Technology}
-      \field{note}{Métadonnées complètes à vérifier.}
-      \field{title}{Three-Dimensional Digital Twin and Smart ...}
-      \field{volume}{9}
-      \field{year}{2020}
-    \endentry
-    \entry{ref8}{article}{}{}
-      \name{author}{2}{}{%
-        {{hash=4b5d6786e8fb5cd63db15f454210559d}{%
-           family={Grieves},
-           familyi={G\bibinitperiod},
-           given={Michael},
-           giveni={M\bibinitperiod}}}%
-        {{hash=8481067f6e37ac5d92e78a1bc1412167}{%
-           family={Vickers},
-           familyi={V\bibinitperiod},
-           given={John},
-           giveni={J\bibinitperiod}}}%
-      }
-      \strng{namehash}{57202742903dc1ba80c3fbb8fcfd93b5}
-      \strng{fullhash}{57202742903dc1ba80c3fbb8fcfd93b5}
-      \strng{fullhashraw}{57202742903dc1ba80c3fbb8fcfd93b5}
-      \strng{bibnamehash}{57202742903dc1ba80c3fbb8fcfd93b5}
-      \strng{authorbibnamehash}{57202742903dc1ba80c3fbb8fcfd93b5}
-      \strng{authornamehash}{57202742903dc1ba80c3fbb8fcfd93b5}
-      \strng{authorfullhash}{57202742903dc1ba80c3fbb8fcfd93b5}
-      \strng{authorfullhashraw}{57202742903dc1ba80c3fbb8fcfd93b5}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{note}{Chapitre/ouvrage collectif; détails de l'ouvrage source à vérifier avant dépôt final.}
-      \field{title}{Digital Twin: Mitigating Unpredictable, Undesirable, and Uncertain Outcomes in Complex Systems}
-      \field{year}{2017}
-    \endentry
-    \entry{ref58}{inproceedings}{}{}
-      \name{author}{2}{}{%
-        {{hash=96cbbef3be6c3f3505df75a945aa78bf}{%
-           family={Glaessgen},
-           familyi={G\bibinitperiod},
-           given={Edward},
-           giveni={E\bibinitperiod}}}%
-        {{hash=f1f59d3b65d6e84d16497f917beaabba}{%
-           family={Stargel},
-           familyi={S\bibinitperiod},
-           given={David},
-           giveni={D\bibinitperiod}}}%
-      }
-      \strng{namehash}{489332e7fb86fd50248751295ec06e1e}
-      \strng{fullhash}{489332e7fb86fd50248751295ec06e1e}
-      \strng{fullhashraw}{489332e7fb86fd50248751295ec06e1e}
-      \strng{bibnamehash}{489332e7fb86fd50248751295ec06e1e}
-      \strng{authorbibnamehash}{489332e7fb86fd50248751295ec06e1e}
-      \strng{authornamehash}{489332e7fb86fd50248751295ec06e1e}
-      \strng{authorfullhash}{489332e7fb86fd50248751295ec06e1e}
-      \strng{authorfullhashraw}{489332e7fb86fd50248751295ec06e1e}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{53rd AIAA/ASME/ASCE/AHS/ASC Structures, Structural Dynamics and Materials Conference}
-      \field{note}{Détails de publication à vérifier.}
-      \field{title}{The Digital Twin Paradigm for Future NASA and U.S. Air Force Vehicles}
-      \field{year}{2012}
-    \endentry
-    \entry{ref59}{misc}{}{}
-      \name{author}{1}{}{%
-        {{hash=4b5d6786e8fb5cd63db15f454210559d}{%
-           family={Grieves},
-           familyi={G\bibinitperiod},
-           given={Michael},
-           giveni={M\bibinitperiod}}}%
-      }
-      \strng{namehash}{4b5d6786e8fb5cd63db15f454210559d}
-      \strng{fullhash}{4b5d6786e8fb5cd63db15f454210559d}
-      \strng{fullhashraw}{4b5d6786e8fb5cd63db15f454210559d}
-      \strng{bibnamehash}{4b5d6786e8fb5cd63db15f454210559d}
-      \strng{authorbibnamehash}{4b5d6786e8fb5cd63db15f454210559d}
-      \strng{authornamehash}{4b5d6786e8fb5cd63db15f454210559d}
-      \strng{authorfullhash}{4b5d6786e8fb5cd63db15f454210559d}
-      \strng{authorfullhashraw}{4b5d6786e8fb5cd63db15f454210559d}
-      \field{extraname}{1}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{note}{Source conceptuelle; titre/édition exacts à vérifier.}
-      \field{title}{Digital Twin: Manufacturing Excellence through Virtual Factory Replication}
-      \field{year}{2014}
-    \endentry
-    \entry{ref60}{article}{}{}
-      \name{author}{4}{}{%
-        {{hash=d65423e45ebd3704c01fd78f83cc5328}{%
-           family={Fuller},
-           familyi={F\bibinitperiod},
-           given={Aidan},
-           giveni={A\bibinitperiod}}}%
-        {{hash=1da679988f7d3d7bacd8878bb45304c4}{%
-           family={Fan},
-           familyi={F\bibinitperiod},
-           given={Zhong},
-           giveni={Z\bibinitperiod}}}%
-        {{hash=cedbb4de65db49936aef60c36415bdd5}{%
-           family={Day},
-           familyi={D\bibinitperiod},
-           given={Charles},
-           giveni={C\bibinitperiod}}}%
-        {{hash=4b91d2a65fed72aa3aac930f7ac66fb5}{%
-           family={Barlow},
-           familyi={B\bibinitperiod},
-           given={Chris},
-           giveni={C\bibinitperiod}}}%
-      }
-      \strng{namehash}{f4ef80423af41d52cf27a14afc5e6e69}
-      \strng{fullhash}{eae98d31a490b68745284e728cf5c8bb}
-      \strng{fullhashraw}{eae98d31a490b68745284e728cf5c8bb}
-      \strng{bibnamehash}{eae98d31a490b68745284e728cf5c8bb}
-      \strng{authorbibnamehash}{eae98d31a490b68745284e728cf5c8bb}
-      \strng{authornamehash}{f4ef80423af41d52cf27a14afc5e6e69}
-      \strng{authorfullhash}{eae98d31a490b68745284e728cf5c8bb}
-      \strng{authorfullhashraw}{eae98d31a490b68745284e728cf5c8bb}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{IEEE Access}
-      \field{note}{Entrée consolidée de [60] et [99].}
-      \field{title}{Digital Twin: Enabling Technologies, Challenges and Open Research}
-      \field{volume}{8}
-      \field{year}{2020}
-      \field{pages}{108952\bibrangedash 108971}
-      \range{pages}{20}
-      \verb{doi}
-      \verb 10.1109/ACCESS.2020.2998358
-      \endverb
-    \endentry
-    \entry{ref61}{article}{}{}
-      \name{author}{3}{}{%
-        {{hash=08788c3e2c62347b8505bd0a097f5e40}{%
-           family={Rasheed},
-           familyi={R\bibinitperiod},
-           given={Adil},
-           giveni={A\bibinitperiod}}}%
-        {{hash=92a748bfcf2782dc92048a352a240f5a}{%
-           family={San},
-           familyi={S\bibinitperiod},
-           given={Omer},
-           giveni={O\bibinitperiod}}}%
-        {{hash=ab537a4ef227e8ca7fa02bc4d355eba1}{%
-           family={Kvamsdal},
-           familyi={K\bibinitperiod},
-           given={Trond},
-           giveni={T\bibinitperiod}}}%
-      }
-      \strng{namehash}{0bc503b363af0e0457b35f491c130be7}
-      \strng{fullhash}{1aae93b28b9a3f357157b9bff04f7ec2}
-      \strng{fullhashraw}{1aae93b28b9a3f357157b9bff04f7ec2}
-      \strng{bibnamehash}{1aae93b28b9a3f357157b9bff04f7ec2}
-      \strng{authorbibnamehash}{1aae93b28b9a3f357157b9bff04f7ec2}
-      \strng{authornamehash}{0bc503b363af0e0457b35f491c130be7}
-      \strng{authorfullhash}{1aae93b28b9a3f357157b9bff04f7ec2}
-      \strng{authorfullhashraw}{1aae93b28b9a3f357157b9bff04f7ec2}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{IEEE Access}
-      \field{note}{Entrée consolidée de [61], [64] et [102].}
-      \field{title}{Digital Twin: Values, Challenges and Enablers From a Modeling Perspective}
-      \field{volume}{8}
-      \field{year}{2020}
-      \field{pages}{21980\bibrangedash 22012}
-      \range{pages}{33}
-      \verb{doi}
-      \verb 10.1109/ACCESS.2020.2970143
-      \endverb
-    \endentry
-    \entry{ref65}{article}{}{}
-      \name{author}{1}{}{%
-        {{hash=4b5d6786e8fb5cd63db15f454210559d}{%
-           family={Grieves},
-           familyi={G\bibinitperiod},
-           given={Michael},
-           giveni={M\bibinitperiod}}}%
-      }
-      \strng{namehash}{4b5d6786e8fb5cd63db15f454210559d}
-      \strng{fullhash}{4b5d6786e8fb5cd63db15f454210559d}
-      \strng{fullhashraw}{4b5d6786e8fb5cd63db15f454210559d}
-      \strng{bibnamehash}{4b5d6786e8fb5cd63db15f454210559d}
-      \strng{authorbibnamehash}{4b5d6786e8fb5cd63db15f454210559d}
-      \strng{authornamehash}{4b5d6786e8fb5cd63db15f454210559d}
-      \strng{authorfullhash}{4b5d6786e8fb5cd63db15f454210559d}
-      \strng{authorfullhashraw}{4b5d6786e8fb5cd63db15f454210559d}
-      \field{extraname}{2}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{note}{Détails bibliographiques à vérifier.}
-      \field{title}{Virtually Perfect: Digital Twins and the Industrial Internet}
-      \field{year}{2019}
-    \endentry
-    \entry{ref67}{book}{}{}
-      \name{author}{1}{}{%
-        {{hash=627c3779677d0eaf3312e5b67e8cbe0c}{%
-           family={McCarthy},
-           familyi={M\bibinitperiod},
-           given={John},
-           giveni={J\bibinitperiod}}}%
-      }
-      \strng{namehash}{627c3779677d0eaf3312e5b67e8cbe0c}
-      \strng{fullhash}{627c3779677d0eaf3312e5b67e8cbe0c}
-      \strng{fullhashraw}{627c3779677d0eaf3312e5b67e8cbe0c}
-      \strng{bibnamehash}{627c3779677d0eaf3312e5b67e8cbe0c}
-      \strng{authorbibnamehash}{627c3779677d0eaf3312e5b67e8cbe0c}
-      \strng{authornamehash}{627c3779677d0eaf3312e5b67e8cbe0c}
-      \strng{authorfullhash}{627c3779677d0eaf3312e5b67e8cbe0c}
-      \strng{authorfullhashraw}{627c3779677d0eaf3312e5b67e8cbe0c}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{note}{Document/site exact à vérifier.}
-      \field{title}{What Is Artificial Intelligence?}
-      \field{year}{2007}
-    \endentry
-    \entry{ref69}{book}{}{}
-      \name{author}{1}{}{%
-        {{hash=9dfd0135a5e80aa6d81cea2c10fb7f73}{%
-           family={Bishop},
-           familyi={B\bibinitperiod},
-           given={Christopher\bibnamedelima M.},
-           giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-      }
-      \list{location}{1}{%
-        {New York, NY, USA}%
-      }
-      \list{publisher}{1}{%
-        {Springer}%
-      }
-      \strng{namehash}{9dfd0135a5e80aa6d81cea2c10fb7f73}
-      \strng{fullhash}{9dfd0135a5e80aa6d81cea2c10fb7f73}
-      \strng{fullhashraw}{9dfd0135a5e80aa6d81cea2c10fb7f73}
-      \strng{bibnamehash}{9dfd0135a5e80aa6d81cea2c10fb7f73}
-      \strng{authorbibnamehash}{9dfd0135a5e80aa6d81cea2c10fb7f73}
-      \strng{authornamehash}{9dfd0135a5e80aa6d81cea2c10fb7f73}
-      \strng{authorfullhash}{9dfd0135a5e80aa6d81cea2c10fb7f73}
-      \strng{authorfullhashraw}{9dfd0135a5e80aa6d81cea2c10fb7f73}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{isbn}{978-0387310732}
-      \field{title}{Pattern Recognition and Machine Learning}
-      \field{year}{2006}
-    \endentry
-    \entry{ref70}{book}{}{}
-      \name{author}{1}{}{%
-        {{hash=99413be56c82adf72b6474dcdf8d3023}{%
-           family={Murphy},
-           familyi={M\bibinitperiod},
-           given={Kevin\bibnamedelima P.},
-           giveni={K\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
-      }
-      \list{location}{1}{%
-        {Cambridge, MA, USA}%
-      }
-      \list{publisher}{1}{%
-        {MIT Press}%
-      }
-      \strng{namehash}{99413be56c82adf72b6474dcdf8d3023}
-      \strng{fullhash}{99413be56c82adf72b6474dcdf8d3023}
-      \strng{fullhashraw}{99413be56c82adf72b6474dcdf8d3023}
-      \strng{bibnamehash}{99413be56c82adf72b6474dcdf8d3023}
-      \strng{authorbibnamehash}{99413be56c82adf72b6474dcdf8d3023}
-      \strng{authornamehash}{99413be56c82adf72b6474dcdf8d3023}
-      \strng{authorfullhash}{99413be56c82adf72b6474dcdf8d3023}
-      \strng{authorfullhashraw}{99413be56c82adf72b6474dcdf8d3023}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Machine Learning: A Probabilistic Perspective}
-      \field{year}{2012}
-    \endentry
-    \entry{ref71}{book}{}{}
-      \name{author}{3}{}{%
-        {{hash=0cb8fe4210baa81c4b0e67913b4d2768}{%
-           family={Hastie},
-           familyi={H\bibinitperiod},
-           given={Trevor},
-           giveni={T\bibinitperiod}}}%
-        {{hash=88eea600247d798f8b2ce0b2dc614492}{%
-           family={Tibshirani},
-           familyi={T\bibinitperiod},
-           given={Robert},
-           giveni={R\bibinitperiod}}}%
-        {{hash=971cf69058b64a94326dea0f2a8bbcce}{%
-           family={Friedman},
-           familyi={F\bibinitperiod},
-           given={Jerome},
-           giveni={J\bibinitperiod}}}%
-      }
-      \list{location}{1}{%
-        {New York, NY, USA}%
-      }
-      \list{publisher}{1}{%
-        {Springer}%
-      }
-      \strng{namehash}{45eb7d473651da447f1d77717e7f8650}
-      \strng{fullhash}{7ca1bfe876d5e037b6aed69704221267}
-      \strng{fullhashraw}{7ca1bfe876d5e037b6aed69704221267}
-      \strng{bibnamehash}{7ca1bfe876d5e037b6aed69704221267}
-      \strng{authorbibnamehash}{7ca1bfe876d5e037b6aed69704221267}
-      \strng{authornamehash}{45eb7d473651da447f1d77717e7f8650}
-      \strng{authorfullhash}{7ca1bfe876d5e037b6aed69704221267}
-      \strng{authorfullhashraw}{7ca1bfe876d5e037b6aed69704221267}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{edition}{2}
-      \field{title}{The Elements of Statistical Learning}
-      \field{year}{2009}
-      \verb{doi}
-      \verb 10.1007/978-0-387-84858-7
-      \endverb
-    \endentry
-    \entry{ref73}{article}{}{}
-      \name{author}{2}{}{%
-        {{hash=f7a52b6ab067ad966e9263e86e34a8e2}{%
-           family={Solomatine},
-           familyi={S\bibinitperiod},
-           given={Dmitri\bibnamedelima P.},
-           giveni={D\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
-        {{hash=f06fc4056c8f74f5ae5c34a377f0aaca}{%
-           family={Ostfeld},
-           familyi={O\bibinitperiod},
-           given={Avi},
-           giveni={A\bibinitperiod}}}%
-      }
-      \strng{namehash}{1e7af279a9a5a6dd5e8008128ecb7215}
-      \strng{fullhash}{1e7af279a9a5a6dd5e8008128ecb7215}
-      \strng{fullhashraw}{1e7af279a9a5a6dd5e8008128ecb7215}
-      \strng{bibnamehash}{1e7af279a9a5a6dd5e8008128ecb7215}
-      \strng{authorbibnamehash}{1e7af279a9a5a6dd5e8008128ecb7215}
-      \strng{authornamehash}{1e7af279a9a5a6dd5e8008128ecb7215}
-      \strng{authorfullhash}{1e7af279a9a5a6dd5e8008128ecb7215}
-      \strng{authorfullhashraw}{1e7af279a9a5a6dd5e8008128ecb7215}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Journal of Hydroinformatics}
-      \field{note}{Titre et métadonnées exacts à vérifier.}
-      \field{title}{Data-driven modelling of water distribution systems}
-      \field{year}{2008}
-    \endentry
-    \entry{ref17}{article}{}{}
-      \name{author}{4}{}{%
-        {{hash=f4149340bc388abb627321731645513a}{%
-           family={Tao},
-           familyi={T\bibinitperiod},
-           given={Fei},
-           giveni={F\bibinitperiod}}}%
-        {{hash=79de404a0f3ac5ccec6c28b5a79bc60f}{%
-           family={Zhang},
-           familyi={Z\bibinitperiod},
-           given={He},
-           giveni={H\bibinitperiod}}}%
-        {{hash=fc503e8b62eecf2c1f583b4191d838e1}{%
-           family={Liu},
-           familyi={L\bibinitperiod},
-           given={Ang},
-           giveni={A\bibinitperiod}}}%
-        {{hash=b3604a39c6bc91d6f9eb3e0a91070a56}{%
-           family={Nee},
-           familyi={N\bibinitperiod},
-           given={Andrew\bibnamedelimb Y.\bibnamedelimi C.},
-           giveni={A\bibinitperiod\bibinitdelim Y\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
-      }
-      \strng{namehash}{aee6731a830f7f2d502f4262bfb7e431}
-      \strng{fullhash}{617fff4867182fbb96a564fa3a445dce}
-      \strng{fullhashraw}{617fff4867182fbb96a564fa3a445dce}
-      \strng{bibnamehash}{617fff4867182fbb96a564fa3a445dce}
-      \strng{authorbibnamehash}{617fff4867182fbb96a564fa3a445dce}
-      \strng{authornamehash}{aee6731a830f7f2d502f4262bfb7e431}
-      \strng{authorfullhash}{617fff4867182fbb96a564fa3a445dce}
-      \strng{authorfullhashraw}{617fff4867182fbb96a564fa3a445dce}
-      \field{extraname}{2}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{IEEE Transactions on Industrial Informatics}
-      \field{number}{4}
-      \field{title}{Digital Twin in Industry: State-of-the-Art}
-      \field{volume}{15}
-      \field{year}{2019}
-      \field{pages}{2405\bibrangedash 2415}
-      \range{pages}{11}
-      \verb{doi}
-      \verb 10.1109/TII.2018.2873186
-      \endverb
-    \endentry
-    \entry{ref76}{article}{}{}
-      \true{moreauthor}
-      \true{morelabelname}
-      \name{author}{2}{}{%
-        {{hash=f06fc4056c8f74f5ae5c34a377f0aaca}{%
-           family={Ostfeld},
-           familyi={O\bibinitperiod},
-           given={Avi},
-           giveni={A\bibinitperiod}}}%
-        {{hash=f7a52b6ab067ad966e9263e86e34a8e2}{%
-           family={Solomatine},
-           familyi={S\bibinitperiod},
-           given={Dmitri\bibnamedelima P.},
-           giveni={D\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
-      }
-      \strng{namehash}{9ce447abc5df86266d0e9f99e2290ea8}
-      \strng{fullhash}{9ce447abc5df86266d0e9f99e2290ea8}
-      \strng{fullhashraw}{9ce447abc5df86266d0e9f99e2290ea8}
-      \strng{bibnamehash}{9ce447abc5df86266d0e9f99e2290ea8}
-      \strng{authorbibnamehash}{9ce447abc5df86266d0e9f99e2290ea8}
-      \strng{authornamehash}{9ce447abc5df86266d0e9f99e2290ea8}
-      \strng{authorfullhash}{9ce447abc5df86266d0e9f99e2290ea8}
-      \strng{authorfullhashraw}{9ce447abc5df86266d0e9f99e2290ea8}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Journal of Hydroinformatics}
-      \field{note}{À vérifier: cette entrée semble proche de ref73 mais n'est pas fusionnée sans preuve d'identité.}
-      \field{title}{Data-driven modelling and water distribution systems}
-      \field{year}{2010}
-    \endentry
-    \entry{ref77}{misc}{}{}
-      \name{author}{1}{}{%
-        {{hash=98e863c60bc0d0a88c73e880aa4d76fb}{%
-           family={{UN-Habitat}},
-           familyi={U\bibinitperiod}}}%
-      }
-      \list{institution}{1}{%
-        {United Nations Human Settlements Programme}%
-      }
-      \strng{namehash}{98e863c60bc0d0a88c73e880aa4d76fb}
-      \strng{fullhash}{98e863c60bc0d0a88c73e880aa4d76fb}
-      \strng{fullhashraw}{98e863c60bc0d0a88c73e880aa4d76fb}
-      \strng{bibnamehash}{98e863c60bc0d0a88c73e880aa4d76fb}
-      \strng{authorbibnamehash}{98e863c60bc0d0a88c73e880aa4d76fb}
-      \strng{authornamehash}{98e863c60bc0d0a88c73e880aa4d76fb}
-      \strng{authorfullhash}{98e863c60bc0d0a88c73e880aa4d76fb}
-      \strng{authorfullhashraw}{98e863c60bc0d0a88c73e880aa4d76fb}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{note}{Édition exacte à vérifier.}
-      \field{title}{The State of African Cities}
-      \field{year}{2020}
-    \endentry
-    \entry{ref78}{misc}{}{}
-      \name{author}{1}{}{%
-        {{hash=0c6103e1202adbbf5a5f24d165477d12}{%
-           family={{REGIDESO}},
-           familyi={R\bibinitperiod}}}%
-      }
-      \list{institution}{1}{%
-        {REGIDESO}%
-      }
-      \strng{namehash}{0c6103e1202adbbf5a5f24d165477d12}
-      \strng{fullhash}{0c6103e1202adbbf5a5f24d165477d12}
-      \strng{fullhashraw}{0c6103e1202adbbf5a5f24d165477d12}
-      \strng{bibnamehash}{0c6103e1202adbbf5a5f24d165477d12}
-      \strng{authorbibnamehash}{0c6103e1202adbbf5a5f24d165477d12}
-      \strng{authornamehash}{0c6103e1202adbbf5a5f24d165477d12}
-      \strng{authorfullhash}{0c6103e1202adbbf5a5f24d165477d12}
-      \strng{authorfullhashraw}{0c6103e1202adbbf5a5f24d165477d12}
-      \field{extraname}{1}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{note}{Titre et année exacts à vérifier.}
-      \field{title}{Rapport sur la situation du réseau de distribution d'eau potable}
-      \field{year}{2020}
-    \endentry
-    \entry{ref79}{misc}{}{}
-      \name{author}{1}{}{%
-        {{hash=32730e15a7ca0bf0686ea8d4a3a46ab9}{%
-           family={{World Bank}},
-           familyi={W\bibinitperiod}}}%
-      }
-      \list{institution}{1}{%
-        {World Bank}%
-      }
-      \strng{namehash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
-      \strng{fullhash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
-      \strng{fullhashraw}{32730e15a7ca0bf0686ea8d4a3a46ab9}
-      \strng{bibnamehash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
-      \strng{authorbibnamehash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
-      \strng{authornamehash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
-      \strng{authorfullhash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
-      \strng{authorfullhashraw}{32730e15a7ca0bf0686ea8d4a3a46ab9}
-      \field{extraname}{1}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{note}{Titre/année exacts à vérifier.}
-      \field{title}{Water Supply and Sanitation in Sub-Saharan Africa: A ...}
-      \field{year}{2020}
-    \endentry
     \entry{ref75}{book}{}{}
       \name{author}{2}{}{%
         {{hash=b1380c24c67c845904268779de94b743}{%
@@ -1229,536 +141,14 @@
       \strng{authornamehash}{a6171743d58e336b94e2b43daddb7251}
       \strng{authorfullhash}{a6171743d58e336b94e2b43daddb7251}
       \strng{authorfullhashraw}{a6171743d58e336b94e2b43daddb7251}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{edition}{5}
       \field{note}{Entrée consolidée de [75], [80] et [103].}
       \field{title}{Research Design: Qualitative, Quantitative, and Mixed Methods Approaches}
       \field{year}{2018}
-    \endentry
-    \entry{ref81}{book}{}{}
-      \name{author}{1}{}{%
-        {{hash=bf7eb9dbb747f641a5083488354145d6}{%
-           family={Yin},
-           familyi={Y\bibinitperiod},
-           given={Robert\bibnamedelima K.},
-           giveni={R\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
-      }
-      \list{location}{1}{%
-        {Thousand Oaks, CA, USA}%
-      }
-      \list{publisher}{1}{%
-        {SAGE Publications}%
-      }
-      \strng{namehash}{bf7eb9dbb747f641a5083488354145d6}
-      \strng{fullhash}{bf7eb9dbb747f641a5083488354145d6}
-      \strng{fullhashraw}{bf7eb9dbb747f641a5083488354145d6}
-      \strng{bibnamehash}{bf7eb9dbb747f641a5083488354145d6}
-      \strng{authorbibnamehash}{bf7eb9dbb747f641a5083488354145d6}
-      \strng{authornamehash}{bf7eb9dbb747f641a5083488354145d6}
-      \strng{authorfullhash}{bf7eb9dbb747f641a5083488354145d6}
-      \strng{authorfullhashraw}{bf7eb9dbb747f641a5083488354145d6}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{edition}{6}
-      \field{title}{Case Study Research and Applications: Design and Methods}
-      \field{year}{2018}
-    \endentry
-    \entry{ref82}{misc}{}{}
-      \name{author}{1}{}{%
-        {{hash=4cad72fc234566e629039b3eb14d3a64}{%
-           family={{Institut National de la Statistique}},
-           familyi={I\bibinitperiod}}}%
-      }
-      \list{institution}{1}{%
-        {Institut National de la Statistique}%
-      }
-      \strng{namehash}{4cad72fc234566e629039b3eb14d3a64}
-      \strng{fullhash}{4cad72fc234566e629039b3eb14d3a64}
-      \strng{fullhashraw}{4cad72fc234566e629039b3eb14d3a64}
-      \strng{bibnamehash}{4cad72fc234566e629039b3eb14d3a64}
-      \strng{authorbibnamehash}{4cad72fc234566e629039b3eb14d3a64}
-      \strng{authornamehash}{4cad72fc234566e629039b3eb14d3a64}
-      \strng{authorfullhash}{4cad72fc234566e629039b3eb14d3a64}
-      \strng{authorfullhashraw}{4cad72fc234566e629039b3eb14d3a64}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{note}{Édition exacte à vérifier.}
-      \field{title}{Annuaire statistique de la République Démocratique du Congo}
-      \field{year}{2020}
-    \endentry
-    \entry{ref83}{misc}{}{}
-      \name{author}{1}{}{%
-        {{hash=cc2120a79556d87eabb468fa41bfd985}{%
-           family={{Mairie de Bukavu}},
-           familyi={M\bibinitperiod}}}%
-      }
-      \list{institution}{1}{%
-        {Mairie de Bukavu}%
-      }
-      \strng{namehash}{cc2120a79556d87eabb468fa41bfd985}
-      \strng{fullhash}{cc2120a79556d87eabb468fa41bfd985}
-      \strng{fullhashraw}{cc2120a79556d87eabb468fa41bfd985}
-      \strng{bibnamehash}{cc2120a79556d87eabb468fa41bfd985}
-      \strng{authorbibnamehash}{cc2120a79556d87eabb468fa41bfd985}
-      \strng{authornamehash}{cc2120a79556d87eabb468fa41bfd985}
-      \strng{authorfullhash}{cc2120a79556d87eabb468fa41bfd985}
-      \strng{authorfullhashraw}{cc2120a79556d87eabb468fa41bfd985}
-      \field{extraname}{1}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{note}{Année et référence documentaire à vérifier.}
-      \field{title}{Monographie de la ville de Bukavu}
-      \field{year}{2020}
-    \endentry
-    \entry{ref84}{misc}{}{}
-      \name{author}{1}{}{%
-        {{hash=cc2120a79556d87eabb468fa41bfd985}{%
-           family={{Mairie de Bukavu}},
-           familyi={M\bibinitperiod}}}%
-      }
-      \list{institution}{1}{%
-        {Mairie de Bukavu}%
-      }
-      \strng{namehash}{cc2120a79556d87eabb468fa41bfd985}
-      \strng{fullhash}{cc2120a79556d87eabb468fa41bfd985}
-      \strng{fullhashraw}{cc2120a79556d87eabb468fa41bfd985}
-      \strng{bibnamehash}{cc2120a79556d87eabb468fa41bfd985}
-      \strng{authorbibnamehash}{cc2120a79556d87eabb468fa41bfd985}
-      \strng{authornamehash}{cc2120a79556d87eabb468fa41bfd985}
-      \strng{authorfullhash}{cc2120a79556d87eabb468fa41bfd985}
-      \strng{authorfullhashraw}{cc2120a79556d87eabb468fa41bfd985}
-      \field{extraname}{2}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{note}{Année et version à vérifier.}
-      \field{title}{Plan Local de Développement de la Ville de Bukavu}
-      \field{year}{2020}
-    \endentry
-    \entry{ref85}{report}{}{}
-      \name{author}{1}{}{%
-        {{hash=62d6ecdba076b667630153a2861c6308}{%
-           family={{Programme des Nations Unies pour le Développement}},
-           familyi={P\bibinitperiod}}}%
-      }
-      \list{institution}{1}{%
-        {PNUD}%
-      }
-      \strng{namehash}{62d6ecdba076b667630153a2861c6308}
-      \strng{fullhash}{62d6ecdba076b667630153a2861c6308}
-      \strng{fullhashraw}{62d6ecdba076b667630153a2861c6308}
-      \strng{bibnamehash}{62d6ecdba076b667630153a2861c6308}
-      \strng{authorbibnamehash}{62d6ecdba076b667630153a2861c6308}
-      \strng{authornamehash}{62d6ecdba076b667630153a2861c6308}
-      \strng{authorfullhash}{62d6ecdba076b667630153a2861c6308}
-      \strng{authorfullhashraw}{62d6ecdba076b667630153a2861c6308}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{note}{Édition exacte à vérifier.}
-      \field{title}{Rapport sur le développement humain en République Démocratique du Congo}
-      \field{year}{2020}
-    \endentry
-    \entry{ref86}{misc}{}{}
-      \name{author}{1}{}{%
-        {{hash=0c6103e1202adbbf5a5f24d165477d12}{%
-           family={{REGIDESO}},
-           familyi={R\bibinitperiod}}}%
-      }
-      \list{institution}{1}{%
-        {REGIDESO}%
-      }
-      \strng{namehash}{0c6103e1202adbbf5a5f24d165477d12}
-      \strng{fullhash}{0c6103e1202adbbf5a5f24d165477d12}
-      \strng{fullhashraw}{0c6103e1202adbbf5a5f24d165477d12}
-      \strng{bibnamehash}{0c6103e1202adbbf5a5f24d165477d12}
-      \strng{authorbibnamehash}{0c6103e1202adbbf5a5f24d165477d12}
-      \strng{authornamehash}{0c6103e1202adbbf5a5f24d165477d12}
-      \strng{authorfullhash}{0c6103e1202adbbf5a5f24d165477d12}
-      \strng{authorfullhashraw}{0c6103e1202adbbf5a5f24d165477d12}
-      \field{extraname}{2}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{note}{L'année doit être remplacée par l'année du rapport effectivement consulté.}
-      \field{title}{Rapports annuels d'activités}
-      \field{year}{2020}
-    \endentry
-    \entry{ref87}{report}{}{}
-      \name{author}{1}{}{%
-        {{hash=32730e15a7ca0bf0686ea8d4a3a46ab9}{%
-           family={{World Bank}},
-           familyi={W\bibinitperiod}}}%
-      }
-      \list{institution}{1}{%
-        {World Bank}%
-      }
-      \strng{namehash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
-      \strng{fullhash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
-      \strng{fullhashraw}{32730e15a7ca0bf0686ea8d4a3a46ab9}
-      \strng{bibnamehash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
-      \strng{authorbibnamehash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
-      \strng{authornamehash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
-      \strng{authorfullhash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
-      \strng{authorfullhashraw}{32730e15a7ca0bf0686ea8d4a3a46ab9}
-      \field{extraname}{2}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{note}{Référence exacte à vérifier.}
-      \field{title}{Democratic Republic of Congo -- Water Supply and Sanitation Sector Review}
-      \field{year}{2020}
-    \endentry
-    \entry{ref88}{misc}{}{}
-      \name{author}{1}{}{%
-        {{hash=544dcddbbd582606915dcd5b54361735}{%
-           family={{Ministère des Ressources Hydrauliques et Électricité}},
-           familyi={M\bibinitperiod}}}%
-      }
-      \list{institution}{1}{%
-        {République Démocratique du Congo}%
-      }
-      \strng{namehash}{544dcddbbd582606915dcd5b54361735}
-      \strng{fullhash}{544dcddbbd582606915dcd5b54361735}
-      \strng{fullhashraw}{544dcddbbd582606915dcd5b54361735}
-      \strng{bibnamehash}{544dcddbbd582606915dcd5b54361735}
-      \strng{authorbibnamehash}{544dcddbbd582606915dcd5b54361735}
-      \strng{authornamehash}{544dcddbbd582606915dcd5b54361735}
-      \strng{authorfullhash}{544dcddbbd582606915dcd5b54361735}
-      \strng{authorfullhashraw}{544dcddbbd582606915dcd5b54361735}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{note}{Année et version à vérifier.}
-      \field{title}{Politique nationale de l'eau et de l'assainissement}
-      \field{year}{2020}
-    \endentry
-    \entry{ref90}{book}{}{}
-      \name{author}{3}{}{%
-        {{hash=3849326d34d158900795d16879fa7014}{%
-           family={Twort},
-           familyi={T\bibinitperiod},
-           given={Alan\bibnamedelima C.},
-           giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
-        {{hash=13c846ba05b08e591c875aa9f7ae8da2}{%
-           family={Ratnayaka},
-           familyi={R\bibinitperiod},
-           given={Don\bibnamedelima D.},
-           giveni={D\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
-        {{hash=cc326eebc7ad113358ed295d609c7a60}{%
-           family={Brandt},
-           familyi={B\bibinitperiod},
-           given={Malcolm\bibnamedelima J.},
-           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Butterworth-Heinemann}%
-      }
-      \strng{namehash}{ea6a306b05f06b09b42b1e77be75f69b}
-      \strng{fullhash}{71f348d7cabb3188209a9ddb47e4c9a2}
-      \strng{fullhashraw}{71f348d7cabb3188209a9ddb47e4c9a2}
-      \strng{bibnamehash}{71f348d7cabb3188209a9ddb47e4c9a2}
-      \strng{authorbibnamehash}{71f348d7cabb3188209a9ddb47e4c9a2}
-      \strng{authornamehash}{ea6a306b05f06b09b42b1e77be75f69b}
-      \strng{authorfullhash}{71f348d7cabb3188209a9ddb47e4c9a2}
-      \strng{authorfullhashraw}{71f348d7cabb3188209a9ddb47e4c9a2}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{edition}{7}
-      \field{note}{Entrée consolidée de [90] et [96]; l'édition exacte utilisée dans le manuscrit doit être vérifiée.}
-      \field{title}{Water Supply}
-      \field{year}{2000}
-    \endentry
-    \entry{ref92}{book}{}{}
-      \name{author}{1}{}{%
-        {{hash=32730e15a7ca0bf0686ea8d4a3a46ab9}{%
-           family={{World Bank}},
-           familyi={W\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {World Bank}%
-      }
-      \strng{namehash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
-      \strng{fullhash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
-      \strng{fullhashraw}{32730e15a7ca0bf0686ea8d4a3a46ab9}
-      \strng{bibnamehash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
-      \strng{authorbibnamehash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
-      \strng{authornamehash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
-      \strng{authorfullhash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
-      \strng{authorfullhashraw}{32730e15a7ca0bf0686ea8d4a3a46ab9}
-      \field{extraname}{3}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{note}{Édition exacte à vérifier.}
-      \field{title}{Water Supply and Sanitation in Sub-Saharan Africa}
-      \field{year}{2020}
-    \endentry
-    \entry{ref95}{misc}{}{}
-      \name{author}{1}{}{%
-        {{hash=0c6103e1202adbbf5a5f24d165477d12}{%
-           family={{REGIDESO}},
-           familyi={R\bibinitperiod}}}%
-      }
-      \list{institution}{1}{%
-        {REGIDESO}%
-      }
-      \strng{namehash}{0c6103e1202adbbf5a5f24d165477d12}
-      \strng{fullhash}{0c6103e1202adbbf5a5f24d165477d12}
-      \strng{fullhashraw}{0c6103e1202adbbf5a5f24d165477d12}
-      \strng{bibnamehash}{0c6103e1202adbbf5a5f24d165477d12}
-      \strng{authorbibnamehash}{0c6103e1202adbbf5a5f24d165477d12}
-      \strng{authornamehash}{0c6103e1202adbbf5a5f24d165477d12}
-      \strng{authorfullhash}{0c6103e1202adbbf5a5f24d165477d12}
-      \strng{authorfullhashraw}{0c6103e1202adbbf5a5f24d165477d12}
-      \field{extraname}{3}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{note}{Année/version à vérifier.}
-      \field{title}{Manuel d'exploitation des réseaux de distribution d'eau potable}
-      \field{year}{2020}
-    \endentry
-    \entry{ref98}{book}{}{}
-      \name{author}{1}{}{%
-        {{hash=afdd636579e8de058688526a2e3d4b71}{%
-           family={Moubray},
-           familyi={M\bibinitperiod},
-           given={John},
-           giveni={J\bibinitperiod}}}%
-      }
-      \list{location}{1}{%
-        {Oxford, UK}%
-      }
-      \list{publisher}{1}{%
-        {Butterworth-Heinemann}%
-      }
-      \strng{namehash}{afdd636579e8de058688526a2e3d4b71}
-      \strng{fullhash}{afdd636579e8de058688526a2e3d4b71}
-      \strng{fullhashraw}{afdd636579e8de058688526a2e3d4b71}
-      \strng{bibnamehash}{afdd636579e8de058688526a2e3d4b71}
-      \strng{authorbibnamehash}{afdd636579e8de058688526a2e3d4b71}
-      \strng{authornamehash}{afdd636579e8de058688526a2e3d4b71}
-      \strng{authorfullhash}{afdd636579e8de058688526a2e3d4b71}
-      \strng{authorfullhashraw}{afdd636579e8de058688526a2e3d4b71}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{edition}{2}
-      \field{title}{Reliability-Centered Maintenance}
-      \field{year}{1997}
-    \endentry
-    \entry{ref100}{book}{}{}
-      \name{author}{1}{}{%
-        {{hash=1ea4ea7e55d365c0c7a5af1da7eb7caf}{%
-           family={Mobley},
-           familyi={M\bibinitperiod},
-           given={R.\bibnamedelimi Keith},
-           giveni={R\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
-      }
-      \list{location}{1}{%
-        {Oxford, UK}%
-      }
-      \list{publisher}{1}{%
-        {Butterworth-Heinemann}%
-      }
-      \strng{namehash}{1ea4ea7e55d365c0c7a5af1da7eb7caf}
-      \strng{fullhash}{1ea4ea7e55d365c0c7a5af1da7eb7caf}
-      \strng{fullhashraw}{1ea4ea7e55d365c0c7a5af1da7eb7caf}
-      \strng{bibnamehash}{1ea4ea7e55d365c0c7a5af1da7eb7caf}
-      \strng{authorbibnamehash}{1ea4ea7e55d365c0c7a5af1da7eb7caf}
-      \strng{authornamehash}{1ea4ea7e55d365c0c7a5af1da7eb7caf}
-      \strng{authorfullhash}{1ea4ea7e55d365c0c7a5af1da7eb7caf}
-      \strng{authorfullhashraw}{1ea4ea7e55d365c0c7a5af1da7eb7caf}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{An Introduction to Predictive Maintenance}
-      \field{year}{2002}
-    \endentry
-    \entry{ref37}{book}{}{}
-      \name{author}{2}{}{%
-        {{hash=f4149340bc388abb627321731645513a}{%
-           family={Tao},
-           familyi={T\bibinitperiod},
-           given={Fei},
-           giveni={F\bibinitperiod}}}%
-        {{hash=1276b0c695bd412950c2be5e737aeed5}{%
-           family={Zhang},
-           familyi={Z\bibinitperiod},
-           given={Meng},
-           giveni={M\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Academic Press}%
-      }
-      \strng{namehash}{87ea8a50b1e3f5bf1c4ff7e6920a091c}
-      \strng{fullhash}{87ea8a50b1e3f5bf1c4ff7e6920a091c}
-      \strng{fullhashraw}{87ea8a50b1e3f5bf1c4ff7e6920a091c}
-      \strng{bibnamehash}{87ea8a50b1e3f5bf1c4ff7e6920a091c}
-      \strng{authorbibnamehash}{87ea8a50b1e3f5bf1c4ff7e6920a091c}
-      \strng{authornamehash}{87ea8a50b1e3f5bf1c4ff7e6920a091c}
-      \strng{authorfullhash}{87ea8a50b1e3f5bf1c4ff7e6920a091c}
-      \strng{authorfullhashraw}{87ea8a50b1e3f5bf1c4ff7e6920a091c}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{note}{Détails bibliographiques à vérifier.}
-      \field{title}{Digital Twin Driven Smart Manufacturing}
-      \field{year}{2019}
-    \endentry
-    \entry{ref104}{book}{}{}
-      \name{author}{1}{}{%
-        {{hash=ff4d31eb4af9e10cb7799ced629912c7}{%
-           family={Flick},
-           familyi={F\bibinitperiod},
-           given={Uwe},
-           giveni={U\bibinitperiod}}}%
-      }
-      \list{location}{1}{%
-        {London, UK}%
-      }
-      \list{publisher}{1}{%
-        {SAGE Publications Ltd}%
-      }
-      \strng{namehash}{ff4d31eb4af9e10cb7799ced629912c7}
-      \strng{fullhash}{ff4d31eb4af9e10cb7799ced629912c7}
-      \strng{fullhashraw}{ff4d31eb4af9e10cb7799ced629912c7}
-      \strng{bibnamehash}{ff4d31eb4af9e10cb7799ced629912c7}
-      \strng{authorbibnamehash}{ff4d31eb4af9e10cb7799ced629912c7}
-      \strng{authornamehash}{ff4d31eb4af9e10cb7799ced629912c7}
-      \strng{authorfullhash}{ff4d31eb4af9e10cb7799ced629912c7}
-      \strng{authorfullhashraw}{ff4d31eb4af9e10cb7799ced629912c7}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{edition}{7}
-      \field{isbn}{9781529781328}
-      \field{note}{Entrée consolidée de [104] et [111].}
-      \field{title}{An Introduction to Qualitative Research}
-      \field{year}{2022}
-    \endentry
-    \entry{ref105}{book}{}{}
-      \name{author}{3}{}{%
-        {{hash=3e8f03cc324f52193ab00c1fab4df61a}{%
-           family={Jacobson},
-           familyi={J\bibinitperiod},
-           given={Ivar},
-           giveni={I\bibinitperiod}}}%
-        {{hash=e4f07715269e006a4d4a4efa3ce3f996}{%
-           family={Booch},
-           familyi={B\bibinitperiod},
-           given={Grady},
-           giveni={G\bibinitperiod}}}%
-        {{hash=b8ace965f1ffa84dd4512f7e64c62d75}{%
-           family={Rumbaugh},
-           familyi={R\bibinitperiod},
-           given={James},
-           giveni={J\bibinitperiod}}}%
-      }
-      \list{location}{1}{%
-        {Reading, MA, USA}%
-      }
-      \list{publisher}{1}{%
-        {Addison-Wesley}%
-      }
-      \strng{namehash}{4efdf840f59e9f84adf0e1a992e1b69d}
-      \strng{fullhash}{c5922c582762d1499b91cdcab0e68aeb}
-      \strng{fullhashraw}{c5922c582762d1499b91cdcab0e68aeb}
-      \strng{bibnamehash}{c5922c582762d1499b91cdcab0e68aeb}
-      \strng{authorbibnamehash}{c5922c582762d1499b91cdcab0e68aeb}
-      \strng{authornamehash}{4efdf840f59e9f84adf0e1a992e1b69d}
-      \strng{authorfullhash}{c5922c582762d1499b91cdcab0e68aeb}
-      \strng{authorfullhashraw}{c5922c582762d1499b91cdcab0e68aeb}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{The Unified Software Development Process}
-      \field{year}{1999}
-    \endentry
-    \entry{ref106}{book}{}{}
-      \name{author}{2}{}{%
-        {{hash=4d3f81788d99cf425c4b6e0a454baab0}{%
-           family={Pressman},
-           familyi={P\bibinitperiod},
-           given={Roger\bibnamedelima S.},
-           giveni={R\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
-        {{hash=13b3d71ce7fd3614b4e2e9ce804597f3}{%
-           family={Maxim},
-           familyi={M\bibinitperiod},
-           given={Bruce\bibnamedelima R.},
-           giveni={B\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {McGraw-Hill}%
-      }
-      \strng{namehash}{da6ec91488daec8c3c9eddf18c78dad8}
-      \strng{fullhash}{da6ec91488daec8c3c9eddf18c78dad8}
-      \strng{fullhashraw}{da6ec91488daec8c3c9eddf18c78dad8}
-      \strng{bibnamehash}{da6ec91488daec8c3c9eddf18c78dad8}
-      \strng{authorbibnamehash}{da6ec91488daec8c3c9eddf18c78dad8}
-      \strng{authornamehash}{da6ec91488daec8c3c9eddf18c78dad8}
-      \strng{authorfullhash}{da6ec91488daec8c3c9eddf18c78dad8}
-      \strng{authorfullhashraw}{da6ec91488daec8c3c9eddf18c78dad8}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{edition}{9}
-      \field{note}{Entrée consolidée de [106] et [127].}
-      \field{title}{Software Engineering: A Practitioner's Approach}
-      \field{year}{2020}
-    \endentry
-    \entry{ref107}{misc}{}{}
-      \name{author}{1}{}{%
-        {{hash=7058e4bd76f877c52b621c942b30613c}{%
-           family={{International Organization for Standardization}},
-           familyi={I\bibinitperiod}}}%
-      }
-      \list{location}{1}{%
-        {Geneva, Switzerland}%
-      }
-      \list{organization}{1}{%
-        {International Organization for Standardization}%
-      }
-      \strng{namehash}{7058e4bd76f877c52b621c942b30613c}
-      \strng{fullhash}{7058e4bd76f877c52b621c942b30613c}
-      \strng{fullhashraw}{7058e4bd76f877c52b621c942b30613c}
-      \strng{bibnamehash}{7058e4bd76f877c52b621c942b30613c}
-      \strng{authorbibnamehash}{7058e4bd76f877c52b621c942b30613c}
-      \strng{authornamehash}{7058e4bd76f877c52b621c942b30613c}
-      \strng{authorfullhash}{7058e4bd76f877c52b621c942b30613c}
-      \strng{authorfullhashraw}{7058e4bd76f877c52b621c942b30613c}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{number}{ISO/IEC 25010:2011}
-      \field{title}{Systems and Software Engineering -- Systems and Software Quality Requirements and Evaluation (SQuaRE) -- System and Software Quality Models}
-      \field{year}{2011}
     \endentry
     \entry{ref108}{book}{}{}
       \name{author}{1}{}{%
@@ -1782,8 +172,8 @@
       \strng{authornamehash}{c3b0535e0e49f30f8c79f95e9143a977}
       \strng{authorfullhash}{c3b0535e0e49f30f8c79f95e9143a977}
       \strng{authorfullhashraw}{c3b0535e0e49f30f8c79f95e9143a977}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{edition}{11}
@@ -1814,12 +204,45 @@
       \strng{authornamehash}{5e7c577cccad14de3622ea2323899a5b}
       \strng{authorfullhash}{5e7c577cccad14de3622ea2323899a5b}
       \strng{authorfullhashraw}{5e7c577cccad14de3622ea2323899a5b}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{General System Theory: Foundations, Development, Applications}
       \field{year}{1968}
+    \endentry
+    \entry{ref106}{book}{}{}
+      \name{author}{2}{}{%
+        {{hash=4d3f81788d99cf425c4b6e0a454baab0}{%
+           family={Pressman},
+           familyi={P\bibinitperiod},
+           given={Roger\bibnamedelima S.},
+           giveni={R\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=13b3d71ce7fd3614b4e2e9ce804597f3}{%
+           family={Maxim},
+           familyi={M\bibinitperiod},
+           given={Bruce\bibnamedelima R.},
+           giveni={B\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {McGraw-Hill}%
+      }
+      \strng{namehash}{da6ec91488daec8c3c9eddf18c78dad8}
+      \strng{fullhash}{da6ec91488daec8c3c9eddf18c78dad8}
+      \strng{fullhashraw}{da6ec91488daec8c3c9eddf18c78dad8}
+      \strng{bibnamehash}{da6ec91488daec8c3c9eddf18c78dad8}
+      \strng{authorbibnamehash}{da6ec91488daec8c3c9eddf18c78dad8}
+      \strng{authornamehash}{da6ec91488daec8c3c9eddf18c78dad8}
+      \strng{authorfullhash}{da6ec91488daec8c3c9eddf18c78dad8}
+      \strng{authorfullhashraw}{da6ec91488daec8c3c9eddf18c78dad8}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{9}
+      \field{note}{Entrée consolidée de [106] et [127].}
+      \field{title}{Software Engineering: A Practitioner's Approach}
+      \field{year}{2020}
     \endentry
     \entry{ref110}{book}{}{}
       \name{author}{2}{}{%
@@ -1848,13 +271,103 @@
       \strng{authornamehash}{f6d496f58fadce3159d8c5a78783a32c}
       \strng{authorfullhash}{f6d496f58fadce3159d8c5a78783a32c}
       \strng{authorfullhashraw}{f6d496f58fadce3159d8c5a78783a32c}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{edition}{5}
       \field{title}{Manuel de recherche en sciences sociales}
       \field{year}{2017}
+    \endentry
+    \entry{ref104}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=ff4d31eb4af9e10cb7799ced629912c7}{%
+           family={Flick},
+           familyi={F\bibinitperiod},
+           given={Uwe},
+           giveni={U\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {London, UK}%
+      }
+      \list{publisher}{1}{%
+        {SAGE Publications Ltd}%
+      }
+      \strng{namehash}{ff4d31eb4af9e10cb7799ced629912c7}
+      \strng{fullhash}{ff4d31eb4af9e10cb7799ced629912c7}
+      \strng{fullhashraw}{ff4d31eb4af9e10cb7799ced629912c7}
+      \strng{bibnamehash}{ff4d31eb4af9e10cb7799ced629912c7}
+      \strng{authorbibnamehash}{ff4d31eb4af9e10cb7799ced629912c7}
+      \strng{authornamehash}{ff4d31eb4af9e10cb7799ced629912c7}
+      \strng{authorfullhash}{ff4d31eb4af9e10cb7799ced629912c7}
+      \strng{authorfullhashraw}{ff4d31eb4af9e10cb7799ced629912c7}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{7}
+      \field{isbn}{9781529781328}
+      \field{note}{Entrée consolidée de [104] et [111].}
+      \field{title}{An Introduction to Qualitative Research}
+      \field{year}{2022}
+    \endentry
+    \entry{ref81}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=bf7eb9dbb747f641a5083488354145d6}{%
+           family={Yin},
+           familyi={Y\bibinitperiod},
+           given={Robert\bibnamedelima K.},
+           giveni={R\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Thousand Oaks, CA, USA}%
+      }
+      \list{publisher}{1}{%
+        {SAGE Publications}%
+      }
+      \strng{namehash}{bf7eb9dbb747f641a5083488354145d6}
+      \strng{fullhash}{bf7eb9dbb747f641a5083488354145d6}
+      \strng{fullhashraw}{bf7eb9dbb747f641a5083488354145d6}
+      \strng{bibnamehash}{bf7eb9dbb747f641a5083488354145d6}
+      \strng{authorbibnamehash}{bf7eb9dbb747f641a5083488354145d6}
+      \strng{authornamehash}{bf7eb9dbb747f641a5083488354145d6}
+      \strng{authorfullhash}{bf7eb9dbb747f641a5083488354145d6}
+      \strng{authorfullhashraw}{bf7eb9dbb747f641a5083488354145d6}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{6}
+      \field{title}{Case Study Research and Applications: Design and Methods}
+      \field{year}{2018}
+    \endentry
+    \entry{ref20}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=a6108e77cae870ecbe0698f5c962fea2}{%
+           family={Abu-Mahfouz},
+           familyi={A\bibinithyphendelim M\bibinitperiod},
+           given={M.\bibnamedelimi S.},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{d3bf9a31967ffa17c58b87da2d2f8ff6}
+      \strng{fullhash}{d3bf9a31967ffa17c58b87da2d2f8ff6}
+      \strng{fullhashraw}{d3bf9a31967ffa17c58b87da2d2f8ff6}
+      \strng{bibnamehash}{d3bf9a31967ffa17c58b87da2d2f8ff6}
+      \strng{authorbibnamehash}{d3bf9a31967ffa17c58b87da2d2f8ff6}
+      \strng{authornamehash}{d3bf9a31967ffa17c58b87da2d2f8ff6}
+      \strng{authorfullhash}{d3bf9a31967ffa17c58b87da2d2f8ff6}
+      \strng{authorfullhashraw}{d3bf9a31967ffa17c58b87da2d2f8ff6}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Access}
+      \field{note}{Entrée consolidée des anciennes références [20], [29], [36] et [94]; auteurs/pages/DOI doivent être vérifiés contre la publication originale.}
+      \field{title}{Smart Water Grid: A Review of Intelligent Water Distribution Systems}
+      \field{volume}{8}
+      \field{year}{2020}
     \endentry
     \entry{ref112}{book}{}{}
       \name{author}{2}{}{%
@@ -1920,6 +433,1342 @@
       \field{title}{Méthodologie de la recherche: de la problématique à la discussion des résultats}
       \field{year}{2015}
     \endentry
+    \entry{ref107}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=7058e4bd76f877c52b621c942b30613c}{%
+           family={{International Organization for Standardization}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Geneva, Switzerland}%
+      }
+      \list{organization}{1}{%
+        {International Organization for Standardization}%
+      }
+      \strng{namehash}{7058e4bd76f877c52b621c942b30613c}
+      \strng{fullhash}{7058e4bd76f877c52b621c942b30613c}
+      \strng{fullhashraw}{7058e4bd76f877c52b621c942b30613c}
+      \strng{bibnamehash}{7058e4bd76f877c52b621c942b30613c}
+      \strng{authorbibnamehash}{7058e4bd76f877c52b621c942b30613c}
+      \strng{authornamehash}{7058e4bd76f877c52b621c942b30613c}
+      \strng{authorfullhash}{7058e4bd76f877c52b621c942b30613c}
+      \strng{authorfullhashraw}{7058e4bd76f877c52b621c942b30613c}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{number}{ISO/IEC 25010:2011}
+      \field{title}{Systems and Software Engineering -- Systems and Software Quality Requirements and Evaluation (SQuaRE) -- System and Software Quality Models}
+      \field{year}{2011}
+    \endentry
+    \entry{ref4}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=531217507bec092b6ec36c0f78f46736}{%
+           family={{World Health Organization}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Geneva, Switzerland}%
+      }
+      \list{publisher}{1}{%
+        {World Health Organization}%
+      }
+      \strng{namehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{fullhash}{531217507bec092b6ec36c0f78f46736}
+      \strng{fullhashraw}{531217507bec092b6ec36c0f78f46736}
+      \strng{bibnamehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{authorbibnamehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{authornamehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{authorfullhash}{531217507bec092b6ec36c0f78f46736}
+      \strng{authorfullhashraw}{531217507bec092b6ec36c0f78f46736}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{4}
+      \field{isbn}{978-92-4-004506-4}
+      \field{title}{Guidelines for Drinking-Water Quality: Fourth Edition Incorporating the First and Second Addenda}
+      \field{urlday}{9}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.who.int/publications/i/item/9789240045064
+      \endverb
+      \verb{url}
+      \verb https://www.who.int/publications/i/item/9789240045064
+      \endverb
+    \endentry
+    \entry{ref23}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=531217507bec092b6ec36c0f78f46736}{%
+           family={{World Health Organization}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {World Health Organization}%
+      }
+      \strng{namehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{fullhash}{531217507bec092b6ec36c0f78f46736}
+      \strng{fullhashraw}{531217507bec092b6ec36c0f78f46736}
+      \strng{bibnamehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{authorbibnamehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{authornamehash}{531217507bec092b6ec36c0f78f46736}
+      \strng{authorfullhash}{531217507bec092b6ec36c0f78f46736}
+      \strng{authorfullhashraw}{531217507bec092b6ec36c0f78f46736}
+      \field{extraname}{2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Titre exact et année à vérifier.}
+      \field{title}{Drinking-Water Facts and Guidelines}
+      \field{year}{2020}
+    \endentry
+    \entry{ref3}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=77bb987b259fc7f993d2eccadf4c047c}{%
+           family={{United Nations General Assembly}},
+           familyi={U\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {United Nations}%
+      }
+      \list{location}{1}{%
+        {New York, NY, USA}%
+      }
+      \strng{namehash}{77bb987b259fc7f993d2eccadf4c047c}
+      \strng{fullhash}{77bb987b259fc7f993d2eccadf4c047c}
+      \strng{fullhashraw}{77bb987b259fc7f993d2eccadf4c047c}
+      \strng{bibnamehash}{77bb987b259fc7f993d2eccadf4c047c}
+      \strng{authorbibnamehash}{77bb987b259fc7f993d2eccadf4c047c}
+      \strng{authornamehash}{77bb987b259fc7f993d2eccadf4c047c}
+      \strng{authorfullhash}{77bb987b259fc7f993d2eccadf4c047c}
+      \strng{authorfullhashraw}{77bb987b259fc7f993d2eccadf4c047c}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Résolution adoptée le 28 juillet 2010.}
+      \field{title}{Resolution 64/292: The Human Right to Water and Sanitation}
+      \field{year}{2010}
+    \endentry
+    \entry{ref11}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=e542bd9bb57dfb3adef166058faf5ca1}{%
+           family={{International Water Association}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {International Water Association}%
+      }
+      \strng{namehash}{e542bd9bb57dfb3adef166058faf5ca1}
+      \strng{fullhash}{e542bd9bb57dfb3adef166058faf5ca1}
+      \strng{fullhashraw}{e542bd9bb57dfb3adef166058faf5ca1}
+      \strng{bibnamehash}{e542bd9bb57dfb3adef166058faf5ca1}
+      \strng{authorbibnamehash}{e542bd9bb57dfb3adef166058faf5ca1}
+      \strng{authornamehash}{e542bd9bb57dfb3adef166058faf5ca1}
+      \strng{authorfullhash}{e542bd9bb57dfb3adef166058faf5ca1}
+      \strng{authorfullhashraw}{e542bd9bb57dfb3adef166058faf5ca1}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Édition exacte à vérifier.}
+      \field{title}{Performance Indicators for Water Supply Services}
+      \field{year}{2002}
+    \endentry
+    \entry{ref33}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=8795722480ae1731d01d59a19b4fbf26}{%
+           family={{American Water Works Association}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {McGraw-Hill}%
+      }
+      \strng{namehash}{8795722480ae1731d01d59a19b4fbf26}
+      \strng{fullhash}{8795722480ae1731d01d59a19b4fbf26}
+      \strng{fullhashraw}{8795722480ae1731d01d59a19b4fbf26}
+      \strng{bibnamehash}{8795722480ae1731d01d59a19b4fbf26}
+      \strng{authorbibnamehash}{8795722480ae1731d01d59a19b4fbf26}
+      \strng{authornamehash}{8795722480ae1731d01d59a19b4fbf26}
+      \strng{authorfullhash}{8795722480ae1731d01d59a19b4fbf26}
+      \strng{authorfullhashraw}{8795722480ae1731d01d59a19b4fbf26}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{6}
+      \field{note}{Édition et auteurs/éditeurs à vérifier.}
+      \field{title}{Water Treatment Plant Design}
+      \field{year}{2012}
+    \endentry
+    \entry{ref34}{manual}{}{}
+      \name{author}{1}{}{%
+        {{hash=d4dce2246a2f4c9f6956975ff35532ee}{%
+           family={Rossman},
+           familyi={R\bibinitperiod},
+           given={Lewis\bibnamedelima A.},
+           giveni={L\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Cincinnati, OH, USA}%
+      }
+      \list{organization}{1}{%
+        {U.S. Environmental Protection Agency, National Risk Management Research Laboratory}%
+      }
+      \strng{namehash}{d4dce2246a2f4c9f6956975ff35532ee}
+      \strng{fullhash}{d4dce2246a2f4c9f6956975ff35532ee}
+      \strng{fullhashraw}{d4dce2246a2f4c9f6956975ff35532ee}
+      \strng{bibnamehash}{d4dce2246a2f4c9f6956975ff35532ee}
+      \strng{authorbibnamehash}{d4dce2246a2f4c9f6956975ff35532ee}
+      \strng{authornamehash}{d4dce2246a2f4c9f6956975ff35532ee}
+      \strng{authorfullhash}{d4dce2246a2f4c9f6956975ff35532ee}
+      \strng{authorfullhashraw}{d4dce2246a2f4c9f6956975ff35532ee}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{number}{EPA/600/R-00/057}
+      \field{title}{EPANET 2 Users Manual}
+      \field{urlday}{9}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{year}{2000}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=P1007WWU.TXT
+      \endverb
+      \verb{url}
+      \verb https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=P1007WWU.TXT
+      \endverb
+    \endentry
+    \entry{ref35}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=e542bd9bb57dfb3adef166058faf5ca1}{%
+           family={{International Water Association}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {International Water Association}%
+      }
+      \strng{namehash}{e542bd9bb57dfb3adef166058faf5ca1}
+      \strng{fullhash}{e542bd9bb57dfb3adef166058faf5ca1}
+      \strng{fullhashraw}{e542bd9bb57dfb3adef166058faf5ca1}
+      \strng{bibnamehash}{e542bd9bb57dfb3adef166058faf5ca1}
+      \strng{authorbibnamehash}{e542bd9bb57dfb3adef166058faf5ca1}
+      \strng{authornamehash}{e542bd9bb57dfb3adef166058faf5ca1}
+      \strng{authorfullhash}{e542bd9bb57dfb3adef166058faf5ca1}
+      \strng{authorfullhashraw}{e542bd9bb57dfb3adef166058faf5ca1}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Titre exact à vérifier.}
+      \field{title}{Water Distribution System Performance and Management}
+      \field{year}{2020}
+    \endentry
+    \entry{ref38}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=7f93aea2a445b261656178a8dc2a1e3e}{%
+           family={Mays},
+           familyi={M\bibinitperiod},
+           given={Larry\bibnamedelima W.},
+           giveni={L\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {McGraw-Hill}%
+      }
+      \strng{namehash}{7f93aea2a445b261656178a8dc2a1e3e}
+      \strng{fullhash}{7f93aea2a445b261656178a8dc2a1e3e}
+      \strng{fullhashraw}{7f93aea2a445b261656178a8dc2a1e3e}
+      \strng{bibnamehash}{7f93aea2a445b261656178a8dc2a1e3e}
+      \strng{authorbibnamehash}{7f93aea2a445b261656178a8dc2a1e3e}
+      \strng{authornamehash}{7f93aea2a445b261656178a8dc2a1e3e}
+      \strng{authorfullhash}{7f93aea2a445b261656178a8dc2a1e3e}
+      \strng{authorfullhashraw}{7f93aea2a445b261656178a8dc2a1e3e}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Détails d'édition à vérifier.}
+      \field{title}{Water Distribution Systems Handbook}
+      \field{year}{2000}
+    \endentry
+    \entry{ref39}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=fdf9df44293f8139a1f809621163bbb4}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={A.\bibnamedelimi B.},
+           giveni={A\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \strng{namehash}{fdf9df44293f8139a1f809621163bbb4}
+      \strng{fullhash}{fdf9df44293f8139a1f809621163bbb4}
+      \strng{fullhashraw}{fdf9df44293f8139a1f809621163bbb4}
+      \strng{bibnamehash}{fdf9df44293f8139a1f809621163bbb4}
+      \strng{authorbibnamehash}{fdf9df44293f8139a1f809621163bbb4}
+      \strng{authornamehash}{fdf9df44293f8139a1f809621163bbb4}
+      \strng{authorfullhash}{fdf9df44293f8139a1f809621163bbb4}
+      \strng{authorfullhashraw}{fdf9df44293f8139a1f809621163bbb4}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Water}
+      \field{note}{Métadonnées tronquées dans le document source.}
+      \field{number}{8}
+      \field{title}{Design for an Urban Water Supply Planning ...}
+      \field{volume}{1}
+      \field{year}{2020}
+    \endentry
+    \entry{ref40}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=7d4718aa7c55e89247b3cf010ce35a8f}{%
+           family={Kumar},
+           familyi={K\bibinitperiod},
+           given={A.\bibnamedelimi V.\bibnamedelimi P.},
+           giveni={A\bibinitperiod\bibinitdelim V\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{7d4718aa7c55e89247b3cf010ce35a8f}
+      \strng{fullhash}{7d4718aa7c55e89247b3cf010ce35a8f}
+      \strng{fullhashraw}{7d4718aa7c55e89247b3cf010ce35a8f}
+      \strng{bibnamehash}{7d4718aa7c55e89247b3cf010ce35a8f}
+      \strng{authorbibnamehash}{7d4718aa7c55e89247b3cf010ce35a8f}
+      \strng{authornamehash}{7d4718aa7c55e89247b3cf010ce35a8f}
+      \strng{authorfullhash}{7d4718aa7c55e89247b3cf010ce35a8f}
+      \strng{authorfullhashraw}{7d4718aa7c55e89247b3cf010ce35a8f}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Métadonnées complètes à vérifier.}
+      \field{title}{GIS-based ... water distribution network planning and management}
+      \field{year}{2020}
+    \endentry
+    \entry{ref45}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=808a163a938810383788da074f5de1a8}{%
+           family={Puust},
+           familyi={P\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=078152ae23497d98bee80cc525d2c239}{%
+           family={Kapelan},
+           familyi={K\bibinitperiod},
+           given={Z.},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=b1b3f098b1612c9c9c3020754f713295}{%
+           family={Savic},
+           familyi={S\bibinitperiod},
+           given={D.\bibnamedelimi A.},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=25621a226f5b41d085b4d45d25ec283e}{%
+           family={Koppel},
+           familyi={K\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{7080ee771229f05ee1bca19eb0f0ef12}
+      \strng{fullhash}{158b2a7e1cf604003bb43ba45d799ef6}
+      \strng{fullhashraw}{158b2a7e1cf604003bb43ba45d799ef6}
+      \strng{bibnamehash}{158b2a7e1cf604003bb43ba45d799ef6}
+      \strng{authorbibnamehash}{158b2a7e1cf604003bb43ba45d799ef6}
+      \strng{authornamehash}{7080ee771229f05ee1bca19eb0f0ef12}
+      \strng{authorfullhash}{158b2a7e1cf604003bb43ba45d799ef6}
+      \strng{authorfullhashraw}{158b2a7e1cf604003bb43ba45d799ef6}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Urban Water Journal}
+      \field{note}{Entrée consolidée de [45] et [48]; pages/DOI à vérifier.}
+      \field{number}{1}
+      \field{title}{A review of methods for leakage management in water distribution networks}
+      \field{volume}{7}
+      \field{year}{2010}
+    \endentry
+    \entry{ref47}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=078152ae23497d98bee80cc525d2c239}{%
+           family={Kapelan},
+           familyi={K\bibinitperiod},
+           given={Z.},
+           giveni={Z\bibinitperiod}}}%
+      }
+      \strng{namehash}{078152ae23497d98bee80cc525d2c239}
+      \strng{fullhash}{078152ae23497d98bee80cc525d2c239}
+      \strng{fullhashraw}{078152ae23497d98bee80cc525d2c239}
+      \strng{bibnamehash}{078152ae23497d98bee80cc525d2c239}
+      \strng{authorbibnamehash}{078152ae23497d98bee80cc525d2c239}
+      \strng{authornamehash}{078152ae23497d98bee80cc525d2c239}
+      \strng{authorfullhash}{078152ae23497d98bee80cc525d2c239}
+      \strng{authorfullhashraw}{078152ae23497d98bee80cc525d2c239}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Titre et publication exacte à vérifier.}
+      \field{title}{Decision Support Tools for Water Supply Systems}
+      \field{year}{2000}
+    \endentry
+    \entry{ref42}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=e542bd9bb57dfb3adef166058faf5ca1}{%
+           family={{International Water Association}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {International Water Association}%
+      }
+      \strng{namehash}{e542bd9bb57dfb3adef166058faf5ca1}
+      \strng{fullhash}{e542bd9bb57dfb3adef166058faf5ca1}
+      \strng{fullhashraw}{e542bd9bb57dfb3adef166058faf5ca1}
+      \strng{bibnamehash}{e542bd9bb57dfb3adef166058faf5ca1}
+      \strng{authorbibnamehash}{e542bd9bb57dfb3adef166058faf5ca1}
+      \strng{authornamehash}{e542bd9bb57dfb3adef166058faf5ca1}
+      \strng{authorfullhash}{e542bd9bb57dfb3adef166058faf5ca1}
+      \strng{authorfullhashraw}{e542bd9bb57dfb3adef166058faf5ca1}
+      \field{extraname}{3}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Titre exact et édition à vérifier.}
+      \field{title}{Digital Water: ...}
+      \field{year}{2020}
+    \endentry
+    \entry{ref49}{book}{}{}
+      \name{author}{2}{}{%
+        {{hash=d1ab2fb883b1f90ff04d18134bb5c2de}{%
+           family={Farley},
+           familyi={F\bibinitperiod},
+           given={Malcolm},
+           giveni={M\bibinitperiod}}}%
+        {{hash=cbba386880deab808fdea90a08f9d9c1}{%
+           family={Trow},
+           familyi={T\bibinitperiod},
+           given={Stuart},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {London, UK}%
+      }
+      \list{publisher}{1}{%
+        {IWA Publishing}%
+      }
+      \strng{namehash}{0d3d6b18701736a089a5f73ce7e54616}
+      \strng{fullhash}{0d3d6b18701736a089a5f73ce7e54616}
+      \strng{fullhashraw}{0d3d6b18701736a089a5f73ce7e54616}
+      \strng{bibnamehash}{0d3d6b18701736a089a5f73ce7e54616}
+      \strng{authorbibnamehash}{0d3d6b18701736a089a5f73ce7e54616}
+      \strng{authornamehash}{0d3d6b18701736a089a5f73ce7e54616}
+      \strng{authorfullhash}{0d3d6b18701736a089a5f73ce7e54616}
+      \strng{authorfullhashraw}{0d3d6b18701736a089a5f73ce7e54616}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Édition exacte à vérifier.}
+      \field{title}{Losses in Water Distribution Networks}
+      \field{year}{2003}
+    \endentry
+    \entry{ref50}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=e542bd9bb57dfb3adef166058faf5ca1}{%
+           family={{International Water Association}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {International Water Association}%
+      }
+      \strng{namehash}{e542bd9bb57dfb3adef166058faf5ca1}
+      \strng{fullhash}{e542bd9bb57dfb3adef166058faf5ca1}
+      \strng{fullhashraw}{e542bd9bb57dfb3adef166058faf5ca1}
+      \strng{bibnamehash}{e542bd9bb57dfb3adef166058faf5ca1}
+      \strng{authorbibnamehash}{e542bd9bb57dfb3adef166058faf5ca1}
+      \strng{authornamehash}{e542bd9bb57dfb3adef166058faf5ca1}
+      \strng{authorfullhash}{e542bd9bb57dfb3adef166058faf5ca1}
+      \strng{authorfullhashraw}{e542bd9bb57dfb3adef166058faf5ca1}
+      \field{extraname}{4}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Titre exact à vérifier.}
+      \field{title}{Water Losses in Water Supply Systems: Standard Terminology and ...}
+      \field{year}{2020}
+    \endentry
+    \entry{ref52}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=e89c8c0dc94bdd20c257b1d74f262ced}{%
+           family={Goodchild},
+           familyi={G\bibinitperiod},
+           given={Michael\bibnamedelima F.},
+           giveni={M\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+      }
+      \strng{namehash}{e89c8c0dc94bdd20c257b1d74f262ced}
+      \strng{fullhash}{e89c8c0dc94bdd20c257b1d74f262ced}
+      \strng{fullhashraw}{e89c8c0dc94bdd20c257b1d74f262ced}
+      \strng{bibnamehash}{e89c8c0dc94bdd20c257b1d74f262ced}
+      \strng{authorbibnamehash}{e89c8c0dc94bdd20c257b1d74f262ced}
+      \strng{authornamehash}{e89c8c0dc94bdd20c257b1d74f262ced}
+      \strng{authorfullhash}{e89c8c0dc94bdd20c257b1d74f262ced}
+      \strng{authorfullhashraw}{e89c8c0dc94bdd20c257b1d74f262ced}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of Geographical Information Science}
+      \field{note}{Titre exact, volume, numéro et pages à vérifier.}
+      \field{title}{Geographical Information Science and Systems}
+      \field{year}{2019}
+    \endentry
+    \entry{ref54}{report}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=5a766e85ecd888c792f65fd4f41c094f}{%
+           family={Stouffer},
+           familyi={S\bibinitperiod},
+           given={Keith},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{institution}{2}{%
+        {National Institute of Standards}%
+        {Technology}%
+      }
+      \strng{namehash}{cd4652041c6e5cecda302d6a5d0dc79f}
+      \strng{fullhash}{cd4652041c6e5cecda302d6a5d0dc79f}
+      \strng{fullhashraw}{cd4652041c6e5cecda302d6a5d0dc79f}
+      \strng{bibnamehash}{cd4652041c6e5cecda302d6a5d0dc79f}
+      \strng{authorbibnamehash}{cd4652041c6e5cecda302d6a5d0dc79f}
+      \strng{authornamehash}{cd4652041c6e5cecda302d6a5d0dc79f}
+      \strng{authorfullhash}{cd4652041c6e5cecda302d6a5d0dc79f}
+      \strng{authorfullhashraw}{cd4652041c6e5cecda302d6a5d0dc79f}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Publication exacte à vérifier.}
+      \field{title}{Guide to Operational Technology Security}
+      \field{type}{techreport}
+      \field{year}{2015}
+    \endentry
+    \entry{ref55}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=1cdda9bde1ba3eb4c253c5fd6a51dd2d}{%
+           family={Solomou},
+           familyi={S\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{1cdda9bde1ba3eb4c253c5fd6a51dd2d}
+      \strng{fullhash}{1cdda9bde1ba3eb4c253c5fd6a51dd2d}
+      \strng{fullhashraw}{1cdda9bde1ba3eb4c253c5fd6a51dd2d}
+      \strng{bibnamehash}{1cdda9bde1ba3eb4c253c5fd6a51dd2d}
+      \strng{authorbibnamehash}{1cdda9bde1ba3eb4c253c5fd6a51dd2d}
+      \strng{authornamehash}{1cdda9bde1ba3eb4c253c5fd6a51dd2d}
+      \strng{authorfullhash}{1cdda9bde1ba3eb4c253c5fd6a51dd2d}
+      \strng{authorfullhashraw}{1cdda9bde1ba3eb4c253c5fd6a51dd2d}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Métadonnées complètes à vérifier.}
+      \field{title}{IoT and Artificial Intelligence in Water Resource Management}
+      \field{year}{2020}
+    \endentry
+    \entry{ref56}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=f4149340bc388abb627321731645513a}{%
+           family={Tao},
+           familyi={T\bibinitperiod},
+           given={Fei},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{aee6731a830f7f2d502f4262bfb7e431}
+      \strng{fullhash}{aee6731a830f7f2d502f4262bfb7e431}
+      \strng{fullhashraw}{aee6731a830f7f2d502f4262bfb7e431}
+      \strng{bibnamehash}{aee6731a830f7f2d502f4262bfb7e431}
+      \strng{authorbibnamehash}{aee6731a830f7f2d502f4262bfb7e431}
+      \strng{authornamehash}{aee6731a830f7f2d502f4262bfb7e431}
+      \strng{authorfullhash}{aee6731a830f7f2d502f4262bfb7e431}
+      \strng{authorfullhashraw}{aee6731a830f7f2d502f4262bfb7e431}
+      \field{extraname}{1}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of Advanced Manufacturing Technology}
+      \field{note}{Métadonnées complètes à vérifier.}
+      \field{title}{Three-Dimensional Digital Twin and Smart ...}
+      \field{volume}{9}
+      \field{year}{2020}
+    \endentry
+    \entry{ref8}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=4b5d6786e8fb5cd63db15f454210559d}{%
+           family={Grieves},
+           familyi={G\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=8481067f6e37ac5d92e78a1bc1412167}{%
+           family={Vickers},
+           familyi={V\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{57202742903dc1ba80c3fbb8fcfd93b5}
+      \strng{fullhash}{57202742903dc1ba80c3fbb8fcfd93b5}
+      \strng{fullhashraw}{57202742903dc1ba80c3fbb8fcfd93b5}
+      \strng{bibnamehash}{57202742903dc1ba80c3fbb8fcfd93b5}
+      \strng{authorbibnamehash}{57202742903dc1ba80c3fbb8fcfd93b5}
+      \strng{authornamehash}{57202742903dc1ba80c3fbb8fcfd93b5}
+      \strng{authorfullhash}{57202742903dc1ba80c3fbb8fcfd93b5}
+      \strng{authorfullhashraw}{57202742903dc1ba80c3fbb8fcfd93b5}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Chapitre/ouvrage collectif; détails de l'ouvrage source à vérifier avant dépôt final.}
+      \field{title}{Digital Twin: Mitigating Unpredictable, Undesirable, and Uncertain Outcomes in Complex Systems}
+      \field{year}{2017}
+    \endentry
+    \entry{ref58}{inproceedings}{}{}
+      \name{author}{2}{}{%
+        {{hash=96cbbef3be6c3f3505df75a945aa78bf}{%
+           family={Glaessgen},
+           familyi={G\bibinitperiod},
+           given={Edward},
+           giveni={E\bibinitperiod}}}%
+        {{hash=f1f59d3b65d6e84d16497f917beaabba}{%
+           family={Stargel},
+           familyi={S\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{489332e7fb86fd50248751295ec06e1e}
+      \strng{fullhash}{489332e7fb86fd50248751295ec06e1e}
+      \strng{fullhashraw}{489332e7fb86fd50248751295ec06e1e}
+      \strng{bibnamehash}{489332e7fb86fd50248751295ec06e1e}
+      \strng{authorbibnamehash}{489332e7fb86fd50248751295ec06e1e}
+      \strng{authornamehash}{489332e7fb86fd50248751295ec06e1e}
+      \strng{authorfullhash}{489332e7fb86fd50248751295ec06e1e}
+      \strng{authorfullhashraw}{489332e7fb86fd50248751295ec06e1e}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{53rd AIAA/ASME/ASCE/AHS/ASC Structures, Structural Dynamics and Materials Conference}
+      \field{note}{Détails de publication à vérifier.}
+      \field{title}{The Digital Twin Paradigm for Future NASA and U.S. Air Force Vehicles}
+      \field{year}{2012}
+    \endentry
+    \entry{ref59}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=4b5d6786e8fb5cd63db15f454210559d}{%
+           family={Grieves},
+           familyi={G\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{4b5d6786e8fb5cd63db15f454210559d}
+      \strng{fullhash}{4b5d6786e8fb5cd63db15f454210559d}
+      \strng{fullhashraw}{4b5d6786e8fb5cd63db15f454210559d}
+      \strng{bibnamehash}{4b5d6786e8fb5cd63db15f454210559d}
+      \strng{authorbibnamehash}{4b5d6786e8fb5cd63db15f454210559d}
+      \strng{authornamehash}{4b5d6786e8fb5cd63db15f454210559d}
+      \strng{authorfullhash}{4b5d6786e8fb5cd63db15f454210559d}
+      \strng{authorfullhashraw}{4b5d6786e8fb5cd63db15f454210559d}
+      \field{extraname}{1}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Source conceptuelle; titre/édition exacts à vérifier.}
+      \field{title}{Digital Twin: Manufacturing Excellence through Virtual Factory Replication}
+      \field{year}{2014}
+    \endentry
+    \entry{ref60}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=d65423e45ebd3704c01fd78f83cc5328}{%
+           family={Fuller},
+           familyi={F\bibinitperiod},
+           given={Aidan},
+           giveni={A\bibinitperiod}}}%
+        {{hash=1da679988f7d3d7bacd8878bb45304c4}{%
+           family={Fan},
+           familyi={F\bibinitperiod},
+           given={Zhong},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=cedbb4de65db49936aef60c36415bdd5}{%
+           family={Day},
+           familyi={D\bibinitperiod},
+           given={Charles},
+           giveni={C\bibinitperiod}}}%
+        {{hash=4b91d2a65fed72aa3aac930f7ac66fb5}{%
+           family={Barlow},
+           familyi={B\bibinitperiod},
+           given={Chris},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{f4ef80423af41d52cf27a14afc5e6e69}
+      \strng{fullhash}{eae98d31a490b68745284e728cf5c8bb}
+      \strng{fullhashraw}{eae98d31a490b68745284e728cf5c8bb}
+      \strng{bibnamehash}{eae98d31a490b68745284e728cf5c8bb}
+      \strng{authorbibnamehash}{eae98d31a490b68745284e728cf5c8bb}
+      \strng{authornamehash}{f4ef80423af41d52cf27a14afc5e6e69}
+      \strng{authorfullhash}{eae98d31a490b68745284e728cf5c8bb}
+      \strng{authorfullhashraw}{eae98d31a490b68745284e728cf5c8bb}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Access}
+      \field{note}{Entrée consolidée de [60] et [99].}
+      \field{title}{Digital Twin: Enabling Technologies, Challenges and Open Research}
+      \field{volume}{8}
+      \field{year}{2020}
+      \field{pages}{108952\bibrangedash 108971}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.1109/ACCESS.2020.2998358
+      \endverb
+    \endentry
+    \entry{ref61}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=08788c3e2c62347b8505bd0a097f5e40}{%
+           family={Rasheed},
+           familyi={R\bibinitperiod},
+           given={Adil},
+           giveni={A\bibinitperiod}}}%
+        {{hash=92a748bfcf2782dc92048a352a240f5a}{%
+           family={San},
+           familyi={S\bibinitperiod},
+           given={Omer},
+           giveni={O\bibinitperiod}}}%
+        {{hash=ab537a4ef227e8ca7fa02bc4d355eba1}{%
+           family={Kvamsdal},
+           familyi={K\bibinitperiod},
+           given={Trond},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{0bc503b363af0e0457b35f491c130be7}
+      \strng{fullhash}{1aae93b28b9a3f357157b9bff04f7ec2}
+      \strng{fullhashraw}{1aae93b28b9a3f357157b9bff04f7ec2}
+      \strng{bibnamehash}{1aae93b28b9a3f357157b9bff04f7ec2}
+      \strng{authorbibnamehash}{1aae93b28b9a3f357157b9bff04f7ec2}
+      \strng{authornamehash}{0bc503b363af0e0457b35f491c130be7}
+      \strng{authorfullhash}{1aae93b28b9a3f357157b9bff04f7ec2}
+      \strng{authorfullhashraw}{1aae93b28b9a3f357157b9bff04f7ec2}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Access}
+      \field{note}{Entrée consolidée de [61], [64] et [102].}
+      \field{title}{Digital Twin: Values, Challenges and Enablers From a Modeling Perspective}
+      \field{volume}{8}
+      \field{year}{2020}
+      \field{pages}{21980\bibrangedash 22012}
+      \range{pages}{33}
+      \verb{doi}
+      \verb 10.1109/ACCESS.2020.2970143
+      \endverb
+    \endentry
+    \entry{ref65}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=4b5d6786e8fb5cd63db15f454210559d}{%
+           family={Grieves},
+           familyi={G\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{4b5d6786e8fb5cd63db15f454210559d}
+      \strng{fullhash}{4b5d6786e8fb5cd63db15f454210559d}
+      \strng{fullhashraw}{4b5d6786e8fb5cd63db15f454210559d}
+      \strng{bibnamehash}{4b5d6786e8fb5cd63db15f454210559d}
+      \strng{authorbibnamehash}{4b5d6786e8fb5cd63db15f454210559d}
+      \strng{authornamehash}{4b5d6786e8fb5cd63db15f454210559d}
+      \strng{authorfullhash}{4b5d6786e8fb5cd63db15f454210559d}
+      \strng{authorfullhashraw}{4b5d6786e8fb5cd63db15f454210559d}
+      \field{extraname}{2}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Détails bibliographiques à vérifier.}
+      \field{title}{Virtually Perfect: Digital Twins and the Industrial Internet}
+      \field{year}{2019}
+    \endentry
+    \entry{ref67}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=627c3779677d0eaf3312e5b67e8cbe0c}{%
+           family={McCarthy},
+           familyi={M\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{627c3779677d0eaf3312e5b67e8cbe0c}
+      \strng{fullhash}{627c3779677d0eaf3312e5b67e8cbe0c}
+      \strng{fullhashraw}{627c3779677d0eaf3312e5b67e8cbe0c}
+      \strng{bibnamehash}{627c3779677d0eaf3312e5b67e8cbe0c}
+      \strng{authorbibnamehash}{627c3779677d0eaf3312e5b67e8cbe0c}
+      \strng{authornamehash}{627c3779677d0eaf3312e5b67e8cbe0c}
+      \strng{authorfullhash}{627c3779677d0eaf3312e5b67e8cbe0c}
+      \strng{authorfullhashraw}{627c3779677d0eaf3312e5b67e8cbe0c}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Document/site exact à vérifier.}
+      \field{title}{What Is Artificial Intelligence?}
+      \field{year}{2007}
+    \endentry
+    \entry{ref69}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=9dfd0135a5e80aa6d81cea2c10fb7f73}{%
+           family={Bishop},
+           familyi={B\bibinitperiod},
+           given={Christopher\bibnamedelima M.},
+           giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York, NY, USA}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{9dfd0135a5e80aa6d81cea2c10fb7f73}
+      \strng{fullhash}{9dfd0135a5e80aa6d81cea2c10fb7f73}
+      \strng{fullhashraw}{9dfd0135a5e80aa6d81cea2c10fb7f73}
+      \strng{bibnamehash}{9dfd0135a5e80aa6d81cea2c10fb7f73}
+      \strng{authorbibnamehash}{9dfd0135a5e80aa6d81cea2c10fb7f73}
+      \strng{authornamehash}{9dfd0135a5e80aa6d81cea2c10fb7f73}
+      \strng{authorfullhash}{9dfd0135a5e80aa6d81cea2c10fb7f73}
+      \strng{authorfullhashraw}{9dfd0135a5e80aa6d81cea2c10fb7f73}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-0387310732}
+      \field{title}{Pattern Recognition and Machine Learning}
+      \field{year}{2006}
+    \endentry
+    \entry{ref70}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=99413be56c82adf72b6474dcdf8d3023}{%
+           family={Murphy},
+           familyi={M\bibinitperiod},
+           given={Kevin\bibnamedelima P.},
+           giveni={K\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Cambridge, MA, USA}%
+      }
+      \list{publisher}{1}{%
+        {MIT Press}%
+      }
+      \strng{namehash}{99413be56c82adf72b6474dcdf8d3023}
+      \strng{fullhash}{99413be56c82adf72b6474dcdf8d3023}
+      \strng{fullhashraw}{99413be56c82adf72b6474dcdf8d3023}
+      \strng{bibnamehash}{99413be56c82adf72b6474dcdf8d3023}
+      \strng{authorbibnamehash}{99413be56c82adf72b6474dcdf8d3023}
+      \strng{authornamehash}{99413be56c82adf72b6474dcdf8d3023}
+      \strng{authorfullhash}{99413be56c82adf72b6474dcdf8d3023}
+      \strng{authorfullhashraw}{99413be56c82adf72b6474dcdf8d3023}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Machine Learning: A Probabilistic Perspective}
+      \field{year}{2012}
+    \endentry
+    \entry{ref71}{book}{}{}
+      \name{author}{3}{}{%
+        {{hash=0cb8fe4210baa81c4b0e67913b4d2768}{%
+           family={Hastie},
+           familyi={H\bibinitperiod},
+           given={Trevor},
+           giveni={T\bibinitperiod}}}%
+        {{hash=88eea600247d798f8b2ce0b2dc614492}{%
+           family={Tibshirani},
+           familyi={T\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod}}}%
+        {{hash=971cf69058b64a94326dea0f2a8bbcce}{%
+           family={Friedman},
+           familyi={F\bibinitperiod},
+           given={Jerome},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {New York, NY, USA}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{45eb7d473651da447f1d77717e7f8650}
+      \strng{fullhash}{7ca1bfe876d5e037b6aed69704221267}
+      \strng{fullhashraw}{7ca1bfe876d5e037b6aed69704221267}
+      \strng{bibnamehash}{7ca1bfe876d5e037b6aed69704221267}
+      \strng{authorbibnamehash}{7ca1bfe876d5e037b6aed69704221267}
+      \strng{authornamehash}{45eb7d473651da447f1d77717e7f8650}
+      \strng{authorfullhash}{7ca1bfe876d5e037b6aed69704221267}
+      \strng{authorfullhashraw}{7ca1bfe876d5e037b6aed69704221267}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{2}
+      \field{title}{The Elements of Statistical Learning}
+      \field{year}{2009}
+      \verb{doi}
+      \verb 10.1007/978-0-387-84858-7
+      \endverb
+    \endentry
+    \entry{ref73}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=f7a52b6ab067ad966e9263e86e34a8e2}{%
+           family={Solomatine},
+           familyi={S\bibinitperiod},
+           given={Dmitri\bibnamedelima P.},
+           giveni={D\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=f06fc4056c8f74f5ae5c34a377f0aaca}{%
+           family={Ostfeld},
+           familyi={O\bibinitperiod},
+           given={Avi},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{1e7af279a9a5a6dd5e8008128ecb7215}
+      \strng{fullhash}{1e7af279a9a5a6dd5e8008128ecb7215}
+      \strng{fullhashraw}{1e7af279a9a5a6dd5e8008128ecb7215}
+      \strng{bibnamehash}{1e7af279a9a5a6dd5e8008128ecb7215}
+      \strng{authorbibnamehash}{1e7af279a9a5a6dd5e8008128ecb7215}
+      \strng{authornamehash}{1e7af279a9a5a6dd5e8008128ecb7215}
+      \strng{authorfullhash}{1e7af279a9a5a6dd5e8008128ecb7215}
+      \strng{authorfullhashraw}{1e7af279a9a5a6dd5e8008128ecb7215}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Hydroinformatics}
+      \field{note}{Titre et métadonnées exacts à vérifier.}
+      \field{title}{Data-driven modelling of water distribution systems}
+      \field{year}{2008}
+    \endentry
+    \entry{ref17}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=f4149340bc388abb627321731645513a}{%
+           family={Tao},
+           familyi={T\bibinitperiod},
+           given={Fei},
+           giveni={F\bibinitperiod}}}%
+        {{hash=79de404a0f3ac5ccec6c28b5a79bc60f}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={He},
+           giveni={H\bibinitperiod}}}%
+        {{hash=fc503e8b62eecf2c1f583b4191d838e1}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Ang},
+           giveni={A\bibinitperiod}}}%
+        {{hash=b3604a39c6bc91d6f9eb3e0a91070a56}{%
+           family={Nee},
+           familyi={N\bibinitperiod},
+           given={Andrew\bibnamedelimb Y.\bibnamedelimi C.},
+           giveni={A\bibinitperiod\bibinitdelim Y\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{aee6731a830f7f2d502f4262bfb7e431}
+      \strng{fullhash}{617fff4867182fbb96a564fa3a445dce}
+      \strng{fullhashraw}{617fff4867182fbb96a564fa3a445dce}
+      \strng{bibnamehash}{617fff4867182fbb96a564fa3a445dce}
+      \strng{authorbibnamehash}{617fff4867182fbb96a564fa3a445dce}
+      \strng{authornamehash}{aee6731a830f7f2d502f4262bfb7e431}
+      \strng{authorfullhash}{617fff4867182fbb96a564fa3a445dce}
+      \strng{authorfullhashraw}{617fff4867182fbb96a564fa3a445dce}
+      \field{extraname}{2}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Industrial Informatics}
+      \field{number}{4}
+      \field{title}{Digital Twin in Industry: State-of-the-Art}
+      \field{volume}{15}
+      \field{year}{2019}
+      \field{pages}{2405\bibrangedash 2415}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1109/TII.2018.2873186
+      \endverb
+    \endentry
+    \entry{ref76}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{2}{}{%
+        {{hash=f06fc4056c8f74f5ae5c34a377f0aaca}{%
+           family={Ostfeld},
+           familyi={O\bibinitperiod},
+           given={Avi},
+           giveni={A\bibinitperiod}}}%
+        {{hash=f7a52b6ab067ad966e9263e86e34a8e2}{%
+           family={Solomatine},
+           familyi={S\bibinitperiod},
+           given={Dmitri\bibnamedelima P.},
+           giveni={D\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+      }
+      \strng{namehash}{9ce447abc5df86266d0e9f99e2290ea8}
+      \strng{fullhash}{9ce447abc5df86266d0e9f99e2290ea8}
+      \strng{fullhashraw}{9ce447abc5df86266d0e9f99e2290ea8}
+      \strng{bibnamehash}{9ce447abc5df86266d0e9f99e2290ea8}
+      \strng{authorbibnamehash}{9ce447abc5df86266d0e9f99e2290ea8}
+      \strng{authornamehash}{9ce447abc5df86266d0e9f99e2290ea8}
+      \strng{authorfullhash}{9ce447abc5df86266d0e9f99e2290ea8}
+      \strng{authorfullhashraw}{9ce447abc5df86266d0e9f99e2290ea8}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Hydroinformatics}
+      \field{note}{À vérifier: cette entrée semble proche de ref73 mais n'est pas fusionnée sans preuve d'identité.}
+      \field{title}{Data-driven modelling and water distribution systems}
+      \field{year}{2010}
+    \endentry
+    \entry{ref77}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=98e863c60bc0d0a88c73e880aa4d76fb}{%
+           family={{UN-Habitat}},
+           familyi={U\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {United Nations Human Settlements Programme}%
+      }
+      \strng{namehash}{98e863c60bc0d0a88c73e880aa4d76fb}
+      \strng{fullhash}{98e863c60bc0d0a88c73e880aa4d76fb}
+      \strng{fullhashraw}{98e863c60bc0d0a88c73e880aa4d76fb}
+      \strng{bibnamehash}{98e863c60bc0d0a88c73e880aa4d76fb}
+      \strng{authorbibnamehash}{98e863c60bc0d0a88c73e880aa4d76fb}
+      \strng{authornamehash}{98e863c60bc0d0a88c73e880aa4d76fb}
+      \strng{authorfullhash}{98e863c60bc0d0a88c73e880aa4d76fb}
+      \strng{authorfullhashraw}{98e863c60bc0d0a88c73e880aa4d76fb}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Édition exacte à vérifier.}
+      \field{title}{The State of African Cities}
+      \field{year}{2020}
+    \endentry
+    \entry{ref78}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=0c6103e1202adbbf5a5f24d165477d12}{%
+           family={{REGIDESO}},
+           familyi={R\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {REGIDESO}%
+      }
+      \strng{namehash}{0c6103e1202adbbf5a5f24d165477d12}
+      \strng{fullhash}{0c6103e1202adbbf5a5f24d165477d12}
+      \strng{fullhashraw}{0c6103e1202adbbf5a5f24d165477d12}
+      \strng{bibnamehash}{0c6103e1202adbbf5a5f24d165477d12}
+      \strng{authorbibnamehash}{0c6103e1202adbbf5a5f24d165477d12}
+      \strng{authornamehash}{0c6103e1202adbbf5a5f24d165477d12}
+      \strng{authorfullhash}{0c6103e1202adbbf5a5f24d165477d12}
+      \strng{authorfullhashraw}{0c6103e1202adbbf5a5f24d165477d12}
+      \field{extraname}{1}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Titre et année exacts à vérifier.}
+      \field{title}{Rapport sur la situation du réseau de distribution d'eau potable}
+      \field{year}{2020}
+    \endentry
+    \entry{ref79}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=32730e15a7ca0bf0686ea8d4a3a46ab9}{%
+           family={{World Bank}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {World Bank}%
+      }
+      \strng{namehash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{fullhash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{fullhashraw}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{bibnamehash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{authorbibnamehash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{authornamehash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{authorfullhash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{authorfullhashraw}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \field{extraname}{1}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Titre/année exacts à vérifier.}
+      \field{title}{Water Supply and Sanitation in Sub-Saharan Africa: A ...}
+      \field{year}{2020}
+    \endentry
+    \entry{ref82}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=4cad72fc234566e629039b3eb14d3a64}{%
+           family={{Institut National de la Statistique}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Institut National de la Statistique}%
+      }
+      \strng{namehash}{4cad72fc234566e629039b3eb14d3a64}
+      \strng{fullhash}{4cad72fc234566e629039b3eb14d3a64}
+      \strng{fullhashraw}{4cad72fc234566e629039b3eb14d3a64}
+      \strng{bibnamehash}{4cad72fc234566e629039b3eb14d3a64}
+      \strng{authorbibnamehash}{4cad72fc234566e629039b3eb14d3a64}
+      \strng{authornamehash}{4cad72fc234566e629039b3eb14d3a64}
+      \strng{authorfullhash}{4cad72fc234566e629039b3eb14d3a64}
+      \strng{authorfullhashraw}{4cad72fc234566e629039b3eb14d3a64}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Édition exacte à vérifier.}
+      \field{title}{Annuaire statistique de la République Démocratique du Congo}
+      \field{year}{2020}
+    \endentry
+    \entry{ref83}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=cc2120a79556d87eabb468fa41bfd985}{%
+           family={{Mairie de Bukavu}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Mairie de Bukavu}%
+      }
+      \strng{namehash}{cc2120a79556d87eabb468fa41bfd985}
+      \strng{fullhash}{cc2120a79556d87eabb468fa41bfd985}
+      \strng{fullhashraw}{cc2120a79556d87eabb468fa41bfd985}
+      \strng{bibnamehash}{cc2120a79556d87eabb468fa41bfd985}
+      \strng{authorbibnamehash}{cc2120a79556d87eabb468fa41bfd985}
+      \strng{authornamehash}{cc2120a79556d87eabb468fa41bfd985}
+      \strng{authorfullhash}{cc2120a79556d87eabb468fa41bfd985}
+      \strng{authorfullhashraw}{cc2120a79556d87eabb468fa41bfd985}
+      \field{extraname}{1}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Année et référence documentaire à vérifier.}
+      \field{title}{Monographie de la ville de Bukavu}
+      \field{year}{2020}
+    \endentry
+    \entry{ref84}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=cc2120a79556d87eabb468fa41bfd985}{%
+           family={{Mairie de Bukavu}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Mairie de Bukavu}%
+      }
+      \strng{namehash}{cc2120a79556d87eabb468fa41bfd985}
+      \strng{fullhash}{cc2120a79556d87eabb468fa41bfd985}
+      \strng{fullhashraw}{cc2120a79556d87eabb468fa41bfd985}
+      \strng{bibnamehash}{cc2120a79556d87eabb468fa41bfd985}
+      \strng{authorbibnamehash}{cc2120a79556d87eabb468fa41bfd985}
+      \strng{authornamehash}{cc2120a79556d87eabb468fa41bfd985}
+      \strng{authorfullhash}{cc2120a79556d87eabb468fa41bfd985}
+      \strng{authorfullhashraw}{cc2120a79556d87eabb468fa41bfd985}
+      \field{extraname}{2}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Année et version à vérifier.}
+      \field{title}{Plan Local de Développement de la Ville de Bukavu}
+      \field{year}{2020}
+    \endentry
+    \entry{ref85}{report}{}{}
+      \name{author}{1}{}{%
+        {{hash=62d6ecdba076b667630153a2861c6308}{%
+           family={{Programme des Nations Unies pour le Développement}},
+           familyi={P\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {PNUD}%
+      }
+      \strng{namehash}{62d6ecdba076b667630153a2861c6308}
+      \strng{fullhash}{62d6ecdba076b667630153a2861c6308}
+      \strng{fullhashraw}{62d6ecdba076b667630153a2861c6308}
+      \strng{bibnamehash}{62d6ecdba076b667630153a2861c6308}
+      \strng{authorbibnamehash}{62d6ecdba076b667630153a2861c6308}
+      \strng{authornamehash}{62d6ecdba076b667630153a2861c6308}
+      \strng{authorfullhash}{62d6ecdba076b667630153a2861c6308}
+      \strng{authorfullhashraw}{62d6ecdba076b667630153a2861c6308}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Édition exacte à vérifier.}
+      \field{title}{Rapport sur le développement humain en République Démocratique du Congo}
+      \field{year}{2020}
+    \endentry
+    \entry{ref86}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=0c6103e1202adbbf5a5f24d165477d12}{%
+           family={{REGIDESO}},
+           familyi={R\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {REGIDESO}%
+      }
+      \strng{namehash}{0c6103e1202adbbf5a5f24d165477d12}
+      \strng{fullhash}{0c6103e1202adbbf5a5f24d165477d12}
+      \strng{fullhashraw}{0c6103e1202adbbf5a5f24d165477d12}
+      \strng{bibnamehash}{0c6103e1202adbbf5a5f24d165477d12}
+      \strng{authorbibnamehash}{0c6103e1202adbbf5a5f24d165477d12}
+      \strng{authornamehash}{0c6103e1202adbbf5a5f24d165477d12}
+      \strng{authorfullhash}{0c6103e1202adbbf5a5f24d165477d12}
+      \strng{authorfullhashraw}{0c6103e1202adbbf5a5f24d165477d12}
+      \field{extraname}{2}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{L'année doit être remplacée par l'année du rapport effectivement consulté.}
+      \field{title}{Rapports annuels d'activités}
+      \field{year}{2020}
+    \endentry
+    \entry{ref92}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=32730e15a7ca0bf0686ea8d4a3a46ab9}{%
+           family={{World Bank}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {World Bank}%
+      }
+      \strng{namehash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{fullhash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{fullhashraw}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{bibnamehash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{authorbibnamehash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{authornamehash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{authorfullhash}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \strng{authorfullhashraw}{32730e15a7ca0bf0686ea8d4a3a46ab9}
+      \field{extraname}{2}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Édition exacte à vérifier.}
+      \field{title}{Water Supply and Sanitation in Sub-Saharan Africa}
+      \field{year}{2020}
+    \endentry
+    \entry{ref95}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=0c6103e1202adbbf5a5f24d165477d12}{%
+           family={{REGIDESO}},
+           familyi={R\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {REGIDESO}%
+      }
+      \strng{namehash}{0c6103e1202adbbf5a5f24d165477d12}
+      \strng{fullhash}{0c6103e1202adbbf5a5f24d165477d12}
+      \strng{fullhashraw}{0c6103e1202adbbf5a5f24d165477d12}
+      \strng{bibnamehash}{0c6103e1202adbbf5a5f24d165477d12}
+      \strng{authorbibnamehash}{0c6103e1202adbbf5a5f24d165477d12}
+      \strng{authornamehash}{0c6103e1202adbbf5a5f24d165477d12}
+      \strng{authorfullhash}{0c6103e1202adbbf5a5f24d165477d12}
+      \strng{authorfullhashraw}{0c6103e1202adbbf5a5f24d165477d12}
+      \field{extraname}{3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Année/version à vérifier.}
+      \field{title}{Manuel d'exploitation des réseaux de distribution d'eau potable}
+      \field{year}{2020}
+    \endentry
+    \entry{ref90}{book}{}{}
+      \name{author}{3}{}{%
+        {{hash=3849326d34d158900795d16879fa7014}{%
+           family={Twort},
+           familyi={T\bibinitperiod},
+           given={Alan\bibnamedelima C.},
+           giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=13c846ba05b08e591c875aa9f7ae8da2}{%
+           family={Ratnayaka},
+           familyi={R\bibinitperiod},
+           given={Don\bibnamedelima D.},
+           giveni={D\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=cc326eebc7ad113358ed295d609c7a60}{%
+           family={Brandt},
+           familyi={B\bibinitperiod},
+           given={Malcolm\bibnamedelima J.},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Butterworth-Heinemann}%
+      }
+      \strng{namehash}{ea6a306b05f06b09b42b1e77be75f69b}
+      \strng{fullhash}{71f348d7cabb3188209a9ddb47e4c9a2}
+      \strng{fullhashraw}{71f348d7cabb3188209a9ddb47e4c9a2}
+      \strng{bibnamehash}{71f348d7cabb3188209a9ddb47e4c9a2}
+      \strng{authorbibnamehash}{71f348d7cabb3188209a9ddb47e4c9a2}
+      \strng{authornamehash}{ea6a306b05f06b09b42b1e77be75f69b}
+      \strng{authorfullhash}{71f348d7cabb3188209a9ddb47e4c9a2}
+      \strng{authorfullhashraw}{71f348d7cabb3188209a9ddb47e4c9a2}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{7}
+      \field{note}{Entrée consolidée de [90] et [96]; l'édition exacte utilisée dans le manuscrit doit être vérifiée.}
+      \field{title}{Water Supply}
+      \field{year}{2000}
+    \endentry
+    \entry{ref98}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=afdd636579e8de058688526a2e3d4b71}{%
+           family={Moubray},
+           familyi={M\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Oxford, UK}%
+      }
+      \list{publisher}{1}{%
+        {Butterworth-Heinemann}%
+      }
+      \strng{namehash}{afdd636579e8de058688526a2e3d4b71}
+      \strng{fullhash}{afdd636579e8de058688526a2e3d4b71}
+      \strng{fullhashraw}{afdd636579e8de058688526a2e3d4b71}
+      \strng{bibnamehash}{afdd636579e8de058688526a2e3d4b71}
+      \strng{authorbibnamehash}{afdd636579e8de058688526a2e3d4b71}
+      \strng{authornamehash}{afdd636579e8de058688526a2e3d4b71}
+      \strng{authorfullhash}{afdd636579e8de058688526a2e3d4b71}
+      \strng{authorfullhashraw}{afdd636579e8de058688526a2e3d4b71}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{2}
+      \field{title}{Reliability-Centered Maintenance}
+      \field{year}{1997}
+    \endentry
     \entry{ref114}{book}{}{}
       \name{author}{1}{}{%
         {{hash=70341b3bfcce7026902f4eb1e4111b58}{%
@@ -1939,8 +1788,8 @@
       \strng{authornamehash}{70341b3bfcce7026902f4eb1e4111b58}
       \strng{authorfullhash}{70341b3bfcce7026902f4eb1e4111b58}
       \strng{authorfullhashraw}{70341b3bfcce7026902f4eb1e4111b58}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{edition}{10}
@@ -1948,6 +1797,35 @@
       \field{note}{Entrée consolidée de [114] et [128].}
       \field{title}{Software Engineering}
       \field{year}{2016}
+    \endentry
+    \entry{ref100}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=1ea4ea7e55d365c0c7a5af1da7eb7caf}{%
+           family={Mobley},
+           familyi={M\bibinitperiod},
+           given={R.\bibnamedelimi Keith},
+           giveni={R\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Oxford, UK}%
+      }
+      \list{publisher}{1}{%
+        {Butterworth-Heinemann}%
+      }
+      \strng{namehash}{1ea4ea7e55d365c0c7a5af1da7eb7caf}
+      \strng{fullhash}{1ea4ea7e55d365c0c7a5af1da7eb7caf}
+      \strng{fullhashraw}{1ea4ea7e55d365c0c7a5af1da7eb7caf}
+      \strng{bibnamehash}{1ea4ea7e55d365c0c7a5af1da7eb7caf}
+      \strng{authorbibnamehash}{1ea4ea7e55d365c0c7a5af1da7eb7caf}
+      \strng{authornamehash}{1ea4ea7e55d365c0c7a5af1da7eb7caf}
+      \strng{authorfullhash}{1ea4ea7e55d365c0c7a5af1da7eb7caf}
+      \strng{authorfullhashraw}{1ea4ea7e55d365c0c7a5af1da7eb7caf}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{An Introduction to Predictive Maintenance}
+      \field{year}{2002}
     \endentry
     \entry{ref115}{online}{}{}
       \name{author}{1}{}{%
@@ -1995,7 +1873,6 @@
       \strng{authornamehash}{f275f2a55ee4abdf8875dce6987e2f5f}
       \strng{authorfullhash}{f275f2a55ee4abdf8875dce6987e2f5f}
       \strng{authorfullhashraw}{f275f2a55ee4abdf8875dce6987e2f5f}
-      \field{extraname}{1}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
@@ -2250,66 +2127,6 @@
       \field{title}{The Unified Modeling Language User Guide}
       \field{year}{2005}
     \endentry
-    \entry{ref124}{book}{}{}
-      \name{author}{1}{}{%
-        {{hash=be7db5922f05fc919bdc1c036502e5ee}{%
-           family={Larman},
-           familyi={L\bibinitperiod},
-           given={Craig},
-           giveni={C\bibinitperiod}}}%
-      }
-      \list{location}{1}{%
-        {Upper Saddle River, NJ, USA}%
-      }
-      \list{publisher}{1}{%
-        {Prentice Hall}%
-      }
-      \strng{namehash}{be7db5922f05fc919bdc1c036502e5ee}
-      \strng{fullhash}{be7db5922f05fc919bdc1c036502e5ee}
-      \strng{fullhashraw}{be7db5922f05fc919bdc1c036502e5ee}
-      \strng{bibnamehash}{be7db5922f05fc919bdc1c036502e5ee}
-      \strng{authorbibnamehash}{be7db5922f05fc919bdc1c036502e5ee}
-      \strng{authornamehash}{be7db5922f05fc919bdc1c036502e5ee}
-      \strng{authorfullhash}{be7db5922f05fc919bdc1c036502e5ee}
-      \strng{authorfullhashraw}{be7db5922f05fc919bdc1c036502e5ee}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{edition}{3}
-      \field{title}{Applying UML and Patterns: An Introduction to Object-Oriented Analysis and Design and Iterative Development}
-      \field{year}{2004}
-    \endentry
-    \entry{ref125}{book}{}{}
-      \name{author}{1}{}{%
-        {{hash=312ac886938a9b2be4f8eb607567fe4c}{%
-           family={Fowler},
-           familyi={F\bibinitperiod},
-           given={Martin},
-           giveni={M\bibinitperiod}}}%
-      }
-      \list{location}{1}{%
-        {Boston, MA, USA}%
-      }
-      \list{publisher}{1}{%
-        {Addison-Wesley}%
-      }
-      \strng{namehash}{312ac886938a9b2be4f8eb607567fe4c}
-      \strng{fullhash}{312ac886938a9b2be4f8eb607567fe4c}
-      \strng{fullhashraw}{312ac886938a9b2be4f8eb607567fe4c}
-      \strng{bibnamehash}{312ac886938a9b2be4f8eb607567fe4c}
-      \strng{authorbibnamehash}{312ac886938a9b2be4f8eb607567fe4c}
-      \strng{authornamehash}{312ac886938a9b2be4f8eb607567fe4c}
-      \strng{authorfullhash}{312ac886938a9b2be4f8eb607567fe4c}
-      \strng{authorfullhashraw}{312ac886938a9b2be4f8eb607567fe4c}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{edition}{3}
-      \field{title}{UML Distilled: A Brief Guide to the Standard Object Modeling Language}
-      \field{year}{2004}
-    \endentry
     \entry{ref126}{book}{}{}
       \name{author}{3}{}{%
         {{hash=97196c0aaced1368c3042b9299a9b34b}{%
@@ -2429,71 +2246,44 @@
       \verb https://doi.org/10.1016/j.datak.2024.102304
       \endverb
     \endentry
-    \entry{ref129}{online}{}{}
-      \name{author}{1}{}{%
-        {{hash=f275f2a55ee4abdf8875dce6987e2f5f}{%
-           family={{FastAPI}},
-           familyi={F\bibinitperiod}}}%
+    \entry{ref105}{book}{}{}
+      \name{author}{3}{}{%
+        {{hash=3e8f03cc324f52193ab00c1fab4df61a}{%
+           family={Jacobson},
+           familyi={J\bibinitperiod},
+           given={Ivar},
+           giveni={I\bibinitperiod}}}%
+        {{hash=e4f07715269e006a4d4a4efa3ce3f996}{%
+           family={Booch},
+           familyi={B\bibinitperiod},
+           given={Grady},
+           giveni={G\bibinitperiod}}}%
+        {{hash=b8ace965f1ffa84dd4512f7e64c62d75}{%
+           family={Rumbaugh},
+           familyi={R\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod}}}%
       }
-      \strng{namehash}{f275f2a55ee4abdf8875dce6987e2f5f}
-      \strng{fullhash}{f275f2a55ee4abdf8875dce6987e2f5f}
-      \strng{fullhashraw}{f275f2a55ee4abdf8875dce6987e2f5f}
-      \strng{bibnamehash}{f275f2a55ee4abdf8875dce6987e2f5f}
-      \strng{authorbibnamehash}{f275f2a55ee4abdf8875dce6987e2f5f}
-      \strng{authornamehash}{f275f2a55ee4abdf8875dce6987e2f5f}
-      \strng{authorfullhash}{f275f2a55ee4abdf8875dce6987e2f5f}
-      \strng{authorfullhashraw}{f275f2a55ee4abdf8875dce6987e2f5f}
-      \field{extraname}{2}
+      \list{location}{1}{%
+        {Reading, MA, USA}%
+      }
+      \list{publisher}{1}{%
+        {Addison-Wesley}%
+      }
+      \strng{namehash}{4efdf840f59e9f84adf0e1a992e1b69d}
+      \strng{fullhash}{c5922c582762d1499b91cdcab0e68aeb}
+      \strng{fullhashraw}{c5922c582762d1499b91cdcab0e68aeb}
+      \strng{bibnamehash}{c5922c582762d1499b91cdcab0e68aeb}
+      \strng{authorbibnamehash}{c5922c582762d1499b91cdcab0e68aeb}
+      \strng{authornamehash}{4efdf840f59e9f84adf0e1a992e1b69d}
+      \strng{authorfullhash}{c5922c582762d1499b91cdcab0e68aeb}
+      \strng{authorfullhashraw}{c5922c582762d1499b91cdcab0e68aeb}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{note}{Documentation officielle de FastAPI.}
-      \field{title}{FastAPI Documentation}
-      \field{urlday}{17}
-      \field{urlmonth}{8}
-      \field{urlyear}{2026}
-      \field{year}{2026}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://fastapi.tiangolo.com/
-      \endverb
-      \verb{url}
-      \verb https://fastapi.tiangolo.com/
-      \endverb
-    \endentry
-    \entry{ref128}{article}{}{}
-      \name{author}{1}{}{%
-        {{hash=350a86b0327152e3a50596538f38a5db}{%
-           family={{Meta Platforms, Inc.}},
-           familyi={M\bibinitperiod}}}%
-      }
-      \strng{namehash}{350a86b0327152e3a50596538f38a5db}
-      \strng{fullhash}{350a86b0327152e3a50596538f38a5db}
-      \strng{fullhashraw}{350a86b0327152e3a50596538f38a5db}
-      \strng{bibnamehash}{350a86b0327152e3a50596538f38a5db}
-      \strng{authorbibnamehash}{350a86b0327152e3a50596538f38a5db}
-      \strng{authornamehash}{350a86b0327152e3a50596538f38a5db}
-      \strng{authorfullhash}{350a86b0327152e3a50596538f38a5db}
-      \strng{authorfullhashraw}{350a86b0327152e3a50596538f38a5db}
-      \field{extraname}{2}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{note}{Documentation officielle de React ; consultée pour la conception des composants et des interfaces JSX.}
-      \field{title}{React Documentation}
-      \field{urlday}{17}
-      \field{urlmonth}{8}
-      \field{urlyear}{2026}
-      \field{year}{2026}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://react.dev/
-      \endverb
-      \verb{url}
-      \verb https://react.dev/
-      \endverb
+      \field{title}{The Unified Software Development Process}
+      \field{year}{1999}
     \endentry
     \entry{ref131}{online}{}{}
       \name{author}{1}{}{%
@@ -2653,6 +2443,39 @@
       \endverb
       \verb{url}
       \verb https://doi.org/10.3390/w15061129
+      \endverb
+    \endentry
+    \entry{ref128}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=350a86b0327152e3a50596538f38a5db}{%
+           family={{Meta Platforms, Inc.}},
+           familyi={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{350a86b0327152e3a50596538f38a5db}
+      \strng{fullhash}{350a86b0327152e3a50596538f38a5db}
+      \strng{fullhashraw}{350a86b0327152e3a50596538f38a5db}
+      \strng{bibnamehash}{350a86b0327152e3a50596538f38a5db}
+      \strng{authorbibnamehash}{350a86b0327152e3a50596538f38a5db}
+      \strng{authornamehash}{350a86b0327152e3a50596538f38a5db}
+      \strng{authorfullhash}{350a86b0327152e3a50596538f38a5db}
+      \strng{authorfullhashraw}{350a86b0327152e3a50596538f38a5db}
+      \field{extraname}{2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Documentation officielle de React ; consultée pour la conception des composants et des interfaces JSX.}
+      \field{title}{React Documentation}
+      \field{urlday}{17}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://react.dev/
+      \endverb
+      \verb{url}
+      \verb https://react.dev/
       \endverb
     \endentry
     \entry{ref135}{article}{}{}

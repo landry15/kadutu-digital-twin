@@ -1,14 +1,32 @@
+/* ============================================================
+   CONTENEUR PRINCIPAL
+============================================================ */
+
 .carte-wrapper {
+
     width: 100%;
+
     height: 750px;
+
     position: relative;
+
     overflow: hidden;
+
     background: #f5f7fa;
+
 }
 
+
+/* ============================================================
+   CARTE LEAFLET
+============================================================ */
+
 .carte {
+
     width: 100%;
+
     height: 100%;
+
 }
 
 
@@ -17,10 +35,13 @@
 ============================================================ */
 
 .carte-recherche {
+
     position: absolute;
+
     z-index: 1000;
 
     top: 20px;
+
     left: 20px;
 
     width: 340px;
@@ -32,17 +53,29 @@
     border-radius: 10px;
 
     box-shadow:
-        0 4px 18px rgba(0, 0, 0, 0.18);
+        0 4px 18px rgba(
+            0,
+            0,
+            0,
+            0.18
+        );
+
 }
 
+
 .recherche-titre {
+
     font-weight: 700;
+
     font-size: 16px;
 
     margin-bottom: 10px;
+
 }
 
+
 .carte-recherche input {
+
     width: 100%;
 
     box-sizing: border-box;
@@ -56,18 +89,31 @@
     outline: none;
 
     font-size: 14px;
+
 }
 
+
 .carte-recherche input:focus {
+
     border-color: #2563eb;
+
+    box-shadow:
+        0 0 0 2px rgba(
+            37,
+            99,
+            235,
+            0.1
+        );
+
 }
 
 
 /* ============================================================
-   RESULTATS
+   RESULTATS DE RECHERCHE
 ============================================================ */
 
 .resultats-recherche {
+
     margin-top: 8px;
 
     max-height: 250px;
@@ -79,9 +125,12 @@
     border-radius: 7px;
 
     background: white;
+
 }
 
+
 .resultats-recherche button {
+
     display: flex;
 
     flex-direction: column;
@@ -97,252 +146,54 @@
     text-align: left;
 
     cursor: pointer;
+
+    transition:
+        background 0.2s ease,
+        transform 0.2s ease;
+
 }
+
 
 .resultats-recherche button:hover {
+
     background: #f3f4f6;
+
 }
+
+
+.resultats-recherche button:active {
+
+    transform: scale(0.98);
+
+}
+
 
 .resultats-recherche strong {
+
     font-size: 14px;
+
+    color: #111827;
+
 }
 
+
 .resultats-recherche span {
+
     font-size: 12px;
 
     color: #6b7280;
 
     margin-top: 3px;
-}
-
-
-/* ============================================================
-   ICONES
-============================================================ */
-
-.icone-reseau {
-    background: transparent;
-
-    border: none;
-}
-
-.icone-reseau-contenu {
-    width: 34px;
-    height: 34px;
-
-    display: flex;
-
-    align-items: center;
-    justify-content: center;
-
-    border-radius: 50%;
-
-    background: white;
-
-    border: 2px solid #1f2937;
-
-    box-shadow:
-        0 2px 6px rgba(0, 0, 0, 0.25);
-
-    font-size: 18px;
-}
-
-
-/* ============================================================
-   POPUP
-============================================================ */
-
-.popup-reseau {
-    min-width: 210px;
-
-    font-family: Arial, sans-serif;
-
-    line-height: 1.6;
-}
-
-.popup-reseau h3 {
-    margin: 0 0 8px;
-
-    font-size: 16px;
-}
-
-.future-value {
-    color: #6b7280;
-
-    font-style: italic;
-}
-
-
-/* ============================================================
-   LEGENDE
-============================================================ */
-
-.legende-carte {
-    position: absolute;
-
-    z-index: 1000;
-
-    bottom: 20px;
-    left: 20px;
-
-    background: white;
-
-    padding: 14px;
-
-    border-radius: 10px;
-
-    box-shadow:
-        0 4px 18px rgba(0, 0, 0, 0.18);
-
-    min-width: 190px;
-
-    font-size: 13px;
-}
-
-.legende-titre {
-    font-size: 15px;
-
-    font-weight: 700;
-
-    margin-bottom: 10px;
-}
-
-.legende-item {
-    display: flex;
-
-    align-items: center;
-
-    gap: 8px;
-
-    margin-bottom: 7px;
-}
-
-.ligne {
-    display: inline-block;
-
-    width: 30px;
-
-    height: 4px;
-
-    border-radius: 3px;
-}
-
-.ligne.active {
-    background: #16a34a;
-}
-
-.ligne.maintenance {
-    background: #f59e0b;
-}
-
-.ligne.inactive {
-    background: #dc2626;
-}
-
-
-/* ============================================================
-   INDICATEURS
-============================================================ */
-
-.indicateurs-futurs {
-    position: absolute;
-
-    z-index: 1000;
-
-    top: 20px;
-    right: 60px;
-
-    display: flex;
-
-    gap: 10px;
-}
-
-.indicateurs-futurs div {
-    min-width: 100px;
-
-    padding: 10px 12px;
-
-    background: white;
-
-    border-radius: 8px;
-
-    box-shadow:
-        0 3px 12px rgba(0, 0, 0, 0.15);
-
-    display: flex;
-
-    flex-direction: column;
-}
-
-.indicateurs-futurs span {
-    font-size: 11px;
-
-    color: #6b7280;
-}
-
-.indicateurs-futurs strong {
-    font-size: 15px;
-
-    margin-top: 3px;
-}
-
-
-/* ============================================================
-   MESSAGE
-============================================================ */
-
-.carte-message {
-    width: 100%;
-
-    min-height: 400px;
-
-    display: flex;
-
-    align-items: center;
-    justify-content: center;
-
-    font-size: 18px;
-}
-
-.carte-message.erreur {
-    color: #b91c1c;
-}
-
-
-/* ============================================================
-   RESPONSIVE
-============================================================ */
-
-@media (max-width: 768px) {
-
-    .carte-wrapper {
-        height: 650px;
-    }
-
-    .carte-recherche {
-        left: 10px;
-        top: 10px;
-
-        width: calc(100% - 80px);
-    }
-
-    .indicateurs-futurs {
-        display: none;
-    }
-
-    .legende-carte {
-        bottom: 10px;
-        left: 10px;
-    }
 
 }
 
 
 /* ============================================================
-   MESSAGE AUCUN RESULTAT
+   AUCUN RESULTAT
 ============================================================ */
 
 .aucun-resultat {
+
     margin-top: 8px;
 
     padding: 10px;
@@ -354,19 +205,471 @@
     color: #6b7280;
 
     font-size: 13px;
+
 }
 
 
 /* ============================================================
-   EFFET DE SELECTION
+   ICONES DU RESEAU
 ============================================================ */
 
-.resultats-recherche button {
-    transition:
-        background 0.2s ease,
-        transform 0.2s ease;
+.icone-reseau {
+
+    background: transparent;
+
+    border: none;
+
 }
 
-.resultats-recherche button:active {
-    transform: scale(0.98);
+
+.icone-reseau-contenu {
+
+    width: 34px;
+
+    height: 34px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    border-radius: 50%;
+
+    background: white;
+
+    border: 2px solid #1f2937;
+
+    box-shadow:
+        0 2px 6px rgba(
+            0,
+            0,
+            0,
+            0.25
+        );
+
+    font-size: 18px;
+
+}
+
+
+/* ============================================================
+   POPUP
+============================================================ */
+
+.popup-reseau {
+
+    min-width: 230px;
+
+    font-family: Arial, sans-serif;
+
+    line-height: 1.6;
+
+}
+
+
+.popup-reseau h3 {
+
+    margin: 0 0 8px;
+
+    font-size: 16px;
+
+    color: #111827;
+
+}
+
+
+.popup-reseau hr {
+
+    border: none;
+
+    border-top: 1px solid #e5e7eb;
+
+    margin: 10px 0;
+
+}
+
+
+/* ============================================================
+   ETAT DES CONDUITES
+============================================================ */
+
+.etat-conduite {
+
+    margin-top: 8px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    gap: 8px;
+
+}
+
+
+.badge-etat {
+
+    display: inline-block;
+
+    padding: 4px 9px;
+
+    border-radius: 20px;
+
+    background: #dcfce7;
+
+    color: #166534;
+
+    font-size: 12px;
+
+    font-weight: 700;
+
+}
+
+
+/* ============================================================
+   MESURES DU RESEAU
+============================================================ */
+
+.mesure-reseau {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    gap: 15px;
+
+    margin-top: 8px;
+
+    padding: 7px 0;
+
+    border-bottom: 1px solid #e5e7eb;
+
+}
+
+
+.mesure-reseau strong {
+
+    font-size: 13px;
+
+}
+
+
+.mesure-reseau span {
+
+    font-weight: 600;
+
+    color: #374151;
+
+}
+
+
+.future-value {
+
+    color: #6b7280 !important;
+
+    font-style: italic;
+
+    font-weight: normal !important;
+
+}
+
+
+/* ============================================================
+   LEGENDE
+============================================================ */
+
+.legende-carte {
+
+    position: absolute;
+
+    z-index: 1000;
+
+    bottom: 20px;
+
+    left: 20px;
+
+    background: white;
+
+    padding: 14px;
+
+    border-radius: 10px;
+
+    box-shadow:
+        0 4px 18px rgba(
+            0,
+            0,
+            0,
+            0.18
+        );
+
+    min-width: 200px;
+
+    font-size: 13px;
+
+}
+
+
+.legende-titre {
+
+    font-size: 15px;
+
+    font-weight: 700;
+
+    margin-bottom: 10px;
+
+}
+
+
+.legende-item {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 8px;
+
+    margin-bottom: 7px;
+
+}
+
+
+.ligne {
+
+    display: inline-block;
+
+    width: 30px;
+
+    height: 4px;
+
+    border-radius: 3px;
+
+}
+
+
+.ligne.active {
+
+    background: #16a34a;
+
+}
+
+
+.ligne.pression-faible {
+
+    background: #f97316;
+
+}
+
+
+.ligne.fuite {
+
+    background: #dc2626;
+
+}
+
+
+.ligne.maintenance {
+
+    background: #eab308;
+
+}
+
+
+.ligne.inactive {
+
+    background: #4b5563;
+
+}
+
+
+/* ============================================================
+   INDICATEURS
+============================================================ */
+
+.indicateurs-futurs {
+
+    position: absolute;
+
+    z-index: 1000;
+
+    top: 20px;
+
+    right: 60px;
+
+    display: flex;
+
+    gap: 10px;
+
+}
+
+
+.indicateurs-futurs div {
+
+    min-width: 100px;
+
+    padding: 10px 12px;
+
+    background: white;
+
+    border-radius: 8px;
+
+    box-shadow:
+        0 3px 12px rgba(
+            0,
+            0,
+            0,
+            0.15
+        );
+
+    display: flex;
+
+    flex-direction: column;
+
+}
+
+
+.indicateurs-futurs span {
+
+    font-size: 11px;
+
+    color: #6b7280;
+
+}
+
+
+.indicateurs-futurs strong {
+
+    font-size: 15px;
+
+    margin-top: 3px;
+
+}
+
+
+/* ============================================================
+   MESSAGES
+============================================================ */
+
+.carte-message {
+
+    width: 100%;
+
+    min-height: 400px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    font-size: 18px;
+
+    color: #374151;
+
+}
+
+
+.carte-message.erreur {
+
+    color: #b91c1c;
+
+}
+
+
+/* ============================================================
+   CONTROLE DES COUCHES LEAFLET
+============================================================ */
+
+.leaflet-control-layers {
+
+    border-radius: 8px !important;
+
+    box-shadow:
+        0 3px 12px rgba(
+            0,
+            0,
+            0,
+            0.18
+        ) !important;
+
+}
+
+
+/* ============================================================
+   RESPONSIVE
+============================================================ */
+
+@media (max-width: 768px) {
+
+    .carte-wrapper {
+
+        height: 650px;
+
+    }
+
+
+    .carte-recherche {
+
+        left: 10px;
+
+        top: 10px;
+
+        width: calc(
+            100% - 80px
+        );
+
+    }
+
+
+    .indicateurs-futurs {
+
+        display: none;
+
+    }
+
+
+    .legende-carte {
+
+        bottom: 10px;
+
+        left: 10px;
+
+        min-width: 170px;
+
+    }
+
+}
+
+
+@media (max-width: 480px) {
+
+    .carte-recherche {
+
+        width: calc(
+            100% - 30px
+        );
+
+        left: 10px;
+
+    }
+
+
+    .legende-carte {
+
+        font-size: 11px;
+
+        padding: 10px;
+
+    }
+
+
+    .legende-titre {
+
+        font-size: 13px;
+
+    }
+
 }

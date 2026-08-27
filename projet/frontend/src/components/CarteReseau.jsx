@@ -14,7 +14,6 @@ import {
 } from "react";
 
 import axios from "axios";
-
 import L from "leaflet";
 
 import "./CarteReseau.css";
@@ -30,7 +29,7 @@ const CENTRE_KADUTU = [
 
 
 /* ============================================================
-   AJUSTER AUTOMATIQUEMENT LA VUE
+   AJUSTEMENT AUTOMATIQUE DE LA VUE
 ============================================================ */
 
 function AjusterVue({ reseau }) {
@@ -53,69 +52,75 @@ function AjusterVue({ reseau }) {
             }
 
 
-            geojson.features.forEach(
-                (feature) => {
+            geojson.features.forEach((feature) => {
 
-                    const geometry =
-                        feature.geometry;
-
-
-                    if (!geometry) {
-                        return;
-                    }
+                const geometry =
+                    feature.geometry;
 
 
-                    if (
-                        geometry.type === "Point"
-                    ) {
-
-                        const [
-                            longitude,
-                            latitude
-                        ] = geometry.coordinates;
+                if (!geometry) {
+                    return;
+                }
 
 
-                        if (
-                            Number.isFinite(latitude) &&
-                            Number.isFinite(longitude)
-                        ) {
+                /* -----------------------------
+                   POINT
+                ----------------------------- */
 
-                            bounds.extend([
-                                latitude,
-                                longitude
-                            ]);
+                if (
+                    geometry.type === "Point"
+                ) {
 
-                        }
-
-                    }
+                    const [
+                        longitude,
+                        latitude
+                    ] = geometry.coordinates;
 
 
                     if (
-                        geometry.type === "LineString"
+                        Number.isFinite(latitude) &&
+                        Number.isFinite(longitude)
                     ) {
 
-                        geometry.coordinates.forEach(
-                            ([longitude, latitude]) => {
-
-                                if (
-                                    Number.isFinite(latitude) &&
-                                    Number.isFinite(longitude)
-                                ) {
-
-                                    bounds.extend([
-                                        latitude,
-                                        longitude
-                                    ]);
-
-                                }
-
-                            }
-                        );
+                        bounds.extend([
+                            latitude,
+                            longitude
+                        ]);
 
                     }
 
                 }
-            );
+
+
+                /* -----------------------------
+                   LIGNE
+                ----------------------------- */
+
+                if (
+                    geometry.type === "LineString"
+                ) {
+
+                    geometry.coordinates.forEach(
+                        ([longitude, latitude]) => {
+
+                            if (
+                                Number.isFinite(latitude) &&
+                                Number.isFinite(longitude)
+                            ) {
+
+                                bounds.extend([
+                                    latitude,
+                                    longitude
+                                ]);
+
+                            }
+
+                        }
+                    );
+
+                }
+
+            });
 
         };
 
@@ -145,11 +150,56 @@ function AjusterVue({ reseau }) {
 
 
 /* ============================================================
-   COULEUR DES CONDUITES
+   DETERMINER L'ETAT DYNAMIQUE D'UNE CONDUITE
 ============================================================ */
 
+function determinerEtatConduite(feature) {
+
+    const p =
+        feature.properties || {};
+
+
+    const statut =
+        String(
+            p.statut || ""
+        ).toLowerCase();
+
+
+    /*
+     * Ces états seront plus tard alimentés
+     * par les données des capteurs et l'IA.
+     */
+
+    if (
+        statut.includes("hors") ||
+        statut.includes("inactive")
+    ) {
+
+        return "Hors service";
+
+    }
+
+
+    if (
+        statut.includes("maintenance") ||
+        statut.includes("entretien")
+    ) {
+
+        return "Maintenance";
+
+    }
+
+
+    /*
+     * Etat normal par défaut.
+     */
+
+    return "Active";
+}
+
+
 /* ============================================================
-   STYLE DYNAMIQUE DES CONDUITES
+   STYLE DES CONDUITES
 ============================================================ */
 
 function styleConduite(feature) {
@@ -235,59 +285,25 @@ function creerIcone(
             </div>
         `,
 
-        iconSize: [36, 36],
+        iconSize: [
+            36,
+            36
+        ],
 
-        iconAnchor: [18, 18],
+        iconAnchor: [
+            18,
+            18
+        ],
 
-        popupAnchor: [0, -18]
+        popupAnchor: [
+            0,
+            -18
+        ]
 
     });
 
 }
 
-/* ============================================================
-   DETERMINER L'ETAT DYNAMIQUE D'UNE CONDUITE
-============================================================ */
-
-function determinerEtatConduite(feature) {
-
-    const p = feature.properties || {};
-
-    const statut = String(
-        p.statut || ""
-    ).toLowerCase();
-
-
-    /*
-     * Les états suivants seront plus tard
-     * calculés avec les données des capteurs
-     * et du modèle IA.
-     */
-
-    if (
-        statut.includes("hors") ||
-        statut.includes("inactive")
-    ) {
-        return "Hors service";
-    }
-
-
-    if (
-        statut.includes("maintenance") ||
-        statut.includes("entretien")
-    ) {
-        return "Maintenance";
-    }
-
-
-    /*
-     * Pour le moment :
-     * une conduite active est considérée
-     * comme fonctionnant normalement.
-     */
-
-    return "Active";
-}
 
 const iconeReservoir =
     creerIcone(
@@ -321,80 +337,115 @@ function onEachConduite(
 
     const p =
         feature.properties || {};
-    const etat = 
+
+
+    const etat =
         determinerEtatConduite(
-        feature
-    );
+            feature
+        );
+
 
     layer.bindPopup(`
+
         <div class="popup-reseau">
 
             <h3>
                 🚰 ${p.nom || "Conduite"}
             </h3>
 
+
             <div>
                 <strong>ID :</strong>
                 ${p.pipe_id || "-"}
             </div>
+
 
             <div>
                 <strong>Départ :</strong>
                 ${p.noeud_depart || "-"}
             </div>
 
+
             <div>
                 <strong>Arrivée :</strong>
                 ${p.noeud_arrivee || "-"}
             </div>
+
 
             <div>
                 <strong>Diamètre :</strong>
                 ${p.diametre_mm || "-"} mm
             </div>
 
+
             <div>
                 <strong>Matériau :</strong>
                 ${p.materiau || "-"}
             </div>
+
 
             <div>
                 <strong>Statut :</strong>
                 ${p.statut || "-"}
             </div>
 
+
             <div class="etat-conduite">
-                <strong>État du réseau :</strong>
+
+                <strong>
+                    État du réseau :
+                </strong>
 
                 <span class="badge-etat">
                     ${etat}
                 </span>
+
             </div>
 
-            <hr>
 
-            <div>
-                <strong>Pression :</strong>
-                <span class="future-value">
-                    --
+            <hr />
+
+
+            <div class="mesure-reseau">
+
+                <strong>
+                    Pression
+                </strong>
+
+                <span>
+                    -- bar
                 </span>
+
             </div>
 
-            <div>
-                <strong>Débit :</strong>
-                <span class="future-value">
-                    --
+
+            <div class="mesure-reseau">
+
+                <strong>
+                    Débit
+                </strong>
+
+                <span>
+                    -- m³/h
                 </span>
+
             </div>
 
-            <div>
-                <strong>Anomalie IA :</strong>
+
+            <div class="mesure-reseau">
+
+                <strong>
+                    Analyse IA
+                </strong>
+
                 <span class="future-value">
-                    Aucune donnée
+                    En attente des données
                 </span>
+
             </div>
 
         </div>
+
     `);
 
 }
@@ -414,16 +465,19 @@ function onEachNoeud(
 
 
     layer.bindPopup(`
+
         <div class="popup-reseau">
 
             <h3>
                 📍 ${p.nom || "Nœud"}
             </h3>
 
+
             <div>
                 <strong>ID :</strong>
                 ${p.node_id || "-"}
             </div>
+
 
             <div>
                 <strong>Type :</strong>
@@ -431,6 +485,7 @@ function onEachNoeud(
             </div>
 
         </div>
+
     `);
 
 }
@@ -450,38 +505,59 @@ function onEachReservoir(
 
 
     layer.bindPopup(`
+
         <div class="popup-reseau">
 
             <h3>
                 🏗️ ${p.nom || "Réservoir"}
             </h3>
 
+
             <div>
                 <strong>ID :</strong>
                 ${p.reservoir_id || "-"}
             </div>
+
 
             <div>
                 <strong>Nœud :</strong>
                 ${p.node_id || "-"}
             </div>
 
+
             <div>
                 <strong>Capacité :</strong>
                 ${p.capacite_m3 ?? "-"} m³
             </div>
+
 
             <div>
                 <strong>Altitude :</strong>
                 ${p.altitude_m ?? "-"} m
             </div>
 
+
             <div>
                 <strong>Statut :</strong>
                 ${p.statut || "-"}
             </div>
 
+
+            ${
+                p.description
+                ?
+                `
+                <div>
+                    <strong>Description :</strong>
+                    ${p.description}
+                </div>
+                `
+                :
+                ""
+            }
+
         </div>
+
     `);
 
 }
@@ -501,26 +577,31 @@ function onEachVanne(
 
 
     layer.bindPopup(`
+
         <div class="popup-reseau">
 
             <h3>
                 🔧 ${p.nom || "Vanne"}
             </h3>
 
+
             <div>
                 <strong>ID :</strong>
                 ${p.vanne_id || "-"}
             </div>
+
 
             <div>
                 <strong>Nœud :</strong>
                 ${p.node_id || "-"}
             </div>
 
+
             <div>
                 <strong>Type :</strong>
                 ${p.type_vanne || "-"}
             </div>
+
 
             <div>
                 <strong>Statut :</strong>
@@ -528,13 +609,14 @@ function onEachVanne(
             </div>
 
         </div>
+
     `);
 
 }
 
 
 /* ============================================================
-   POPUP BORNE
+   POPUP BORNE-FONTAINE
 ============================================================ */
 
 function onEachBorne(
@@ -547,26 +629,31 @@ function onEachBorne(
 
 
     layer.bindPopup(`
+
         <div class="popup-reseau">
 
             <h3>
                 🚰 ${p.nom || "Borne-fontaine"}
             </h3>
 
+
             <div>
                 <strong>ID :</strong>
                 ${p.borne_id || "-"}
             </div>
+
 
             <div>
                 <strong>Nœud :</strong>
                 ${p.node_id || "-"}
             </div>
 
+
             <div>
                 <strong>Quartier :</strong>
                 ${p.quartier || "-"}
             </div>
+
 
             <div>
                 <strong>Statut :</strong>
@@ -574,8 +661,105 @@ function onEachBorne(
             </div>
 
         </div>
+
     `);
 
+}
+
+
+/* ============================================================
+   CONTROLE DE LA CARTE
+============================================================ */
+
+function GestionRecherche() {
+
+    const map = useMap();
+
+
+    useEffect(() => {
+
+        const centrerReseau =
+            (event) => {
+
+                const bounds =
+                    event.detail?.bounds;
+
+
+                if (
+                    bounds &&
+                    bounds.isValid()
+                ) {
+
+                    map.fitBounds(
+                        bounds,
+                        {
+                            padding: [
+                                80,
+                                80
+                            ],
+                            maxZoom: 18
+                        }
+                    );
+
+                }
+
+            };
+
+
+        const centrerPoint =
+            (event) => {
+
+                const latlng =
+                    event.detail?.latlng;
+
+
+                if (!latlng) {
+                    return;
+                }
+
+
+                map.flyTo(
+                    latlng,
+                    18,
+                    {
+                        duration: 1
+                    }
+                );
+
+            };
+
+
+        window.addEventListener(
+            "centrer-reseau",
+            centrerReseau
+        );
+
+
+        window.addEventListener(
+            "centrer-point",
+            centrerPoint
+        );
+
+
+        return () => {
+
+            window.removeEventListener(
+                "centrer-reseau",
+                centrerReseau
+            );
+
+
+            window.removeEventListener(
+                "centrer-point",
+                centrerPoint
+            );
+
+        };
+
+    }, [map]);
+
+
+    return null;
 }
 
 
@@ -585,28 +769,40 @@ function onEachBorne(
 
 function CarteReseau() {
 
-    const [reseau, setReseau] =
-        useState(null);
+    const [
+        reseau,
+        setReseau
+    ] = useState(null);
 
-    const [chargement, setChargement] =
-        useState(true);
 
-    const [erreur, setErreur] =
-        useState(null);
+    const [
+        chargement,
+        setChargement
+    ] = useState(true);
 
-    const [recherche, setRecherche] =
-        useState("");
+
+    const [
+        erreur,
+        setErreur
+    ] = useState(null);
+
+
+    const [
+        recherche,
+        setRecherche
+    ] = useState("");
 
 
     /*
-     * Référence vers les couches Leaflet.
+     * Référence de toutes les couches Leaflet.
      */
+
     const layersRef =
         useRef({});
 
 
     /* ========================================================
-       CHARGEMENT DU RESEAU
+       CHARGER LE RESEAU
     ======================================================== */
 
     useEffect(() => {
@@ -639,16 +835,19 @@ function CarteReseau() {
                     response.data.data
                 );
 
+
                 setErreur(null);
 
             } catch (error) {
 
                 console.error(
+                    "Erreur API :",
                     error
                 );
 
+
                 setErreur(
-                    "Impossible de charger le réseau."
+                    "Impossible de charger le réseau depuis FastAPI."
                 );
 
             } finally {
@@ -743,9 +942,12 @@ function CarteReseau() {
                             ) {
 
                                 resultats.push({
+
                                     couche:
                                         nomCouche,
+
                                     feature
+
                                 });
 
                             }
@@ -769,43 +971,56 @@ function CarteReseau() {
 
 
     /* ========================================================
-       FONCTION DE RECHERCHE
+       IDENTIFIANT D'UN ELEMENT
     ======================================================== */
 
-    const obtenirIdentifiant =
-        (feature, couche) => {
+    const obtenirIdentifiant = (
+        feature,
+        couche
+    ) => {
 
-            const p =
-                feature.properties || {};
+        const p =
+            feature.properties || {};
 
 
-            switch (couche) {
+        switch (couche) {
 
-                case "conduites":
-                    return p.pipe_id;
+            case "conduites":
 
-                case "reservoirs":
-                    return p.reservoir_id;
+                return p.pipe_id;
 
-                case "vannes":
-                    return p.vanne_id;
 
-                case "bornes_fontaines":
-                    return p.borne_id;
+            case "reservoirs":
 
-                case "noeuds":
-                    return p.node_id;
+                return p.reservoir_id;
 
-                default:
-                    return null;
 
-            }
+            case "vannes":
 
-        };
+                return p.vanne_id;
+
+
+            case "bornes_fontaines":
+
+                return p.borne_id;
+
+
+            case "noeuds":
+
+                return p.node_id;
+
+
+            default:
+
+                return null;
+
+        }
+
+    };
 
 
     /* ========================================================
-       SELECTION D'UN RESULTAT
+       SELECTION D'UN ELEMENT
     ======================================================== */
 
     const selectionnerElement = (
@@ -830,18 +1045,19 @@ function CarteReseau() {
         }
 
 
+        const cle =
+            `${couche}:${identifiant}`;
+
+
         const layer =
-            layersRef.current[
-                `${couche}:${identifiant}`
-            ];
+            layersRef.current[cle];
 
 
         if (!layer) {
 
             console.warn(
-                "Couche non trouvée :",
-                couche,
-                identifiant
+                "Élément non trouvé sur la carte :",
+                cle
             );
 
             return;
@@ -850,8 +1066,7 @@ function CarteReseau() {
 
 
         /*
-         * Pour une conduite :
-         * calculer les limites de toute la ligne.
+         * CONDUITE
          */
 
         if (
@@ -882,7 +1097,7 @@ function CarteReseau() {
 
 
         /*
-         * Pour les éléments ponctuels.
+         * ELEMENT PONCTUEL
          */
 
         else if (
@@ -909,7 +1124,7 @@ function CarteReseau() {
 
 
         /*
-         * Ouvrir le popup.
+         * OUVRIR LE POPUP
          */
 
         if (
@@ -923,7 +1138,7 @@ function CarteReseau() {
 
 
         /*
-         * Fermer les résultats.
+         * Effacer la recherche.
          */
 
         setRecherche("");
@@ -932,37 +1147,57 @@ function CarteReseau() {
 
 
     /* ========================================================
-       ETATS
+       ETAT DE CHARGEMENT
     ======================================================== */
 
     if (chargement) {
 
         return (
+
             <div className="carte-message">
+
                 Chargement du réseau de Kadutu...
+
             </div>
+
         );
 
     }
 
+
+    /* ========================================================
+       ERREUR
+    ======================================================== */
 
     if (erreur) {
 
         return (
+
             <div className="carte-message erreur">
+
                 {erreur}
+
             </div>
+
         );
 
     }
 
 
+    /* ========================================================
+       AUCUNE DONNEE
+    ======================================================== */
+
     if (!reseau) {
 
         return (
+
             <div className="carte-message">
+
                 Aucun réseau disponible.
+
             </div>
+
         );
 
     }
@@ -980,90 +1215,125 @@ function CarteReseau() {
             <div className="carte-recherche">
 
                 <div className="recherche-titre">
+
                     🗺️ Réseau d'eau de Kadutu
+
                 </div>
 
 
                 <input
+
                     type="search"
-                    value={recherche}
+
+                    value={
+                        recherche
+                    }
+
                     onChange={(e) =>
                         setRecherche(
                             e.target.value
                         )
                     }
+
                     placeholder={
                         "P001, R001, V001, BF001..."
                     }
+
                 />
 
 
-                {recherche &&
-                    resultatsRecherche.length === 0 && (
+                {
+                    recherche &&
+                    resultatsRecherche.length === 0 &&
 
-                    <div className="aucun-resultat">
-                        Aucun élément trouvé.
-                    </div>
+                    (
 
-                )}
+                        <div className="aucun-resultat">
 
+                            Aucun élément trouvé.
 
-                {resultatsRecherche.length > 0 && (
+                        </div>
 
-                    <div className="resultats-recherche">
-
-                        {resultatsRecherche.map(
-                            (
-                                resultat,
-                                index
-                            ) => {
-
-                                const p =
-                                    resultat
-                                        .feature
-                                        .properties || {};
+                    )
+                }
 
 
-                                const nom =
-                                    p.nom ||
-                                    p.pipe_id ||
-                                    p.reservoir_id ||
-                                    p.vanne_id ||
-                                    p.borne_id ||
-                                    p.node_id ||
-                                    "Élément";
+                {
+                    resultatsRecherche.length > 0 &&
+
+                    (
+
+                        <div className="resultats-recherche">
+
+                            {
+                                resultatsRecherche.map(
+                                    (
+                                        resultat,
+                                        index
+                                    ) => {
+
+                                        const p =
+                                            resultat
+                                                .feature
+                                                .properties ||
+                                            {};
 
 
-                                return (
+                                        const nom =
+                                            p.nom ||
+                                            p.pipe_id ||
+                                            p.reservoir_id ||
+                                            p.vanne_id ||
+                                            p.borne_id ||
+                                            p.node_id ||
+                                            "Élément";
 
-                                    <button
-                                        key={index}
-                                        type="button"
-                                        onClick={() =>
-                                            selectionnerElement(
-                                                resultat
-                                            )
-                                        }
-                                    >
 
-                                        <strong>
-                                            {nom}
-                                        </strong>
+                                        return (
 
-                                        <span>
-                                            {resultat.couche}
-                                        </span>
+                                            <button
 
-                                    </button>
+                                                key={
+                                                    index
+                                                }
 
-                                );
+                                                type="button"
 
+                                                onClick={() =>
+                                                    selectionnerElement(
+                                                        resultat
+                                                    )
+                                                }
+
+                                            >
+
+                                                <strong>
+
+                                                    {nom}
+
+                                                </strong>
+
+
+                                                <span>
+
+                                                    {
+                                                        resultat.couche
+                                                    }
+
+                                                </span>
+
+                                            </button>
+
+                                        );
+
+                                    }
+                                )
                             }
-                        )}
 
-                    </div>
+                        </div>
 
-                )}
+                    )
+                }
 
             </div>
 
@@ -1089,7 +1359,7 @@ function CarteReseau() {
                 <TileLayer
 
                     attribution={
-                        '&copy; OpenStreetMap contributors'
+                        "&copy; OpenStreetMap contributors"
                     }
 
                     url={
@@ -1117,8 +1387,11 @@ function CarteReseau() {
                     ========================================= */}
 
                     <LayersControl.Overlay
+
                         checked
+
                         name="🚰 Conduites"
+
                     >
 
                         <GeoJSON
@@ -1168,8 +1441,11 @@ function CarteReseau() {
                     ========================================= */}
 
                     <LayersControl.Overlay
+
                         checked
+
                         name="📍 Nœuds"
+
                     >
 
                         <GeoJSON
@@ -1187,9 +1463,15 @@ function CarteReseau() {
                                     latlng,
                                     {
                                         radius: 6,
-                                        color: "#1f2937",
+
+                                        color:
+                                            "#1f2937",
+
                                         weight: 2,
-                                        fillColor: "#ffffff",
+
+                                        fillColor:
+                                            "#ffffff",
+
                                         fillOpacity: 1
                                     }
                                 );
@@ -1233,8 +1515,11 @@ function CarteReseau() {
                     ========================================= */}
 
                     <LayersControl.Overlay
+
                         checked
+
                         name="🏗️ Réservoirs"
+
                     >
 
                         <GeoJSON
@@ -1295,8 +1580,11 @@ function CarteReseau() {
                     ========================================= */}
 
                     <LayersControl.Overlay
+
                         checked
+
                         name="🔧 Vannes"
+
                     >
 
                         <GeoJSON
@@ -1353,12 +1641,15 @@ function CarteReseau() {
 
 
                     {/* =========================================
-                        BORNES
+                        BORNES-FONTAINES
                     ========================================= */}
 
                     <LayersControl.Overlay
+
                         checked
+
                         name="🚰 Bornes-fontaines"
+
                     >
 
                         <GeoJSON
@@ -1416,7 +1707,6 @@ function CarteReseau() {
 
                 </LayersControl>
 
-
             </MapContainer>
 
 
@@ -1427,26 +1717,42 @@ function CarteReseau() {
             <div className="legende-carte">
 
                 <div className="legende-titre">
+
                     Légende
-                </div>
-
-
-                <div className="legende-item">
-
-                    <span
-                        className="ligne active"
-                    />
-
-                    Conduite active
 
                 </div>
 
 
                 <div className="legende-item">
 
-                    <span
-                        className="ligne maintenance"
-                    />
+                    <span className="ligne active" />
+
+                    Active
+
+                </div>
+
+
+                <div className="legende-item">
+
+                    <span className="ligne pression-faible" />
+
+                    Faible pression
+
+                </div>
+
+
+                <div className="legende-item">
+
+                    <span className="ligne fuite" />
+
+                    Fuite suspectée
+
+                </div>
+
+
+                <div className="legende-item">
+
+                    <span className="ligne maintenance" />
 
                     Maintenance
 
@@ -1455,9 +1761,7 @@ function CarteReseau() {
 
                 <div className="legende-item">
 
-                    <span
-                        className="ligne inactive"
-                    />
+                    <span className="ligne inactive" />
 
                     Hors service
 
@@ -1465,22 +1769,30 @@ function CarteReseau() {
 
 
                 <div className="legende-item">
+
                     🏗️ Réservoir
+
                 </div>
 
 
                 <div className="legende-item">
+
                     🔧 Vanne
+
                 </div>
 
 
                 <div className="legende-item">
+
                     🚰 Borne-fontaine
+
                 </div>
 
 
                 <div className="legende-item">
+
                     📍 Nœud
+
                 </div>
 
             </div>
@@ -1493,6 +1805,7 @@ function CarteReseau() {
             <div className="indicateurs-futurs">
 
                 <div>
+
                     <span>
                         Pression
                     </span>
@@ -1500,10 +1813,12 @@ function CarteReseau() {
                     <strong>
                         -- bar
                     </strong>
+
                 </div>
 
 
                 <div>
+
                     <span>
                         Débit
                     </span>
@@ -1511,10 +1826,12 @@ function CarteReseau() {
                     <strong>
                         -- m³/h
                     </strong>
+
                 </div>
 
 
                 <div>
+
                     <span>
                         Anomalies IA
                     </span>
@@ -1522,6 +1839,7 @@ function CarteReseau() {
                     <strong>
                         --
                     </strong>
+
                 </div>
 
             </div>
@@ -1530,101 +1848,6 @@ function CarteReseau() {
 
     );
 
-}
-
-
-/* ============================================================
-   CONTROLE DE LA CARTE
-============================================================ */
-
-function GestionRecherche() {
-
-    const map = useMap();
-
-
-    useEffect(() => {
-
-        const centrerReseau = (
-            event
-        ) => {
-
-            const bounds =
-                event.detail?.bounds;
-
-
-            if (
-                bounds &&
-                bounds.isValid()
-            ) {
-
-                map.fitBounds(
-                    bounds,
-                    {
-                        padding: [80, 80],
-                        maxZoom: 18
-                    }
-                );
-
-            }
-
-        };
-
-
-        const centrerPoint = (
-            event
-        ) => {
-
-            const latlng =
-                event.detail?.latlng;
-
-
-            if (!latlng) {
-                return;
-            }
-
-
-            map.flyTo(
-                latlng,
-                18,
-                {
-                    duration: 1
-                }
-            );
-
-        };
-
-
-        window.addEventListener(
-            "centrer-reseau",
-            centrerReseau
-        );
-
-
-        window.addEventListener(
-            "centrer-point",
-            centrerPoint
-        );
-
-
-        return () => {
-
-            window.removeEventListener(
-                "centrer-reseau",
-                centrerReseau
-            );
-
-
-            window.removeEventListener(
-                "centrer-point",
-                centrerPoint
-            );
-
-        };
-
-    }, [map]);
-
-
-    return null;
 }
 
 
